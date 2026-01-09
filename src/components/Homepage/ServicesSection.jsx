@@ -1,103 +1,99 @@
-
-import React, { useState } from "react";
+import React from "react";
+import { ArrowRight } from "lucide-react";
 
 const services = [
-  { id: 1, title: "Panel Beating", subtitle: "Precision Restoration", image: "/Panel.png" },
-  { id: 2, title: "Paint Resprays", subtitle: "Premium Finish", image: "/Paint.png" },
-  { id: 3, title: "Dent & Scratch Repair", subtitle: "Fast Turnaround", image: "/Dent.png" },
-  { id: 4, title: "Accident Repairs", subtitle: "Complete Solutions", image: "/Accident.png" },
-  { id: 5, title: "Insurance Jobs", subtitle: "Claim Assistance", image: "/Insurance.png" },
-  { id: 6, title: "Detailing", subtitle: "High-End Polish", image: "/Detailing.png" },
+  {
+    number: "01",
+    title: "Faucet & leak repairs",
+    desc: "Restore your plumbing fixtures to optimal condition. Our precise and efficient repairs help conserve water and enhance system performance.",
+    link: "/service/faucet-leak-repairs",
+  },
+  {
+    number: "02",
+    title: "Remodeling Service",
+    desc: "We design and install plumbing systems that meet your aesthetic and functional needs, transforming spaces into modern areas.",
+    link: "/service/remodeling-service",
+  },
+  {
+    number: "03",
+    title: "Sewer Repair & Cleaning",
+    desc: "Available 24/7 to tackle leaks, burst pipes, and other critical plumbing problems for home or business.",
+    link: "/service/sewer-repair-cleaning",
+  },
+  {
+    number: "04",
+    title: "Drain Cleaning & Repairs",
+    desc: "Using advanced tools, we remove blockages and buildup from your pipes, restoring proper flow.",
+    link: "/service/drain-cleaning-repairs",
+  },
+  {
+    number: "05",
+    title: "Water Line Repair",
+    desc: "Ensure your water systems operate efficiently with expert installation, repair, and maintenance services.",
+    link: "/service/water-line-repair",
+  },
+  {
+    number: "06",
+    title: "Gas Line Services",
+    desc: "Safe and efficient gas line installation and servicing for reliable appliance performance.",
+    link: "/service/gas-line-services",
+  },
 ];
 
-const ServiceSection = () => {
-  const [hoveredId, setHoveredId] = useState(null);
-
+const ServicesSection = () => {
   return (
-    <section
-      className="relative bg-[#000000] py-16 px-6 md:px-12  text-white"
-      id="service"
-    >
-      {/* 🔥 Background Glow (Red tones only) */}
-      <div className="absolute inset-0 pointer-events-none overflow-hidden">
-        <div className="absolute top-0 left-0 w-[600px] h-[600px] bg-[#D70C09]/30 blur-[160px] rounded-full -translate-x-1/3 -translate-y-1/3"></div>
-        <div className="absolute bottom-0 right-0 w-[400px] h-[400px] bg-[#D70C09]/20 blur-[140px] rounded-full translate-x-1/3 translate-y-1/3"></div>
-      </div>
+    <section className="bg-[#043B8D] py-32">
+      <div className="max-w-7xl mx-auto px-6 text-center">
 
-      {/* GRID WRAPPER */}
-      <div className="relative max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-12 items-start">
+        {/* Header */}
+        <span className="block text-lime-400 font-semibold mb-4">
+          Our Services
+        </span>
 
-        {/* LEFT CONTENT */}
-        <div className="self-start lg:sticky lg:top-24 lg:h-fit">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight text-white uppercase">
-            Our Professional Services{" "}
-            <span className="text-[#D70C09]">Since 2012</span>
-          </h2>
+        <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-20">
+          Ensuring Reliable Plumbing <br /> Solutions
+        </h2>
 
-          <p className="mt-4 text-[#C0C0C0] max-w-md leading-relaxed text-sm sm:text-base">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit 
-            sem vel sapien convallis, et facilisis arcu porta. Duis nec augue 
-            vel justo placerat fermentum. Integer sit amet malesuada lorem.
-          </p>
-
-          <button className="mt-8 bg-[#D70C09] text-white font-bold px-6 py-3 rounded-md uppercase hover:bg-[#868386] transition-all text-sm sm:text-base">
-            Read More
-          </button>
-        </div>
-
-        {/* RIGHT SERVICES LIST */}
-        <div className="flex flex-col gap-8 relative">
-          {services.map((service) => (
-            <div
-              key={service.id}
-              className="flex flex-col sm:flex-row sm:justify-between sm:items-center transition-all duration-300 ease-out border-b border-[#1C1C1C] pb-6"
-              onMouseEnter={() => setHoveredId(service.id)}
-              onMouseLeave={() => setHoveredId(null)}
+        {/* Services Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mb-20">
+          {services.map((service, index) => (
+            <a
+              key={index}
+              href={service.link}
+              className="group relative bg-white rounded-2xl p-8 text-left transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
             >
-              {/* TEXT */}
-              <div>
-                <h3
-                  className={`text-[20px] sm:text-[22px] md:text-[24px] font-bold uppercase tracking-wide transition-colors duration-300 ${
-                    hoveredId === service.id ? "text-[#D70C09]" : "text-white"
-                  }`}
-                >
-                  <span
-                    className={`mr-2 sm:mr-3 text-[22px] sm:text-[26px] md:text-[28px] font-bold transition-colors ${
-                      hoveredId === service.id ? "text-[#D70C09]" : "text-[#868386]"
-                    }`}
-                  >
-                    {service.id}
-                  </span>
-                  {service.title}
-                </h3>
-                <p
-                  className={`uppercase font-semibold text-xs sm:text-sm mt-1 transition-colors ${
-                    hoveredId === service.id ? "text-[#D70C09]" : "text-[#C0C0C0]"
-                  }`}
-                >
-                  {service.subtitle}
-                </p>
+              {/* Number */}
+              <div className="w-10 h-10 rounded-full border border-blue-600 text-blue-600 flex items-center justify-center font-semibold mb-6">
+                {service.number}
               </div>
 
-              {/* IMAGE */}
-              <div className="w-full sm:w-[280px] h-[160px] sm:h-[170px] mt-4 sm:mt-0 relative overflow-hidden rounded-sm [clip-path:polygon(10%_0,100%_0,90%_100%,0%_100%)] shadow-md">
-                <img
-                  src={service.image}
-                  alt={service.title}
-                  className={`absolute w-full h-full object-cover transition-all duration-500 ease-out transform ${
-                    hoveredId === service.id
-                      ? "opacity-100 translate-x-0 scale-100"
-                      : "opacity-0 translate-x-5 scale-95"
-                  }`}
-                />
+              {/* Content */}
+              <h3 className="text-xl font-bold text-blue-700 mb-4">
+                {service.title}
+              </h3>
+
+              <p className="text-gray-600 leading-relaxed">
+                {service.desc}
+              </p>
+
+              {/* Hover Icon */}
+              <div className="absolute right-6 top-1/2 -translate-y-1/2 opacity-0 translate-x-6 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300">
+                <ArrowRight className="w-6 h-6 text-blue-600" />
               </div>
-            </div>
+            </a>
           ))}
         </div>
 
+        {/* Bottom Button */}
+        <a
+          href="/service"
+          className="inline-flex items-center justify-center px-10 py-4 border-2 border-lime-400 text-lime-400 rounded-full font-semibold hover:bg-lime-400 hover:text-[#043B8D] transition"
+        >
+          See All Services
+        </a>
       </div>
     </section>
   );
 };
 
-export default ServiceSection;
+export default ServicesSection;
