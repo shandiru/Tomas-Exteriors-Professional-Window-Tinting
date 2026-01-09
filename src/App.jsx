@@ -11,6 +11,7 @@ import GDPRBanner from "./components/GDPRBanner";
 import Home from "./page/Home";
 import TermsConditions from "./components/Term";
 import PrivacyPolicy from "./components/PrivacyPolicy";
+import About from "./page/About";
 
 function App() {
   useEffect(() => {
@@ -28,6 +29,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
         <Route path="/terms-conditions" element={<TermsConditions />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
