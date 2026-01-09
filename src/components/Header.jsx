@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Menu, X, ShoppingCart, ChevronDown } from "lucide-react";
+import { Menu, X, ChevronDown } from "lucide-react";
 
 const AnimatedLink = ({ text, href }) => (
   <a href={href} className="group relative overflow-hidden h-6 block">
@@ -22,10 +22,12 @@ const Navbar = () => {
 
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-lime-400 to-green-500 flex items-center justify-center">
-              <div className="w-6 h-6 border-4 border-white rounded-full border-t-transparent rotate-45"></div>
-            </div>
-            <span className="text-2xl font-bold text-white">Aquafix</span>
+            <img
+              src="/logo.png" // Make sure this image is in your public folder
+              alt="Aquafix Logo"
+              className="w-full h-20 object-cover "
+            />
+          
           </div>
 
           {/* Desktop Menu */}
@@ -33,7 +35,6 @@ const Navbar = () => {
             <AnimatedLink text="Home" href="#home" />
             <AnimatedLink text="About" href="#about" />
             <AnimatedLink text="Service" href="#service" />
-         
 
             <button className="flex items-center space-x-1 text-white hover:text-lime-400">
               <span>Pages</span>
@@ -49,8 +50,6 @@ const Navbar = () => {
             >
               Call +(0)578-365-379
             </a>
-
-            
           </div>
 
           {/* Mobile Button */}
@@ -65,10 +64,7 @@ const Navbar = () => {
             <a href="#home" className="block text-white">Home</a>
             <a href="#about" className="block text-white">About</a>
             <a href="#service" className="block text-white">Service</a>
-           
-         
             <a href="#pages" className="block text-white">Pages</a>
-
             <a
               href="tel:+01578365379"
               className="block px-6 py-3 border-2 border-white text-white rounded-full text-center"
