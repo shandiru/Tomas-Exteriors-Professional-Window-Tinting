@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const AnimatedLink = ({ text, href }) => (
   <a href={href} className="group relative overflow-hidden h-6 block">
@@ -32,9 +33,9 @@ const Navbar = () => {
 
           {/* Desktop Menu */}
           <div className="hidden lg:flex items-center space-x-8">
-            <AnimatedLink text="Home" href="#home" />
-            <AnimatedLink text="About" href="#about" />
-            <AnimatedLink text="Service" href="#service" />
+            <AnimatedLink text="Home" href="/" />
+            <AnimatedLink text="About" href="/about" />
+            <AnimatedLink text="Service" href="/service" />
 
             <button className="flex items-center space-x-1 text-white hover:text-lime-400">
               <span>Pages</span>
@@ -61,10 +62,10 @@ const Navbar = () => {
         {/* Mobile Menu */}
         {isOpen && (
           <div className="lg:hidden pb-6 space-y-4">
-            <a href="#home" className="block text-white">Home</a>
-            <a href="#about" className="block text-white">About</a>
-            <a href="#service" className="block text-white">Service</a>
-            <a href="#pages" className="block text-white">Pages</a>
+            <Link to="/" className="block text-white">Home</Link>
+            <Link to="/about" className="block text-white">About</Link>
+            <Link to="/service" className="block text-white">Service</Link>
+            <Link to="/pages" className="block text-white">Pages</Link>
             <a
               href="tel:+01578365379"
               className="block px-6 py-3 border-2 border-white text-white rounded-full text-center"

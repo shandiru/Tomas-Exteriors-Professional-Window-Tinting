@@ -10,7 +10,7 @@ const HeroSection = () => {
   return (
     <div className="bg-white">
       {/* --- TOP HEADER: Title & Description --- */}
-      <div className="max-w-7xl mx-auto px-6 pt-20 pb-12 flex flex-col md:flex-row md:items-end justify-between gap-6">
+      <div className="max-w-7xl mx-auto px-6 pt-20 pb-12 flex flex-col md:flex-row md:items-end mt-30 justify-between gap-6">
         <h1 className="text-4xl md:text-6xl font-extrabold text-[#0a2351] leading-tight max-w-2xl">
           Quality Plumbing <br /> and Reliable Service
         </h1>

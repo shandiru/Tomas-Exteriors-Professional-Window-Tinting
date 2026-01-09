@@ -1,9 +1,9 @@
 import React from 'react'
-import AboutHero from '../components/AboutPage.jsx/AboutHero'
-import TimelineSection from '../components/AboutPage.jsx/TimeLineSection'
-import CoreValues from '../components/AboutPage.jsx/Value'
-import MissionVision from '../components/AboutPage.jsx/Mission'
-import Careers from '../components/AboutPage.jsx/Careers'
+import AboutHero from '../components/AboutPage/AboutHero'
+import TimelineSection from '../components/AboutPage/TimeLineSection'
+import CoreValues from '../components/AboutPage/Value'
+import MissionVision from '../components/AboutPage/Mission'
+import Careers from '../components/AboutPage/Careers'
 
 const About = () => {
   return (
