@@ -12,8 +12,7 @@ import Home from "./page/Home";
 import TermsConditions from "./components/Term";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import About from "./page/About";
-import Contact from "./page/Contact";
-
+import ServiceOverview  from "../src/page/ServiceOverview"
 function App() {
   useEffect(() => {
     // Initialize AOS once at app root
@@ -34,6 +33,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/terms-conditions" element={<TermsConditions />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/ServiceOverview" element={<ServiceOverview />} />
       </Routes>
       <Footer />
       <GDPRBanner />
