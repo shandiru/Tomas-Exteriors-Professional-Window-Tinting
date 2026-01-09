@@ -1,178 +1,116 @@
-
 import React from "react";
-import { Facebook, Instagram } from "lucide-react";
-import { Link } from "react-router-dom";
+import {
+  Instagram,
+  Facebook,
+  Linkedin,
+  Twitter,
+} from "lucide-react";
 
-export default function Footer() {
-  const mapsUrl = "https://maps.app.goo.gl/Xm8jrpFBMfzCq1XF8";
-
+const Footer = () => {
   return (
-    <footer className="bg-[#000000] border-t border-[#1C1C1C] py-12 text-white">
-      <div className="container mx-auto px-4 md:px-12">
-
-        <div className="grid md:grid-cols-3 gap-8">
-
-          {/* ================= COMPANY INFO ================= */}
+    <footer className="bg-gradient-to-b from-[#0A0F3D] to-[#060B2E] text-white">
+      {/* TOP */}
+      <div className="max-w-7xl mx-auto px-6 py-24">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-16">
+          
+          {/* BRAND */}
           <div>
-            {/* Logo */}
-            <img
-              src="/logo.png"
-              alt="Broadway Remapping Logo"
-              className="h-12 w-auto mb-4"
-            />
+            <div className="flex items-center gap-2 mb-6">
+              <div className="w-8 h-8 rounded-full bg-lime-400" />
+              <span className="text-2xl font-bold">Aquafix</span>
+            </div>
 
-            <h2 className="text-2xl font-bold brand-gradient">
-              BROADWAY <span className="text-[#C0C0C0]"> REMAPPING</span>
-            </h2>
-
-            <p className="text-[#C0C0C0] mb-4 mt-3 text-sm leading-relaxed">
-              High-quality performance tuning and emissions solutions for cars
-              and LCVs — unlocking power, efficiency, and reliability.
+            <p className="text-gray-300 leading-relaxed mb-8 max-w-sm">
+              © Aquafix is dedicated to revolutionizing the plumbing service.
+              Through innovation and excellence.
             </p>
 
-            <div className="flex space-x-4 mt-4">
-              {/* Facebook */}
-              <a
-                href="https://web.facebook.com/profile.php?id=100037206957303"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Facebook
-                  className="text-[#868386] hover:text-[#D70C09] transition-colors"
-                  size={20}
-                />
+            {/* SOCIALS */}
+            <div className="flex gap-5 mb-10">
+              <a href="#" className="hover:text-lime-400 transition">
+                <Instagram />
               </a>
-
-              {/* Instagram */}
-              <a
-                href="https://www.instagram.com/broadway_remapping_/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Instagram
-                  className="text-[#868386] hover:text-[#D70C09] transition-colors"
-                  size={20}
-                />
+              <a href="#" className="hover:text-lime-400 transition">
+                <Facebook />
               </a>
-
-              
+              <a href="#" className="hover:text-lime-400 transition">
+                <Twitter />
+              </a>
+              <a href="#" className="hover:text-lime-400 transition">
+                <Linkedin />
+              </a>
             </div>
-          </div>
 
-          {/* ================= SERVICES ================= */}
-          <div>
-            <h3 className="font-bold mb-4 text-lg brand-gradient">Services</h3>
-
-            <ul className="space-y-2 text-[#C0C0C0] text-sm">
-              <li>
-                <a href="#services" className="hover:text-[#D70C09] transition">
-                  ECU Optimisation
-                </a>
-              </li>
-              <li>
-                <a href="#services" className="hover:text-[#D70C09] transition">
-                  AdBlue, EGR & DPF Solutions
-                </a>
-              </li>
-              <li>
-                <a href="#services" className="hover:text-[#D70C09] transition">
-                  TCU Remapping
-                </a>
-              </li>
-              <li>
-                <a href="#services" className="hover:text-[#D70C09] transition">
-                  ECU Cloning
-                </a>
-              </li>
-              <li>
-                <Link to="/privacy-policy" className="hover:text-[#D70C09]">
-                  Privacy Policy
-                </Link>
-              </li>
-              <li>
-                <Link to="/terms-conditions" className="hover:text-[#D70C09]">
-                  Terms & Conditions
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* ================= CONTACT INFO ================= */}
-          <div>
-            <h3 className="font-bold mb-4 text-lg brand-gradient">
-              Contact Info
-            </h3>
-
-            <ul className="space-y-2 text-[#C0C0C0] text-sm">
-              <li>BROADWAY REMAPPING</li>
-
-              <li>
-                <a
-                  href={mapsUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-[#D70C09] transition block leading-relaxed"
-                >
-                 Que Sera, Pentre Hill
-                  <br />
-                  Flint Mountain, Flint
-                  <br />
-                  United Kingdom
-                </a>
-              </li>
-
-              <li>
-                <a
-                  href="tel:+447392791919"
-                  className="hover:text-[#D70C09] transition"
-                >
-                  +4473 9279 1919
-                </a>
-              </li>
-
-              <li>
-                <a
-                  href="mailto:enquiries@broadwayremapping.co.uk"
-                  className="hover:text-[#D70C09] transition break-all"
-                >
-                  enquiries@broadwayremapping.co.uk
-                </a>
-              </li>
-            </ul>
-          </div>
-
-        </div>
-
-        {/* ================= BOTTOM ================= */}
-        <div className="border-t border-[#1C1C1C] mt-10 pt-6 text-center text-[#868386] text-sm">
-          <p>&copy; 2025 Broadway Remapping. All rights reserved.</p>
-        </div>
-
-        {/* ================= POWERED BY ================= */}
-        <div className="mt-2 text-center text-[#868386] text-sm">
-          <p>
-            Powered by{" "}
+            {/* BUTTON */}
             <a
-              href="https://www.ansely.co.uk/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[#D70C09] hover:underline"
+              href="#"
+              className="inline-block bg-lime-400 text-[#0A0F3D] font-semibold px-10 py-4 rounded-full hover:bg-lime-300 transition"
             >
-              Ansely
+              Buy Template
             </a>
-          </p>
-        </div>
+          </div>
 
+          {/* PAGES */}
+          <div>
+            <h4 className="text-lg font-semibold mb-6">Pages</h4>
+            <ul className="space-y-4 text-gray-300">
+              <li><a href="#" className="hover:text-white">Home</a></li>
+              <li><a href="#" className="hover:text-white">Home V2</a></li>
+              <li><a href="#" className="hover:text-white">About Us</a></li>
+              <li><a href="#" className="hover:text-white">Pricing</a></li>
+              <li><a href="#" className="hover:text-white">Blog</a></li>
+            </ul>
+          </div>
+
+          {/* TEMPLATE */}
+          <div>
+            <h4 className="text-lg font-semibold mb-6">Template</h4>
+            <ul className="space-y-4 text-gray-300">
+              <li><a href="#" className="hover:text-white">Style Guide</a></li>
+              <li><a href="#" className="hover:text-white">Licenses</a></li>
+              <li><a href="#" className="hover:text-white">Changelog</a></li>
+              <li><a href="#" className="hover:text-white">404</a></li>
+            </ul>
+          </div>
+
+          {/* COMPANY */}
+          <div>
+            <h4 className="text-lg font-semibold mb-6">Company</h4>
+            <ul className="space-y-4 text-gray-300">
+              <li>(62) 1829017</li>
+              <li>hello@aquafix.com</li>
+              <li>
+                2912 Meadowbrook Road,<br />
+                Los Angeles, CA 90017
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
 
-      {/* ================= BRAND GRADIENT ================= */}
-      <style jsx global>{`
-        .brand-gradient {
-          background: linear-gradient(90deg, #D70C09, #ffffff, #868386);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-        }
-      `}</style>
+      {/* DIVIDER */}
+      <div className="border-t border-white/10" />
+
+      {/* BOTTOM */}
+      <div className="max-w-7xl mx-auto px-6 py-8 flex flex-col md:flex-row justify-between gap-4 text-sm text-gray-300">
+        <div>
+          © All rights reserved.{" "}
+          <a href="#" className="underline hover:text-white">
+            Flowfye
+          </a>
+          . Powered by{" "}
+          <a href="#" className="underline hover:text-white">
+            Webflow
+          </a>
+          .
+        </div>
+
+        <a href="#" className="underline hover:text-white">
+          Privacy Policy
+        </a>
+      </div>
     </footer>
   );
-}
+};
+
+export default Footer;
