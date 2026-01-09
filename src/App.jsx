@@ -13,6 +13,7 @@ import TermsConditions from "./components/Term";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import About from "./page/About";
 import ServiceOverview  from "../src/page/ServiceOverview"
+import Contact from "./page/Contact";
 function App() {
   useEffect(() => {
     // Initialize AOS once at app root
