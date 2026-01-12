@@ -12,8 +12,7 @@ const MissionVision = () => {
             Mission & Vision
           </p>
           <h2 className="text-3xl sm:text-4xl font-bold text-slate-900">
-            Turning Your Plumbing <br className="hidden sm:block" />
-            Needs into Reality
+            Enhancing Your Vehicle with Precision & Care
           </h2>
         </div>
 
@@ -30,16 +29,13 @@ const MissionVision = () => {
               Our Mission
             </h3>
             <p className="text-slate-600 mb-6">
-              At Aquafix, our mission is to provide top-quality plumbing services
-              that ensure safety, functionality, and efficiency. We are committed
-              to delivering exceptional customer service, reliable solutions,
-              and expert craftsmanship.
+             At Thomas Exterior, our mission is to deliver premium window tinting and professional headlight solutions that enhance vehicle safety, comfort, and aesthetics. We are committed to exceptional service, reliable workmanship, and long-lasting results.
             </p>
 
             <ul className="space-y-3">
-              <ListItem text="Exceeding customer expectations with exceptional service and personalized care" />
-              <ListItem text="Upholding honesty and transparency in all our interactions and business practices" />
-              <ListItem text="Continuously adopting new technologies and methods to improve our services" />
+              <ListItem text="Deliver high-quality, detail-focused automotive services" />
+              <ListItem text="Maintain honesty, transparency, and professionalism" />
+              <ListItem text="Continuously improve through modern tools and techniques" />
             </ul>
           </div>
         </div>
@@ -51,15 +47,13 @@ const MissionVision = () => {
               Our Vision
             </h3>
             <p className="text-slate-600 mb-6">
-              Our vision is to be the leading provider of plumbing services in
-              our community, our integrity, innovation, and excellence. We aim
-              to set the standard for quality and reliability in the plumbing industry.
+              Our vision is to become a leading automotive enhancement service provider, known for quality, trust, and innovation. We aim to set a standard for excellence in window tinting and headlight services.
             </p>
 
             <ul className="space-y-3">
-              <ListItem text="Embrace new technologies and methods to enhance our service offerings" />
-              <ListItem text="Build long-lasting relationships with our clients through integrity and transparency" />
-              <ListItem text="Make a positive impact in the communities we serve through active engagement and support" />
+              <ListItem text=" Embrace new technologies for better results" />
+              <ListItem text="Build long-term customer relationships" />
+              <ListItem text="Positively impact our local automotive community" />
             </ul>
           </div>
 

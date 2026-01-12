@@ -8,7 +8,7 @@ const stats = [
 
 const SatisfactionSection = () => {
   return (
-    <section className="relative bg-white py-36 overflow-hidden">
+    <section className="relative bg-white py-16 overflow-hidden">
       <div className="relative max-w-7xl mx-auto px-6">
 
         {/* LEFT IMAGE */}
@@ -35,13 +35,13 @@ const SatisfactionSection = () => {
         {/* CONTENT */}
         <div className="relative z-10 text-center max-w-5xl mx-auto">
           <span className="block mb-6 text-blue-600 font-semibold text-sm tracking-wide">
-            Welcome to Aquafix
+            Welcome to Thomas Exterior
           </span>
 
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-slate-900 leading-tight mb-20">
-            With Years of Industry Experience, Our Skilled Team Delivers
-            Top-Notch Solutions and Exceptional Service.
+          <h2 className="text-4xl font-bold text-slate-900 leading-tight mb-10">
+            With years of hands-on industry experience, Thomas Exterior Professional Window Tinting delivers precision-driven services, premium materials, and flawless finishes for every vehicle we work on.
           </h2>
+          <h2 className="text-4xl font-bold text-slate-900 leading-tight mb-10">We’re committed to enhancing vehicle aesthetics, improving visibility, and ensuring long-lasting performance through expert craftsmanship and attention to detail.</h2>
 
           {/* STATS */}
           <div className="flex flex-col sm:flex-row justify-center gap-20">
@@ -57,7 +57,6 @@ const SatisfactionSection = () => {
             ))}
           </div>
         </div>
-
       </div>
     </section>
   );

@@ -36,11 +36,7 @@ const Navbar = () => {
             <AnimatedLink text="Home" href="/" />
             <AnimatedLink text="About" href="/about" />
             <AnimatedLink text="Service" href="/service" />
-
-            <button className="flex items-center space-x-1 text-white hover:text-lime-400">
-              <span>Pages</span>
-              <ChevronDown className="w-4 h-4" />
-            </button>
+            <AnimatedLink text="Contact" href="/contact" />
           </div>
 
           {/* Right Side */}

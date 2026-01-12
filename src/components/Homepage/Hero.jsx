@@ -21,15 +21,14 @@ const HeroSection = () => {
         <div className="max-w-7xl mx-auto px-6 lg:px-12 py-32 w-full">
           <div className="max-w-3xl">
             <h1 className="text-[48px] md:text-[64px] leading-tight font-extrabold text-white mb-6">
-              Top-Notch Plumbing <br />
-              & Repair Solutions, <br />
-              Quality Work.
+              Premium Window Tinting & Headlight Solutions
+              
             </h1>
 
-            <p className="text-gray-200 text-lg leading-relaxed max-w-xl mb-10">
-              We take pride in providing exceptional plumbing services with a focus
-              on quality and reliability. From routine maintenance to emergency
-              repairs and comprehensive installations, we've got you covered.
+            <p className="text-[48px] leading-tight font-extrabold text-white mb-6">Precision Work. Professional Finish.</p>
+
+            <p className="text-gray-200 text-lg leading-relaxed max-w-xl mb-10">    
+               At Thomas Exterior, we specialize in high-quality window tinting and professional headlight services that enhance both the look and safety of your vehicle. From expert tint installations to advanced headlight repairs and restorations, we deliver reliable results you can trust.
             </p>
 
             <div className="flex items-center gap-6">
@@ -37,21 +36,21 @@ const HeroSection = () => {
                 href="#quote"
                 className="bg-lime-400 hover:bg-lime-500 text-gray-900 font-semibold px-10 py-4 rounded-full transition"
               >
-                Get A Quote
+                 Chat with Us on WhatsApp
               </a>
 
-              <a
+              {/* <a
                 href="#services"
                 className="border-2 border-lime-400 text-lime-400 hover:bg-lime-400 hover:text-gray-900 font-semibold px-10 py-4 rounded-full transition"
               >
                 See All Services
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
 
         {/* MARQUEE */}
-        <MarqueeSection />
+        {/* <MarqueeSection /> */}
       </div>
     </section>
   );

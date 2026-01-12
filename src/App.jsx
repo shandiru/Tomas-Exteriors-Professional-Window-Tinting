@@ -14,7 +14,9 @@ import PrivacyPolicy from "./components/PrivacyPolicy";
 import About from "./page/About";
 import ServiceOverview  from "../src/page/ServiceOverview"
 import Contact from "./page/Contact";
-import Service from "./page/Service";
+import Headlight from "./page/Headlight";
+import WindowTint from "./page/WindowTint";
+
 function App() {
   useEffect(() => {
     // Initialize AOS once at app root
@@ -32,12 +34,12 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/service" element={<ServiceOverview />} />
+        <Route path="/Window-Tinting" element={<WindowTint/>} />
+        <Route path="/Headlight" element={<Headlight />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/terms-conditions" element={<TermsConditions />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-        <Route path="/service" element={<ServiceOverview />} />
-        <Route path="/Window-Tinting" element={<Service />} />
-        <Route path="/Headlight" element={<Service />} />
       </Routes>
       <Footer />
       <GDPRBanner />

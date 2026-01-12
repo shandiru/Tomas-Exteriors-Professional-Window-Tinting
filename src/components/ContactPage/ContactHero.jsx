@@ -8,13 +8,12 @@ const ContactHero = () => {
         <div className="text-center mb-12">
           <p className="text-sm text-gray-500 mb-2 mt-20">Home / Contact</p>
           <h1 className="text-4xl md:text-5xl font-bold text-[#0A1D56] mb-4">
-            Contact Us
+            Get in Touch
           </h1>
           <p className="max-w-2xl mx-auto text-gray-600 leading-relaxed">
-            For any plumbing inquiries or service requests, reach out via contact form, 
-            and we'll get back to you as soon as possible. Let us handle all your 
-            plumbing needs with care and efficiency!
+           Have questions about our window tinting or headlight services? Need a quote or advice for your vehicle? Reach out to Thomas Exterior, and we’ll provide fast, professional support.
           </p>
+          <p className="max-w-2xl mx-auto mt-3 text-gray-600 leading-relaxed" >Whether it’s a simple inquiry, a service request, or scheduling an appointment, we’re here to help with care and precision.</p>
         </div>
 
         {/* Contact Card Container */}

@@ -2,7 +2,7 @@ import React from "react";
 
 const GlobalCTA = () => {
   return (
-    <section className="bg-white py-32">
+    <section className="bg-white py-12">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
 
@@ -21,18 +21,18 @@ const GlobalCTA = () => {
             {/* Content */}
             <div className="relative z-10 p-10 md:p-14 h-full flex flex-col justify-center">
               <span className="text-lime-400 font-semibold mb-4">
-                Looking for Plumbing Services?
+                Looking for Professional Window Tinting or Headlight Services?
               </span>
 
               <h2 className="text-white text-4xl md:text-5xl font-extrabold mb-8 leading-tight">
-                Let’s discuss <br /> the details
+                Let’s discuss your vehicle needs and provide the right solution.
               </h2>
 
               <a
                 href="/contact"
                 className="inline-flex items-center justify-center bg-lime-400 text-[#0A3B8E] font-semibold px-8 py-4 rounded-full w-fit hover:bg-lime-300 transition"
               >
-                Get A Quote
+                Get a Quote via WhatsApp
               </a>
             </div>
           </div>
@@ -49,9 +49,8 @@ const GlobalCTA = () => {
 
               {/* Text */}
               <h3 className="text-[#0A3B8E] text-lg font-semibold leading-relaxed mb-8">
-                This is Wade Warren, <br />
-                Chief Repair at Aquafix. <br />
-                I am here to answer all your questions.
+                This is Thomas, Founder of Thomas Exterior. <br />
+                I’m here to personally answer your questions and help you choose the best window tinting or headlight solution for your vehicle.
               </h3>
             </div>
 
@@ -60,7 +59,7 @@ const GlobalCTA = () => {
               href="tel:+1578365379"
               className="inline-flex items-center justify-center bg-[#0A3B8E] text-white font-semibold px-8 py-4 rounded-full hover:bg-[#092f70] transition"
             >
-              Call +(1)578-365-379
+              Start a WhatsApp Chat
             </a>
           </div>
 

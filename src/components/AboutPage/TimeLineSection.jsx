@@ -13,16 +13,16 @@ const TimelineSection = () => {
             if (sectionRef.current) {
                 const rect = sectionRef.current.getBoundingClientRect();
                 const windowHeight = window.innerHeight;
-                
+
                 // The scroll starts "filling" when the top of the section is 200px above the viewport center
                 // This prevents the first circle from being active the moment the page loads
-                const startOffset = windowHeight / 2; 
+                const startOffset = windowHeight / 2;
                 const start = rect.top - startOffset;
                 const totalHeight = rect.height;
-                
+
                 // Calculate progress
                 const progress = Math.min(Math.max(-start / (totalHeight * 0.9), 0), 1);
-                
+
                 setLineHeight(progress * 100);
             }
         };
@@ -33,29 +33,29 @@ const TimelineSection = () => {
 
     const timelineData = [
         {
-            year: "1998",
+            year: "2015",
             title: "Company Establishment",
-            desc: "Aquafix started as a small local plumbing business and has grown into a trusted name in the industry.",
+            desc: "Thomas Exterior Professional Window Tinting started as a focused automotive service brand driven by a passion for quality vehicle enhancement. What began as hands-on tinting work quickly grew into a trusted name for precision window tinting and advanced headlight services.",
             img: "a1.webp",
         },
         {
-            year: "2005",
+            year: "2018",
             title: "Our Journey",
-            desc: "Over the years, we've built a strong reputation for reliability, quality, and customer satisfaction.",
+            desc: "Founded with a clear goal of delivering reliable, high-quality automotive exterior solutions, Thomas Exterior has continuously evolved by adopting modern techniques, premium materials, and customer-first service standards.",
             img: "a1.webp",
         },
         {
-            year: "2012",
+            year: "2021",
             title: "Our Story",
-            desc: "From humble beginnings, Aquafix has evolved into a respected plumbing service provider.",
+            desc: "From humble beginnings, Thomas Exterior has grown into a respected automotive service provider. With years of experience, we specialize in enhancing vehicle safety, visibility, and aesthetics through expert tinting and headlight solutions.",
             img: "a1.webp",
         },
         {
             year: "2024",
-            title: "Aquafix Overview",
-            desc: "Our focus on quality, reliability, and customer satisfaction has made us a trusted name.",
+            title: "Thomas Exterior Overview",
+            desc: "Thomas Exterior began as a local automotive service and has steadily built a reputation for professionalism, precision, and customer satisfaction. Our focus on quality workmanship and long-lasting results has made us a trusted choice among vehicle owners.",
             img: "a1.webp",
-        }
+        },
     ];
 
     return (
@@ -69,7 +69,7 @@ const TimelineSection = () => {
                 <div className="relative">
                     {/* --- THE DYNAMIC SCROLL LINE --- */}
                     <div className="hidden lg:block absolute left-1/2 transform -translate-x-1/2 w-[3px] h-full bg-white/20">
-                        <div 
+                        <div
                             className="w-full bg-[#a3ff00] transition-all duration-300 ease-out shadow-[0_0_15px_#a3ff00]"
                             style={{ height: `${lineHeight}%` }}
                         ></div>
@@ -80,12 +80,12 @@ const TimelineSection = () => {
                             // IMPROVED LOGIC: 
                             // We set manual thresholds so the first circle (index 0) 
                             // only activates once the line has actually moved down (e.g., 5% filled)
-                            const thresholds = [5, 35, 65, 95]; 
+                            const thresholds = [5, 35, 65, 95];
                             const isActive = lineHeight >= thresholds[index];
 
                             return (
                                 <div key={index} className={`flex flex-col lg:flex-row items-center w-full ${index % 2 !== 0 ? 'lg:flex-row-reverse' : ''}`}>
-                                    
+
                                     {/* Image Half */}
                                     <div className="w-full lg:w-1/2 px-4 lg:px-16">
                                         <div className="rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white/10" data-aos={index % 2 === 0 ? "fade-right" : "fade-left"}>
@@ -95,12 +95,11 @@ const TimelineSection = () => {
 
                                     {/* Center Circle (Year) */}
                                     <div className="relative z-10 my-8 lg:my-0">
-                                        <div 
-                                            className={`w-20 h-20 rounded-full flex items-center justify-center font-bold text-lg border-4 transition-all duration-500 ease-in-out ${
-                                                isActive 
-                                                ? "bg-[#a3ff00] text-[#06328d] border-[#a3ff00] shadow-[0_0_20px_#a3ff00]" 
-                                                : "bg-white text-[#06328d] border-white"
-                                            }`}
+                                        <div
+                                            className={`w-20 h-20 rounded-full flex items-center justify-center font-bold text-lg border-4 transition-all duration-500 ease-in-out ${isActive
+                                                    ? "bg-[#a3ff00] text-[#06328d] border-[#a3ff00] shadow-[0_0_20px_#a3ff00]"
+                                                    : "bg-white text-[#06328d] border-white"
+                                                }`}
                                         >
                                             {item.year}
                                         </div>

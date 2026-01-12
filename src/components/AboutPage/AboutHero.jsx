@@ -12,11 +12,10 @@ const HeroSection = () => {
       {/* --- TOP HEADER: Title & Description --- */}
       <div className="max-w-7xl mx-auto px-6 pt-20 pb-12 flex flex-col md:flex-row md:items-end mt-30 justify-between gap-6">
         <h1 className="text-4xl md:text-6xl font-extrabold text-[#0a2351] leading-tight max-w-2xl">
-          Quality Plumbing <br /> and Reliable Service
+         Quality Automotive Enhancement & Reliable Service
         </h1>
         <p className="text-gray-500 text-sm md:text-base max-w-sm mb-2">
-          Experience top-notch plumbing solutions and dependable service. 
-          Our commitment to quality ensures your plumbing needs are met with reliability.
+          Experience premium window tinting and professional headlight solutions delivered with precision and care. Our commitment to quality craftsmanship ensures your vehicle looks better, performs safer, and lasts longer.
         </p>
       </div>
 

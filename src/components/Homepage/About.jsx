@@ -3,19 +3,19 @@ import React from "react";
 const features = [
   {
     icon: "https://cdn.prod.website-files.com/6758025a9c7dc8ef4a257c50/6777d26eba311c55a8d24b08_homev2-about-icon.webp",
-    text: "Over 18 years of experience serving our community with pride.",
+    text: "Years of hands-on experience delivering precision-focused automotive services.",
   },
   {
     icon: "https://cdn.prod.website-files.com/6758025a9c7dc8ef4a257c50/6777d3a52b2dde7075dfc0ba_homev2-about-icon-2.webp",
-    text: "Offering a wide range of plumbing services for residential need.",
+    text: "Specialized in window tinting and advanced headlight repair solutions.",
   },
   {
     icon: "https://cdn.prod.website-files.com/6758025a9c7dc8ef4a257c50/6777d3a6c7bf5e57b986fb3b_homev2-about-icon-3.webp",
-    text: "Vivamus eu nunc sodales, porta ligula at fermentum interdum.",
+    text: "High-quality materials combined with industry-approved techniques for lasting results.",
   },
   {
     icon: "https://cdn.prod.website-files.com/6758025a9c7dc8ef4a257c50/6777d3a5f05594f7a81f4d48_homev2-about-icon-4.webp",
-    text: "Fringilla urna sed hendrerit ac eros et ullamcorper proin tempus.",
+    text: "Customer-focused service with careful attention to detail on every job.",
   },
 ];
 
@@ -43,13 +43,12 @@ const AboutSection = () => {
 
             {/* Heading */}
             <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6">
-              Trusted Plumbing Experts Since 1996
+              Trusted Vehicle Enhancement Experts
             </h2>
 
             {/* Description */}
             <p className="text-gray-600 leading-relaxed mb-12 max-w-xl">
-              Building client trust through consistently exceptional service and a
-              proven track record of plumbing challenges with expertise.
+             Building customer trust through consistent quality, professional service, and proven expertise in window tinting and headlight solutions.
             </p>
 
             {/* Features Grid */}
@@ -69,12 +68,12 @@ const AboutSection = () => {
             </div>
 
             {/* Call Button */}
-            <a
+            {/* <a
               href="tel:+1578365379"
               className="inline-flex items-center justify-center bg-blue-700 text-white px-10 py-4 rounded-full font-semibold hover:bg-blue-800 transition"
             >
               Call +(1)578-365-379
-            </a>
+            </a> */}
           </div>
 
         </div>

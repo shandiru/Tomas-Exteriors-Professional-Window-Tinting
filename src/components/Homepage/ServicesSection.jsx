@@ -4,41 +4,42 @@ import { ArrowRight } from "lucide-react";
 const services = [
   {
     number: "01",
-    title: "Faucet & leak repairs",
-    desc: "Restore your plumbing fixtures to optimal condition. Our precise and efficient repairs help conserve water and enhance system performance.",
-    link: "/service/faucet-leak-repairs",
+    title: "Window Tinting",
+    desc: "High-quality automotive window tinting using premium films to reduce heat, glare, and UV exposure while enhancing comfort and style.",
+    link: "/service/window-tinting",
   },
   {
     number: "02",
-    title: "Remodeling Service",
-    desc: "We design and install plumbing systems that meet your aesthetic and functional needs, transforming spaces into modern areas.",
-    link: "/service/remodeling-service",
+    title: "Headlight Restoration",
+    desc: "Remove oxidation, yellowing, and haze from headlights to restore clarity, brightness, and improved night-time visibility.",
+    link: "/service/headlight-restoration",
   },
   {
     number: "03",
-    title: "Sewer Repair & Cleaning",
-    desc: "Available 24/7 to tackle leaks, burst pipes, and other critical plumbing problems for home or business.",
-    link: "/service/sewer-repair-cleaning",
+    title: "Headlight Crack Repair",
+    desc: "Cost-effective solutions for repairing cracked headlights, preventing moisture buildup and further damage.",
+    link: "/service/headlight-crack-repair",
   },
   {
     number: "04",
-    title: "Drain Cleaning & Repairs",
-    desc: "Using advanced tools, we remove blockages and buildup from your pipes, restoring proper flow.",
-    link: "/service/drain-cleaning-repairs",
+    title: "Headlight Condensation Repair",
+    desc: "Eliminate moisture and fog buildup inside headlights, restoring clear illumination and preventing electrical issues.",
+    link: "/service/headlight-condensation-repair",
   },
   {
     number: "05",
-    title: "Water Line Repair",
-    desc: "Ensure your water systems operate efficiently with expert installation, repair, and maintenance services.",
-    link: "/service/water-line-repair",
+    title: "Headlight Lens Replacement",
+    desc: "Complete lens replacement services for headlights that are beyond restoration, ensuring safety and compliance.",
+    link: "/service/headlight-lens-replacement",
   },
   {
     number: "06",
-    title: "Gas Line Services",
-    desc: "Safe and efficient gas line installation and servicing for reliable appliance performance.",
-    link: "/service/gas-line-services",
+    title: "Exterior Enhancement Services",
+    desc: "Professional exterior detailing solutions focused on improving visibility, safety, and the overall aesthetic of your vehicle.",
+    link: "/service/exterior-enhancement-services",
   },
 ];
+
 
 const ServicesSection = () => {
   return (
@@ -51,7 +52,7 @@ const ServicesSection = () => {
         </span>
 
         <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-20">
-          Ensuring Reliable Plumbing <br /> Solutions
+          Ensuring Premium Vehicle Enhancement Solutions
         </h2>
 
         {/* Services Grid */}
@@ -60,7 +61,7 @@ const ServicesSection = () => {
             <a
               key={index}
               href={service.link}
-              className="group relative bg-white rounded-2xl p-8 text-left transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
+              className="group relative bg-white rounded-2xl p-8 text-left flex flex-col transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
             >
               {/* Number */}
               <div className="w-10 h-10 rounded-full border border-blue-600 text-blue-600 flex items-center justify-center font-semibold mb-6">
@@ -72,25 +73,20 @@ const ServicesSection = () => {
                 {service.title}
               </h3>
 
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-gray-600 leading-relaxed mb-8 flex-grow">
                 {service.desc}
               </p>
 
-              {/* Hover Icon */}
-              <div className="absolute right-6 top-1/2 -translate-y-1/2 opacity-0 translate-x-6 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300">
-                <ArrowRight className="w-6 h-6 text-blue-600" />
+              {/* View Service Button */}
+              <div className="flex items-center justify-between">
+                <span className="inline-flex items-center gap-2 text-blue-600 font-semibold group-hover:text-blue-800 transition">
+                  View Service
+                  <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
+                </span>
               </div>
             </a>
           ))}
         </div>
-
-        {/* Bottom Button */}
-        <a
-          href="/service"
-          className="inline-flex items-center justify-center px-10 py-4 border-2 border-lime-400 text-lime-400 rounded-full font-semibold hover:bg-lime-400 hover:text-[#043B8D] transition"
-        >
-          See All Services
-        </a>
       </div>
     </section>
   );

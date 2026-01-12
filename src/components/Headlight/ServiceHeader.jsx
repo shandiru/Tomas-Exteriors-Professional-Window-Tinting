@@ -6,7 +6,7 @@ const ServiceHeader = () => {
       {/* Header / Breadcrumbs */}
       <header className="px-6 py-4 max-w-7xl mt-30 mx-auto flex justify-between items-center">
         <nav className="text-xs md:text-sm text-gray-500">
-          Home / <span className="hover:underline cursor-pointer">Service</span> / <span className="text-slate-900 font-medium">Service Details</span>
+          Home / <span className="hover:underline cursor-pointer">Service</span> / <span className="text-slate-900 font-medium">Headlight Services</span>
         </nav>
       </header>
 
@@ -15,17 +15,16 @@ const ServiceHeader = () => {
         <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-6 mb-12">
           <div className="max-w-2xl">
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 text-[#0a1d47]">
-              Faucet & leak repairs
+              Headlight Services
             </h1>
             <p className="text-gray-600 text-lg leading-relaxed max-w-xl">
-              Restore your plumbing fixtures to optimal condition. Our precise and efficient repairs 
-              help conserve water and enhance the functionality of your plumbing system.
+              Keep your vehicle’s headlights bright, clear, and fully functional with professional headlight services from Thomas Exterior. We specialize in restoring, repairing, and replacing headlights to improve safety, visibility, and overall vehicle appearance.
             </p>
           </div>
           
           <div className="flex-shrink-0">
             <button className="bg-[#003da5] hover:bg-[#002d7a] text-white px-8 py-3 rounded-full font-semibold transition-all duration-200">
-              Get A Quote
+              Get a Quote via WhatsApp
             </button>
           </div>
         </div>

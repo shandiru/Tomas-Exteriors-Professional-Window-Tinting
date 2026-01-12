@@ -3,24 +3,20 @@ import { Plus } from "lucide-react";
 
 const faqs = [
   {
-    q: "What services do you offer?",
-    a: "We offer residential and commercial plumbing services including repairs, installations, drain cleaning, remodeling, and emergency plumbing support.",
+    q: "How long does window tinting take?",
+    a: " Most window tinting services are completed within a few hours, depending on the vehicle type and tint selection.",
   },
   {
-    q: "Do you handle emergency plumbing issues?",
-    a: "Yes, our team is available 24/7 to respond to emergency plumbing problems quickly and efficiently.",
+    q: "Can headlights be restored instead of replaced?",
+    a: "Yes. Headlight restoration is often effective unless the lens is severely damaged or cracked.",
   },
   {
-    q: "Are your plumbers licensed and insured?",
-    a: "Absolutely. All of our plumbers are fully licensed, insured, and trained to meet industry standards.",
+    q: "Do you offer headlight crack repair?",
+    a: "Yes. We provide professional headlight crack repair to prevent moisture buildup and further damage.",
   },
   {
-    q: "How quickly can you schedule an appointment?",
-    a: "In most cases, we can schedule same-day or next-day appointments depending on availability.",
-  },
-  {
-    q: "How do you charge for services?",
-    a: "We provide transparent pricing with upfront estimates before starting any work.",
+    q: "What causes headlight condensation?",
+    a: "Condensation is usually caused by seal damage or temperature changes. We offer targeted condensation repair solutions.",
   },
 ];
 
@@ -31,7 +27,7 @@ const FAQSection = () => {
     setOpenIndex(openIndex === index ? null : index);
 
   return (
-    <section className="bg-white py-32">
+    <section className="bg-white py-12">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16">
         
         {/* LEFT */}

@@ -1,54 +1,56 @@
 
+import { ArrowRight } from "lucide-react";
 import React from "react";
 
 const services = [
   {
-    title: "Faucet & leak repairs",
+    title: "Window Tinting",
     desc:
-      "Restore your plumbing fixtures to optimal condition. Our precise and efficient repairs help conserve water and enhance the functionality of your plumbing system.",
+      "Enhance your vehicle’s style, comfort, and privacy with our professional window tinting services. We use premium films to reduce heat, block UV rays, and prevent interior fading while giving your car a sleek, modern look.",
     image:
-      "https://cdn.prod.website-files.com/6758025a9c7dc8ef4a257c85/67a338ece187c197f5f376aa_service-featured-image-1.webp",
+      "https://your-cdn.com/images/window-tinting.webp",
   },
   {
-    title: "Remodeling Service",
+    title: "Headlight Restoration",
     desc:
-      "We work closely with you to design and install plumbing systems that meet your aesthetic and functional needs, your spaces into modern, efficient areas.",
+      "Bring clarity back to your headlights with our advanced restoration services. We remove oxidation, yellowing, and scratches to improve nighttime visibility and restore headlights to near-new condition.",
     image:
-      "https://cdn.prod.website-files.com/6758025a9c7dc8ef4a257c85/67a339039ffc0931e5a38309_service-featured-image-2.webp",
+      "https://your-cdn.com/images/headlight-restoration.webp",
   },
   {
-    title: "Sewer Repair & Cleaning",
+    title: "Headlight Crack Repair",
     desc:
-      "Our team is available 24/7 to tackle leaks, burst pipes, and other critical plumbing problems, ensuring your home or business.",
+      "Avoid unnecessary replacements with our expert headlight crack repair services. We fix cracks to prevent moisture ingress, stop further damage, and extend headlight lifespan.",
     image:
-      "https://cdn.prod.website-files.com/6758025a9c7dc8ef4a257c85/67a33917dabb037e8c968c4e_service-featured-image-3.webp",
+      "https://your-cdn.com/images/headlight-crack-repair.webp",
   },
   {
-    title: "Drain Cleaning & Repairs",
+    title: "Headlight Condensation Repair",
     desc:
-      "Using advanced tools and techniques, we remove blockages and buildup from your pipes, restoring proper flow and preventing future issues.",
+      "Moisture inside headlights can reduce visibility and damage electrical components. Our condensation repair services restore clarity and prevent future fogging for safer driving.",
     image:
-      "https://cdn.prod.website-files.com/6758025a9c7dc8ef4a257c85/67a33925fcf151fa551417b1_service-featured-image-4.webp",
+      "https://your-cdn.com/images/headlight-condensation-repair.webp",
   },
   {
-    title: "Water Line Repair",
+    title: "Headlight Lens Replacement",
     desc:
-      "Our technicians ensure your water heater operates efficiently, providing reliable hot water including installation, repair, and maintenance.",
+      "When restoration isn’t enough, we provide professional headlight lens replacement services. Our high-quality replacements ensure optimal light output, improved safety, and a refreshed vehicle appearance.",
     image:
-      "https://cdn.prod.website-files.com/6758025a9c7dc8ef4a257c85/67a339331bcd1e4e120e9d0e_service-featured-image-5.webp",
+      "https://your-cdn.com/images/headlight-lens-replacement.webp",
   },
   {
-    title: "Gas Line Services",
+    title: "Exterior Enhancement Services",
     desc:
-      "We ensure your gas lines are safely and efficiently installed or serviced, offering reliable performance for gas-powered appliances.",
+      "From window tinting to headlight maintenance, our exterior vehicle services enhance aesthetics, safety, and functionality. Every project is completed with precision, care, and premium materials.",
     image:
-      "https://cdn.prod.website-files.com/6758025a9c7dc8ef4a257c85/67a3394017c7a3cc91bfc8da_service-featured-image-6.webp",
+      "https://your-cdn.com/images/exterior-enhancement.webp",
   },
 ];
 
+
 const ServiceGrid = () => {
   return (
-    <section className="bg-white py-44">
+    <section className="bg-white mt-20 py-14">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* HEADER */}
@@ -56,13 +58,12 @@ const ServiceGrid = () => {
           <div>
             <p className="text-sm text-gray-400 mb-2">Home / Service</p>
             <h2 className="text-4xl font-bold text-[#0D1B3F]">
-              Our Service
+              Our Service Overview
             </h2>
           </div>
 
           <p className="text-gray-600 leading-relaxed max-w-lg">
-            We offer experienced technicians quickly identify the source of
-            leaks and provide effective solutions to restore your plumbing system.
+            At Thomas Exterior, we offer professional automotive services designed to enhance your vehicle’s aesthetics, safety, and performance. Our experienced technicians provide precise solutions for window tinting and headlight maintenance, ensuring long-lasting results and customer satisfaction.
           </p>
         </div>
 
@@ -142,6 +143,28 @@ const ServiceGrid = () => {
                 <p className="text-sm text-gray-600 leading-relaxed">
                   {item.desc}
                 </p>
+                <a
+                  href={item.link}
+                  className="
+                    mt-4
+                    inline-flex
+                    items-center
+                    font-semibold
+                    text-[#0A3B8E]
+                    hover:text-white
+                    bg-white
+                    hover:bg-[#0A3B8E]
+                    px-4
+                    py-2
+                    rounded-full
+                    transition
+                    duration-300
+                    w-fit
+                  "
+                >
+                  Learn More
+                  <ArrowRight className="w-4 h-4 ml-2 transition-transform group-hover:translate-x-1" />
+                </a>
               </div>
             </a>
           ))}

@@ -4,6 +4,7 @@ import TimelineSection from '../components/AboutPage/TimeLineSection'
 import CoreValues from '../components/AboutPage/Value'
 import MissionVision from '../components/AboutPage/Mission'
 import Careers from '../components/AboutPage/Careers'
+import GlobalCTA from '../components/Homepage/GlobalCTA'
 
 const About = () => {
   return (
@@ -12,7 +13,8 @@ const About = () => {
       <TimelineSection />
       <CoreValues />
       <MissionVision />
-      <Careers />
+      {/* <Careers /> */}
+      <GlobalCTA />
     </div>
   )
 }

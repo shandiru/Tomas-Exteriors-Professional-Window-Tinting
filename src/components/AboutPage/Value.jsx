@@ -1,36 +1,49 @@
 import React from 'react';
-import { Users, Zap, Clock, ShieldCheck, Settings, HardHat } from 'lucide-react';
+import {
+  Users,
+  Zap,
+  Clock,
+  ShieldCheck,
+  Settings,
+  HardHat,
+} from "lucide-react";
 
 const CoreValues = () => {
   const values = [
     {
-      title: "Highly Expert Team",
-      description: "Our team comprises highly skilled team who bring years of experience and expertise to every project.",
+      title: "Highly Skilled Expertise",
+      description:
+        "Our services are delivered by experienced professionals who bring technical expertise and precision to every window tinting and headlight service.",
       icon: <Users className="w-6 h-6 text-white" />,
     },
     {
-      title: "Quick Process",
-      description: "We understand the importance of efficiency, which is why we prioritize a streamlined process for our clients.",
+      title: "Efficient Process",
+      description:
+        "We value your time. Our streamlined service process ensures quick turnaround times without compromising quality.",
       icon: <Zap className="w-6 h-6 text-white" />,
     },
     {
-      title: "Anytime Service",
-      description: "Emergencies can happen at any time, which is why we offer round-the-clock service to our clients.",
+      title: "Anytime Support",
+      description:
+        "We prioritize flexibility and responsiveness, making it easy for customers to reach us and get professional guidance when needed.",
       icon: <Clock className="w-6 h-6 text-white" />,
     },
     {
       title: "Strong Commitment",
-      description: "We are deeply committed to our clients' satisfaction. Our dedication to excellence is evident in our attention to detail.",
+      description:
+        "Customer satisfaction is at the core of everything we do. We are committed to delivering results that meet and exceed expectations.",
       icon: <ShieldCheck className="w-6 h-6 text-white" />,
     },
     {
       title: "Responsibility",
-      description: "We adhere to the highest ethical standards, prioritize safety in all our operations, and actively engage.",
+      description:
+        "We operate with integrity, use industry-approved materials, and follow best practices to ensure safe and responsible service delivery.",
       icon: <Settings className="w-6 h-6 text-white" />,
     },
     {
       title: "Safety First",
-      description: "The safety and well-being of our clients providing ongoing training, and equipping our team with the necessary tools.",
+      description:
+        "We prioritize vehicle safety by using proper techniques, quality products, and proven methods that protect both the vehicle and its owner.",
       icon: <HardHat className="w-6 h-6 text-white" />,
     },
   ];
@@ -47,9 +60,7 @@ const CoreValues = () => {
         </div>
         <div className="md:w-1/2">
           <p className="text-gray-500 leading-relaxed text-lg">
-            We believe in the power of teamwork. Our diverse team of skilled professionals 
-            collaborates seamlessly to tackle even the most complex plumbing challenges. 
-            By fostering a culture of collaboration, respect.
+            We believe excellence comes from precision, responsibility, and customer trust. Our work is driven by attention to detail and a commitment to delivering reliable automotive enhancement services.
           </p>
         </div>
       </div>

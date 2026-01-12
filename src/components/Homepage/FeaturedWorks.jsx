@@ -2,38 +2,35 @@ import React from "react";
 
 const works = [
   {
-    title: "Bathroom Repair",
-    image:
-      "https://cdn.prod.website-files.com/6758025a9c7dc8ef4a257c85/677777d6920e7eb04090bf7a_homev2-work-card-image-1.webp",
+    title: "Professional Window Tinting",
+    //image: "https://your-image-url.com/window-tinting.webp",
     description:
-      "High-quality bathroom repair services ensuring durability and modern finishes.",
-    link: "/work/bathroom-repair",
+      "Precision-installed window tints that enhance privacy, reduce heat, block UV rays, and elevate the overall appearance of your vehicle.",
+    link: "/work/window-tinting",
   },
   {
-    title: "Kitchen Repair",
-    image:
-      "https://cdn.prod.website-files.com/6758025a9c7dc8ef4a257c85/677777ec64a7158f3d906c19_homev2-work-card-image-3.webp",
+    title: "Headlight Restoration",
+    //image: "https://your-image-url.com/headlight-restoration.webp",
     description:
-      "Professional kitchen plumbing repairs designed for efficiency and longevity.",
-    link: "/work/kitchen-repair",
+      "Restoring faded and oxidized headlights to like-new clarity, improving nighttime visibility and vehicle safety.",
+    link: "/work/headlight-restoration",
   },
   {
-    title: "Plumbing Installation",
-    image:
-      "https://cdn.prod.website-files.com/6758025a9c7dc8ef4a257c85/677778028265c996c6d40701_homev2-work-card-image-2.webp",
+    title: "Headlight Crack Repair",
+   // image: "https://your-image-url.com/headlight-crack-repair.webp",
     description:
-      "Complete plumbing installations delivered with precision and expertise.",
-    link: "/work/plumbing-installation",
+      "Advanced repair solutions for cracked headlights, extending their lifespan and restoring functionality without full replacement.",
+    link: "/work/headlight-crack-repair",
   },
   {
-    title: "Sewer Cleaning",
-    image:
-      "https://cdn.prod.website-files.com/6758025a9c7dc8ef4a257c85/67a358567c3099a48ea1d657_work-thumbnail-image-1.webp",
+    title: "Headlight Lens Replacement",
+    //image: "https://your-image-url.com/headlight-lens-replacement.webp",
     description:
-      "Advanced sewer cleaning solutions to keep your system flowing smoothly.",
-    link: "/work/sewer-cleaning",
+      "Professional headlight lens replacement for severely damaged or worn lenses, ensuring optimal light output and road safety.",
+    link: "/work/headlight-lens-replacement",
   },
 ];
+
 
 const FeaturedWorks = () => {
   return (
@@ -53,17 +50,15 @@ const FeaturedWorks = () => {
 
           <div>
             <p className="text-gray-600 mb-6 max-w-lg">
-              Explore our portfolio to see the high-quality plumbing projects
-              we've completed. From emergency repairs to full-scale installations,
-              our work demonstrates our commitment to excellence.
+              Explore our portfolio to see the high-quality vehicle enhancement projects we’ve completed. From crystal-clear window tints to fully restored headlights, our work reflects our commitment to excellence and customer satisfaction.
             </p>
 
-            <a
+            {/* <a
               href="/contact"
               className="inline-flex items-center justify-center px-8 py-3 border-2 border-blue-600 text-blue-600 rounded-full font-semibold hover:bg-blue-600 hover:text-white transition"
             >
               Get a Quote
-            </a>
+            </a> */}
           </div>
         </div>
 
@@ -76,7 +71,7 @@ const FeaturedWorks = () => {
             >
               {/* IMAGE */}
               <img
-                src={work.image}
+                src={work.image ? work.image : "/logo.jpeg"}
                 alt={work.title}
                 className="w-full h-[340px] object-cover transform group-hover:scale-105 transition duration-700"
               />
