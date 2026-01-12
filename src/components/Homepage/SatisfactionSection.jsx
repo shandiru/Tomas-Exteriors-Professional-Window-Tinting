@@ -34,23 +34,23 @@ const SatisfactionSection = () => {
 
         {/* CONTENT */}
         <div className="relative z-10 text-center max-w-5xl mx-auto">
-          <span className="block mb-6 text-blue-600 font-semibold text-sm tracking-wide">
+          <span className="block mb-6 text-[#F21B23] font-semibold text-sm tracking-wide">
             Welcome to Thomas Exterior
           </span>
 
-          <h2 className="text-4xl font-bold text-slate-900 leading-tight mb-10">
+          <h2 className="text-4xl font-bold text-black leading-tight mb-10">
             With years of hands-on industry experience, Thomas Exterior Professional Window Tinting delivers precision-driven services, premium materials, and flawless finishes for every vehicle we work on.
           </h2>
-          <h2 className="text-4xl font-bold text-slate-900 leading-tight mb-10">We’re committed to enhancing vehicle aesthetics, improving visibility, and ensuring long-lasting performance through expert craftsmanship and attention to detail.</h2>
+          <h2 className="text-4xl font-bold text-black leading-tight mb-10">We’re committed to enhancing vehicle aesthetics, improving visibility, and ensuring long-lasting performance through expert craftsmanship and attention to detail.</h2>
 
           {/* STATS */}
           <div className="flex flex-col sm:flex-row justify-center gap-20">
             {stats.map((item, index) => (
               <div key={index} className="text-center">
-                <div className="text-5xl font-extrabold text-blue-700 mb-3">
+                <div className="text-5xl font-extrabold text-[#F21B23] mb-3">
                   {item.value}
                 </div>
-                <div className="text-gray-600 text-base">
+                <div className="text-[#404143] text-base">
                   {item.label}
                 </div>
               </div>

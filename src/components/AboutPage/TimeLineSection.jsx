@@ -59,10 +59,10 @@ const TimelineSection = () => {
     ];
 
     return (
-        <section ref={sectionRef} className="bg-[#06328d] pt-20 pb-40 relative z-0 overflow-hidden">
+        <section ref={sectionRef} className="bg-[#404143] pt-20 pb-40 relative z-0 overflow-hidden">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="text-center mb-24">
-                    <p className="text-[#a3ff00] font-semibold text-sm uppercase tracking-widest">Our Story</p>
+                    <p className="text-[#F21B23] font-semibold text-sm uppercase tracking-widest">Our Story</p>
                     <h2 className="text-white text-4xl md:text-6xl font-bold mt-2">Know More About Us</h2>
                 </div>
 
@@ -70,7 +70,7 @@ const TimelineSection = () => {
                     {/* --- THE DYNAMIC SCROLL LINE --- */}
                     <div className="hidden lg:block absolute left-1/2 transform -translate-x-1/2 w-[3px] h-full bg-white/20">
                         <div
-                            className="w-full bg-[#a3ff00] transition-all duration-300 ease-out shadow-[0_0_15px_#a3ff00]"
+                            className="w-full bg-[#F21B23] transition-all duration-300 ease-out shadow-[0_0_20px_#F21B23]"
                             style={{ height: `${lineHeight}%` }}
                         ></div>
                     </div>
@@ -97,8 +97,8 @@ const TimelineSection = () => {
                                     <div className="relative z-10 my-8 lg:my-0">
                                         <div
                                             className={`w-20 h-20 rounded-full flex items-center justify-center font-bold text-lg border-4 transition-all duration-500 ease-in-out ${isActive
-                                                    ? "bg-[#a3ff00] text-[#06328d] border-[#a3ff00] shadow-[0_0_20px_#a3ff00]"
-                                                    : "bg-white text-[#06328d] border-white"
+                                                    ? "bg-[#F21B23] text-black border-[#F21B23] shadow-[0_0_20px_#F21B23]"
+                                                    : "bg-white text-black border-white"
                                                 }`}
                                         >
                                             {item.year}

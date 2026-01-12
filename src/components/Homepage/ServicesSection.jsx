@@ -43,11 +43,11 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <section className="bg-[#043B8D] py-32">
+    <section className="bg-[#404143] py-32">
       <div className="max-w-7xl mx-auto px-6 text-center">
 
         {/* Header */}
-        <span className="block text-lime-400 font-semibold mb-4">
+        <span className="block text-[#F21B23] font-semibold mb-4">
           Our Services
         </span>
 
@@ -64,22 +64,22 @@ const ServicesSection = () => {
               className="group relative bg-white rounded-2xl p-8 text-left flex flex-col transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
             >
               {/* Number */}
-              <div className="w-10 h-10 rounded-full border border-blue-600 text-blue-600 flex items-center justify-center font-semibold mb-6">
+              <div className="w-10 h-10 rounded-full border border-[#F21B23] text-[#F21B23] flex items-center justify-center font-semibold mb-6">
                 {service.number}
               </div>
 
               {/* Content */}
-              <h3 className="text-xl font-bold text-blue-700 mb-4">
+              <h3 className="text-xl font-bold text-[#F21B23] mb-4">
                 {service.title}
               </h3>
 
-              <p className="text-gray-600 leading-relaxed mb-8 flex-grow">
+              <p className="text-[#404143] leading-relaxed mb-8 flex-grow">
                 {service.desc}
               </p>
 
               {/* View Service Button */}
               <div className="flex items-center justify-between">
-                <span className="inline-flex items-center gap-2 text-blue-600 font-semibold group-hover:text-blue-800 transition">
+                <span className="inline-flex items-center gap-2   font-semibold group-hover:text-[#F21B23] transition">
                   View Service
                   <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
                 </span>

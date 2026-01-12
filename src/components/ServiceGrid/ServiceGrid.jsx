@@ -1,6 +1,7 @@
 
 import { ArrowRight } from "lucide-react";
 import React from "react";
+import { Link } from "react-router-dom";
 
 const services = [
   {
@@ -8,42 +9,48 @@ const services = [
     desc:
       "Enhance your vehicle’s style, comfort, and privacy with our professional window tinting services. We use premium films to reduce heat, block UV rays, and prevent interior fading while giving your car a sleek, modern look.",
     image:
-      "https://your-cdn.com/images/window-tinting.webp",
+      "a1.jpg",
+    link: "/Window-Tinting"
   },
   {
     title: "Headlight Restoration",
     desc:
       "Bring clarity back to your headlights with our advanced restoration services. We remove oxidation, yellowing, and scratches to improve nighttime visibility and restore headlights to near-new condition.",
     image:
-      "https://your-cdn.com/images/headlight-restoration.webp",
+      "a2.jpg",
+    link: "/Headlight"
   },
   {
     title: "Headlight Crack Repair",
     desc:
       "Avoid unnecessary replacements with our expert headlight crack repair services. We fix cracks to prevent moisture ingress, stop further damage, and extend headlight lifespan.",
     image:
-      "https://your-cdn.com/images/headlight-crack-repair.webp",
+      "s4.jpg",
+    link: "/Headlight"
   },
   {
     title: "Headlight Condensation Repair",
     desc:
       "Moisture inside headlights can reduce visibility and damage electrical components. Our condensation repair services restore clarity and prevent future fogging for safer driving.",
     image:
-      "https://your-cdn.com/images/headlight-condensation-repair.webp",
+      "a4.jpg",
+    link: "/Headlight"
   },
   {
     title: "Headlight Lens Replacement",
     desc:
       "When restoration isn’t enough, we provide professional headlight lens replacement services. Our high-quality replacements ensure optimal light output, improved safety, and a refreshed vehicle appearance.",
     image:
-      "https://your-cdn.com/images/headlight-lens-replacement.webp",
+      "s3.jpg",
+    link: "/Headlight"
   },
   {
     title: "Exterior Enhancement Services",
     desc:
       "From window tinting to headlight maintenance, our exterior vehicle services enhance aesthetics, safety, and functionality. Every project is completed with precision, care, and premium materials.",
     image:
-      "https://your-cdn.com/images/exterior-enhancement.webp",
+      "a3.jpg",
+    link: "/Headlight"
   },
 ];
 
@@ -56,13 +63,13 @@ const ServiceGrid = () => {
         {/* HEADER */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-14">
           <div>
-            <p className="text-sm text-gray-400 mb-2">Home / Service</p>
-            <h2 className="text-4xl font-bold text-[#0D1B3F]">
+            <p className="text-sm text-[#404143] mb-2">Home / Service</p>
+            <h2 className="text-4xl font-bold text-black">
               Our Service Overview
             </h2>
           </div>
 
-          <p className="text-gray-600 leading-relaxed max-w-lg">
+          <p className="text-[#404143] leading-relaxed max-w-lg">
             At Thomas Exterior, we offer professional automotive services designed to enhance your vehicle’s aesthetics, safety, and performance. Our experienced technicians provide precise solutions for window tinting and headlight maintenance, ensuring long-lasting results and customer satisfaction.
           </p>
         </div>
@@ -77,7 +84,7 @@ const ServiceGrid = () => {
             >
               {/* IMAGE WRAPPER */}
               <div className="relative overflow-hidden rounded-xl m-5">
-                
+
                 {/* IMAGE */}
                 <img
                   src={item.image}
@@ -98,62 +105,34 @@ const ServiceGrid = () => {
                   className="
                     absolute inset-0
                     bg-[#0A3B8E]/0
-                    group-hover:bg-[#0A3B8E]/70
+                    group-hover:bg-[#404143]/70
                     transition-all
                     duration-500
                   "
                 />
 
-                {/* FLOATING BUTTON */}
-                <div
-                  className="
-                    absolute
-                    left-6
-                    bottom-6
-                    w-14
-                    h-14
-                    rounded-full
-                    bg-white
-                    flex
-                    items-center
-                    justify-center
-                    scale-0
-                    translate-x-[-10px]
-                    group-hover:scale-100
-                    group-hover:translate-x-0
-                    transition-all
-                    duration-500
-                    ease-out
-                  "
-                >
-                  <img
-                    src="https://cdn.prod.website-files.com/6758025a9c7dc8ef4a257c50/677a33436e1febb44726de55_work-portfolio-icon.webp"
-                    alt="View Service"
-                    className="w-6 h-6"
-                  />
-                </div>
               </div>
 
               {/* CONTENT */}
               <div className="px-6 pb-6">
-                <h3 className="text-lg font-semibold text-[#0D1B3F] mb-2">
+                <h3 className="text-lg font-semibold text-black mb-2">
                   {item.title}
                 </h3>
 
-                <p className="text-sm text-gray-600 leading-relaxed">
+                <p className="text-sm text-[#404143] leading-relaxed">
                   {item.desc}
                 </p>
-                <a
-                  href={item.link}
+                <Link
+                 to={item.link}
                   className="
                     mt-4
                     inline-flex
                     items-center
                     font-semibold
-                    text-[#0A3B8E]
+                    text-[#F21B23]
                     hover:text-white
                     bg-white
-                    hover:bg-[#0A3B8E]
+                    hover:bg-[#404143]
                     px-4
                     py-2
                     rounded-full
@@ -164,7 +143,7 @@ const ServiceGrid = () => {
                 >
                   Learn More
                   <ArrowRight className="w-4 h-4 ml-2 transition-transform group-hover:translate-x-1" />
-                </a>
+                </Link>
               </div>
             </a>
           ))}

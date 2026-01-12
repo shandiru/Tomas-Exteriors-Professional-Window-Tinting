@@ -36,7 +36,7 @@ const TestimonialSection = () => {
   const t = testimonials[index];
 
   return (
-    <section className="relative bg-[#0A3B8E] py-40 overflow-hidden text-white">
+    <section className="relative bg-[#404143] py-40 overflow-hidden text-white">
       {/* Background Quote Shape */}
       <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 opacity-[0.06]">
         <svg width="420" viewBox="0 0 320 220" fill="none">
@@ -69,14 +69,14 @@ const TestimonialSection = () => {
         {/* Arrows */}
         <button
           onClick={prev}
-          className="absolute left-6 top-1/2 -translate-y-1/2 w-14 h-14 rounded-full border border-white/40 flex items-center justify-center hover:bg-white hover:text-blue-800 transition"
+          className="absolute left-6 top-1/2 -translate-y-1/2 w-14 h-14 rounded-full border border-white/40 flex items-center justify-center hover:bg-white hover:text-[#F21B23] transition"
         >
           <ChevronLeft size={24} />
         </button>
 
         <button
           onClick={next}
-          className="absolute right-6 top-1/2 -translate-y-1/2 w-14 h-14 rounded-full border border-white/40 flex items-center justify-center hover:bg-white hover:text-blue-800 transition"
+          className="absolute right-6 top-1/2 -translate-y-1/2 w-14 h-14 rounded-full border border-white/40 flex items-center justify-center hover:bg-white hover:text-[#F21B23] transition"
         >
           <ChevronRight size={24} />
         </button>

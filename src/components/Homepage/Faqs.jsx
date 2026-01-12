@@ -32,10 +32,10 @@ const FAQSection = () => {
         
         {/* LEFT */}
         <div>
-          <span className="block text-blue-600 font-semibold mb-4">
+          <span className="block text-[#F21B23] font-semibold mb-4">
             FAQ
           </span>
-          <h2 className="text-4xl font-extrabold text-slate-900">
+          <h2 className="text-4xl font-extrabold text-black">
             Frequently Asked Questions
           </h2>
         </div>
@@ -55,14 +55,14 @@ const FAQSection = () => {
                   onClick={() => toggle(index)}
                   className="w-full flex items-center justify-between px-6 py-5 text-left"
                 >
-                  <span className="font-semibold text-slate-900">
+                  <span className="font-semibold text-black">
                     {item.q}
                   </span>
 
                   <span
                     className={`w-9 h-9 flex items-center justify-center rounded-full border transition ${
                       isOpen
-                        ? "rotate-45 border-blue-600 text-blue-600"
+                        ? "rotate-45 border-[#F21B23] text-[#F21B23]"
                         : "border-slate-300 text-slate-600"
                     }`}
                   >

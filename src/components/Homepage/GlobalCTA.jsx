@@ -16,11 +16,11 @@ const GlobalCTA = () => {
             />
 
             {/* Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-r from-[#0A3B8E]/90 to-[#0A3B8E]/60"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-[#404143]/90 to-[#404143]/60"></div>
 
             {/* Content */}
             <div className="relative z-10 p-10 md:p-14 h-full flex flex-col justify-center">
-              <span className="text-lime-400 font-semibold mb-4">
+              <span className="text-[#F21B23] font-semibold mb-4">
                 Looking for Professional Window Tinting or Headlight Services?
               </span>
 
@@ -30,7 +30,7 @@ const GlobalCTA = () => {
 
               <a
                 href="/contact"
-                className="inline-flex items-center justify-center bg-lime-400 text-[#0A3B8E] font-semibold px-8 py-4 rounded-full w-fit hover:bg-lime-300 transition"
+                className="inline-flex items-center justify-center bg-[#F21B23] text-black font-semibold px-8 py-4 rounded-full w-fit hover:bg-[#2b2b2c] transition"
               >
                 Get a Quote via WhatsApp
               </a>
@@ -38,17 +38,17 @@ const GlobalCTA = () => {
           </div>
 
           {/* RIGHT AGENT CARD */}
-          <div className="bg-lime-400 rounded-3xl p-10 flex flex-col justify-between">
+          <div className="bg-[#404143] rounded-3xl p-10 flex flex-col justify-between">
             <div>
               {/* Agent Image */}
               <img
                 src="https://cdn.prod.website-files.com/6758025a9c7dc8ef4a257c50/67739ca4c06148b3e7c2005f_agent-image.webp"
                 alt="Wade Warren"
-                className="w-16 h-16 rounded-full mb-6"
+                className="w-16 h-16 rounded-full bg-[#F21B23] mb-6"
               />
 
               {/* Text */}
-              <h3 className="text-[#0A3B8E] text-lg font-semibold leading-relaxed mb-8">
+              <h3 className="text-white text-lg font-semibold leading-relaxed mb-8">
                 This is Thomas, Founder of Thomas Exterior. <br />
                 I’m here to personally answer your questions and help you choose the best window tinting or headlight solution for your vehicle.
               </h3>
@@ -57,7 +57,7 @@ const GlobalCTA = () => {
             {/* Call Button */}
             <a
               href="tel:+1578365379"
-              className="inline-flex items-center justify-center bg-[#0A3B8E] text-white font-semibold px-8 py-4 rounded-full hover:bg-[#092f70] transition"
+              className="inline-flex items-center justify-center bg-[#F21B23] text-white font-semibold px-8 py-4 rounded-full hover:bg-[#2b2b2c] transition"
             >
               Start a WhatsApp Chat
             </a>

@@ -53,13 +53,13 @@ const CoreValues = () => {
       {/* Header Section */}
       <div className="flex flex-col md:flex-row justify-between items-start mb-12 gap-6">
         <div className="md:w-1/2">
-          <span className="text-blue-900 font-bold uppercase tracking-wider text-sm">Values</span>
-          <h2 className="text-4xl md:text-5xl font-extrabold text-blue-950 mt-2">
+          <span className="text-[#F21B23] font-bold uppercase tracking-wider text-sm">Values</span>
+          <h2 className="text-4xl md:text-5xl font-extrabold text-black mt-2">
             Our Core Values
           </h2>
         </div>
         <div className="md:w-1/2">
-          <p className="text-gray-500 leading-relaxed text-lg">
+          <p className="text-[#404143] leading-relaxed text-lg">
             We believe excellence comes from precision, responsibility, and customer trust. Our work is driven by attention to detail and a commitment to delivering reliable automotive enhancement services.
           </p>
         </div>
@@ -73,15 +73,15 @@ const CoreValues = () => {
             className="bg-white p-10 rounded-3xl shadow-sm hover:shadow-md transition-shadow duration-300 border border-gray-100 flex flex-col items-start"
           >
             {/* Icon Circle */}
-            <div className="bg-blue-900 p-4 rounded-full mb-6 flex items-center justify-center">
+            <div className="bg-[#F21B23] p-4 rounded-full mb-6 flex items-center justify-center">
               {value.icon}
             </div>
             
             {/* Content */}
-            <h3 className="text-2xl font-bold text-blue-950 mb-4">
+            <h3 className="text-2xl font-bold text-[#F21B23] mb-4">
               {value.title}
             </h3>
-            <p className="text-gray-500 leading-relaxed">
+            <p className="text-[#404143] leading-relaxed">
               {value.description}
             </p>
           </div>

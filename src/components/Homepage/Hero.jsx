@@ -7,11 +7,11 @@ const HeroSection = () => {
       {/* Background */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?q=80&w=2000"
+          //src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?q=80&w=2000"
           alt="Plumber"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/70 to-black/30"></div>
+        <div className="absolute inset-0 bg-[#404143]"></div>
       </div>
 
       {/* CONTENT + MARQUEE STACK */}
@@ -34,7 +34,7 @@ const HeroSection = () => {
             <div className="flex items-center gap-6">
               <a
                 href="#quote"
-                className="bg-lime-400 hover:bg-lime-500 text-gray-900 font-semibold px-10 py-4 rounded-full transition"
+                className="bg-[#F21B23] hover:bg-[#404143] text-black font-semibold px-10 py-4 rounded-full transition"
               >
                  Chat with Us on WhatsApp
               </a>

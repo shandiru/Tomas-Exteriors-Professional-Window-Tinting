@@ -6,57 +6,63 @@ const ContactHero = () => {
       <div className="max-w-6xl mx-auto">
         {/* Breadcrumb & Header */}
         <div className="text-center mb-12">
-          <p className="text-sm text-gray-500 mb-2 mt-20">Home / Contact</p>
-          <h1 className="text-4xl md:text-5xl font-bold text-[#0A1D56] mb-4">
+          <p className="text-sm text-black mb-2 mt-20">Home / Contact</p>
+          <h1 className="text-4xl md:text-5xl font-bold text-black mb-4">
             Get in Touch
           </h1>
-          <p className="max-w-2xl mx-auto text-gray-600 leading-relaxed">
-           Have questions about our window tinting or headlight services? Need a quote or advice for your vehicle? Reach out to Thomas Exterior, and we’ll provide fast, professional support.
+          <p className="max-w-2xl mx-auto text-[#404143] leading-relaxed">
+            Have questions about our window tinting or headlight services? Need a quote or advice for your vehicle? Reach out to Thomas Exterior, and we’ll provide fast, professional support.
           </p>
-          <p className="max-w-2xl mx-auto mt-3 text-gray-600 leading-relaxed" >Whether it’s a simple inquiry, a service request, or scheduling an appointment, we’re here to help with care and precision.</p>
+          <p className="max-w-2xl mx-auto mt-3 text-[#404143] leading-relaxed" >Whether it’s a simple inquiry, a service request, or scheduling an appointment, we’re here to help with care and precision.</p>
         </div>
 
         {/* Contact Card Container */}
         <div className="bg-[#F8F9FC] rounded-3xl p-6 md:p-10 shadow-sm flex flex-col lg:flex-row gap-10 items-center">
-          
+
           {/* Image Side */}
           <div className="w-full lg:w-1/2">
-            <img
-              src="https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&q=80&w=800" 
-              alt="Plumber working"
-              className="rounded-2xl w-full h-[400px] md:h-[500px] object-cover shadow-md"
-            />
+            <iframe
+              title="Google Map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086849132467!2d-122.41941508468182!3d37.77492977975932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c1c2f8f83%3A0xf0b5e0b7e7b5e7b5!2sSan+Francisco%2C+CA!5e0!3m2!1sen!2sus!4v1600000000000!5m2!1sen!2sus"
+              width="100%"
+              height="400"
+              className="rounded-2xl shadow-md md:h-[500px]"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+            ></iframe>
           </div>
+
 
           {/* Form Side */}
           <div className="w-full lg:w-1/2">
-            <h2 className="text-2xl font-bold text-[#0A1D56] mb-6">Get In Touch</h2>
-            
+            <h2 className="text-2xl font-bold text-black mb-6">Get In Touch</h2>
+
             <form className="space-y-4">
               {/* Full Name */}
               <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-1">Full Name</label>
+                <label className="block text-sm font-semibold text-[#404143] mb-1">Full Name</label>
                 <input
                   type="text"
                   placeholder="Full Name"
-                  className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-blue-500 outline-none transition"
+                  className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-[#F21B23] outline-none transition"
                 />
               </div>
 
               {/* Phone */}
               <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-1">Phone</label>
+                <label className="block text-sm font-semibold text-[#404143] mb-1">Phone</label>
                 <input
                   type="text"
                   placeholder="Ex. +123 456 789"
-                  className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-blue-500 outline-none transition"
+                  className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-[#F21B23] outline-none transition"
                 />
               </div>
 
               {/* Select Service */}
               <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-1">Select A Service</label>
-                <select className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-blue-500 outline-none transition appearance-none bg-white">
+                <label className="block text-sm font-semibold text-[#404143] mb-1">Select A Service</label>
+                <select className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-[#F21B23] outline-none transition appearance-none bg-white">
                   <option>Select</option>
                   <option>Emergency Repair</option>
                   <option>Maintenance</option>
@@ -66,18 +72,18 @@ const ContactHero = () => {
 
               {/* Short Note */}
               <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-1">Short Note</label>
+                <label className="block text-sm font-semibold text-[#404143] mb-1">Short Note</label>
                 <textarea
                   rows="4"
                   placeholder="Type here..."
-                  className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-blue-500 outline-none transition resize-none"
+                  className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-[#F21B23] outline-none transition resize-none"
                 ></textarea>
               </div>
 
               {/* Submit Button */}
               <button
                 type="submit"
-                className="w-full bg-[#003B95] text-white font-bold py-4 rounded-xl hover:bg-blue-900 transition-colors shadow-lg mt-2"
+                className="w-full bg-[#F21B23] text-white font-bold py-4 rounded-xl hover:bg-[#404143] transition-colors shadow-lg mt-2"
               >
                 Submit
               </button>

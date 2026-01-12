@@ -3,28 +3,28 @@ import React from "react";
 const works = [
   {
     title: "Professional Window Tinting",
-    //image: "https://your-image-url.com/window-tinting.webp",
+    image: "/s1.jpg",
     description:
       "Precision-installed window tints that enhance privacy, reduce heat, block UV rays, and elevate the overall appearance of your vehicle.",
     link: "/work/window-tinting",
   },
   {
     title: "Headlight Restoration",
-    //image: "https://your-image-url.com/headlight-restoration.webp",
+    image: "/s2.jpg",
     description:
       "Restoring faded and oxidized headlights to like-new clarity, improving nighttime visibility and vehicle safety.",
     link: "/work/headlight-restoration",
   },
   {
     title: "Headlight Crack Repair",
-   // image: "https://your-image-url.com/headlight-crack-repair.webp",
+    image: "s3.jpg",
     description:
       "Advanced repair solutions for cracked headlights, extending their lifespan and restoring functionality without full replacement.",
     link: "/work/headlight-crack-repair",
   },
   {
     title: "Headlight Lens Replacement",
-    //image: "https://your-image-url.com/headlight-lens-replacement.webp",
+    image: "s4.jpg",
     description:
       "Professional headlight lens replacement for severely damaged or worn lenses, ensuring optimal light output and road safety.",
     link: "/work/headlight-lens-replacement",
@@ -40,22 +40,22 @@ const FeaturedWorks = () => {
         {/* HEADER */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-20">
           <div>
-            <span className="block mb-4 text-blue-600 font-semibold">
+            <span className="block mb-4 text-[#F21B23] font-semibold">
               Work Portfolio
             </span>
-            <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900">
+            <h2 className="text-4xl md:text-5xl font-extrabold text-black">
               Featured Completed Works
             </h2>
           </div>
 
           <div>
-            <p className="text-gray-600 mb-6 max-w-lg">
+            <p className="text-[#404143] mb-6 max-w-lg">
               Explore our portfolio to see the high-quality vehicle enhancement projects we’ve completed. From crystal-clear window tints to fully restored headlights, our work reflects our commitment to excellence and customer satisfaction.
             </p>
 
             {/* <a
               href="/contact"
-              className="inline-flex items-center justify-center px-8 py-3 border-2 border-blue-600 text-blue-600 rounded-full font-semibold hover:bg-blue-600 hover:text-white transition"
+              className="inline-flex items-center justify-center px-8 py-3 border-2 border-[#F21B23] text-[#F21B23] rounded-full font-semibold hover:bg-[#F21B23] hover:text-white transition"
             >
               Get a Quote
             </a> */}

@@ -16,8 +16,8 @@ const Careers = () => {
                 {/* HEADER */}
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-14">
                     <div>
-                        <p className="text-sm text-blue-600 font-semibold mb-3">Career</p>
-                        <h2 className="text-3xl sm:text-4xl font-bold text-slate-900">
+                        <p className="text-sm text-[#F21B23] font-semibold mb-3">Career</p>
+                        <h2 className="text-3xl sm:text-4xl font-bold text-black">
                             Opportunities to <br /> Join Our Team
                         </h2>
                     </div>
@@ -45,7 +45,7 @@ const JobCard = ({ title }) => (
     <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 bg-slate-50 rounded-xl px-6 py-5">
         {/* LEFT */}
         <div>
-            <h3 className="text-lg font-semibold text-slate-900">{title}</h3>
+            <h3 className="text-lg font-semibold text-black">{title}</h3>
 
             <div className="flex flex-wrap gap-5 text-sm text-slate-500 mt-3">
                 <span className="flex items-center gap-1">
@@ -58,7 +58,7 @@ const JobCard = ({ title }) => (
         </div>
 
         {/* ACTION */}
-        <button className="self-start sm:self-center w-10 h-10 rounded-full border border-blue-600 flex items-center justify-center text-blue-600 hover:bg-blue-600 hover:text-white transition">
+        <button className="self-start sm:self-center w-10 h-10 rounded-full border border-[#F21B23] flex items-center justify-center text-[#F21B23] hover:bg-[#F21B23] hover:text-white transition">
             <ArrowUpRight size={18} />
         </button>
     </div>

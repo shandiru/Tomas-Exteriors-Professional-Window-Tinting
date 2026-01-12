@@ -1,20 +1,21 @@
 import React from "react";
+import { Award, Drill, Settings, UserCheck } from "lucide-react";
 
 const features = [
   {
-    icon: "https://cdn.prod.website-files.com/6758025a9c7dc8ef4a257c50/6777d26eba311c55a8d24b08_homev2-about-icon.webp",
+    icon: <Award className="w-8 h-8 text-[#F21B23]" />, // Years of experience
     text: "Years of hands-on experience delivering precision-focused automotive services.",
   },
   {
-    icon: "https://cdn.prod.website-files.com/6758025a9c7dc8ef4a257c50/6777d3a52b2dde7075dfc0ba_homev2-about-icon-2.webp",
+    icon: <Drill className="w-8 h-8 text-[#F21B23]" />, // Window tinting & headlight repair
     text: "Specialized in window tinting and advanced headlight repair solutions.",
   },
   {
-    icon: "https://cdn.prod.website-files.com/6758025a9c7dc8ef4a257c50/6777d3a6c7bf5e57b986fb3b_homev2-about-icon-3.webp",
+    icon: <Settings className="w-8 h-8 text-[#F21B23]" />, // High-quality materials & techniques
     text: "High-quality materials combined with industry-approved techniques for lasting results.",
   },
   {
-    icon: "https://cdn.prod.website-files.com/6758025a9c7dc8ef4a257c50/6777d3a5f05594f7a81f4d48_homev2-about-icon-4.webp",
+    icon: <UserCheck className="w-8 h-8 text-[#F21B23]" />, // Customer-focused service
     text: "Customer-focused service with careful attention to detail on every job.",
   },
 ];
@@ -37,32 +38,28 @@ const AboutSection = () => {
           {/* RIGHT CONTENT */}
           <div>
             {/* Caption */}
-            <span className="block mb-5 text-blue-600 font-semibold">
+            <span className="block mb-5 text-[#F21B23] font-semibold">
               Who We Are
             </span>
 
             {/* Heading */}
-            <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6">
+            <h2 className="text-4xl md:text-5xl font-extrabold text-black mb-6">
               Trusted Vehicle Enhancement Experts
             </h2>
 
             {/* Description */}
-            <p className="text-gray-600 leading-relaxed mb-12 max-w-xl">
-             Building customer trust through consistent quality, professional service, and proven expertise in window tinting and headlight solutions.
+            <p className="text-[#404143] leading-relaxed mb-12 max-w-xl">
+              Building customer trust through consistent quality, professional service, and proven expertise in window tinting and headlight solutions.
             </p>
 
             {/* Features Grid */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 mb-14">
               {features.map((item, index) => (
-                <div key={index} className="flex gap-4">
-                  <img
-                    src={item.icon}
-                    alt=""
-                    className="w-12 h-12 flex-shrink-0"
-                  />
-                  <p className="text-gray-700 leading-relaxed">
-                    {item.text}
-                  </p>
+                <div key={index} className="flex gap-4 items-start">
+                  <div className="w-12 h-12 flex-shrink-0 text-[#43AA8B]">
+                    {item.icon}
+                  </div>
+                  <p className="text-gray-700 leading-relaxed">{item.text}</p>
                 </div>
               ))}
             </div>
@@ -70,7 +67,7 @@ const AboutSection = () => {
             {/* Call Button */}
             {/* <a
               href="tel:+1578365379"
-              className="inline-flex items-center justify-center bg-blue-700 text-white px-10 py-4 rounded-full font-semibold hover:bg-blue-800 transition"
+              className="inline-flex items-center justify-center bg-[#F21B23] text-white px-10 py-4 rounded-full font-semibold hover:bg-[#F21B23] transition"
             >
               Call +(1)578-365-379
             </a> */}

@@ -7,7 +7,7 @@ const AnimatedLink = ({ text, href }) => (
     <span className="block text-white transition-transform duration-300 group-hover:-translate-y-full">
       {text}
     </span>
-    <span className="block text-lime-400 absolute left-0 top-full transition-transform duration-300 group-hover:-translate-y-full">
+    <span className="block text-[#F21B23] absolute left-0 top-full transition-transform duration-300 group-hover:-translate-y-full">
       {text}
     </span>
   </a>
@@ -43,7 +43,7 @@ const Navbar = () => {
           <div className="hidden lg:flex items-center space-x-4">
             <a
               href="tel:+01578365379"
-              className="px-6 py-3 border-2 border-white text-white rounded-full hover:bg-white hover:text-gray-900 transition"
+              className="px-6 py-3 border-2 border-white text-white rounded-full hover:bg-[#404143] transition"
             >
               Call +(0)578-365-379
             </a>

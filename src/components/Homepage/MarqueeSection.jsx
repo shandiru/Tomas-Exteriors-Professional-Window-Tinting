@@ -17,7 +17,7 @@ const MarqueeSection = () => {
             <div key={setIndex} className="flex items-center gap-20 px-12">
               {services.map((service, index) => (
                 <div key={index} className="flex items-center gap-4">
-                  <Droplet className="w-8 h-8 text-blue-800 fill-blue-800" />
+                  <Droplet className="w-8 h-8 text-[#F21B23] fill-[#F21B23]" />
                   <span className="text-2xl font-bold text-gray-900">
                     {service}
                   </span>
