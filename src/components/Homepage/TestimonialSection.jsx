@@ -1,85 +1,129 @@
 import React, { useState } from "react";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
 
 const testimonials = [
   {
-    text: `"The team at Aquafix did a fantastic job on our bathroom remodel. Their attention to detail and craftsmanship exceeded our expectations. Will definitely use them again."`,
-    name: "Vivian Guillen",
-    role: "Founder & CEO, Red Pixel",
-    avatar:
-      "https://cdn.prod.website-files.com/6758025a9c7dc8ef4a257c50/677b7957f8385d9493393bbf_testimonial-client-image.svg",
+    text: "Tomas is an absolute professional! From window tinting to custom stickers, his attention to detail and precision are unmatched. No matter the project, the results are always outstanding.",
+    name: "Piotr S.",
+    role: "Local Guide",
   },
   {
-    text: `"Aquafix did an outstanding job on our kitchen renovation! Their professionalism, attention to detail, and quality craftsmanship truly impressed us."`,
-    name: "Lisa R.",
-    role: "Founder & CEO, Elite Builders",
-    avatar:
-      "https://cdn.prod.website-files.com/6758025a9c7dc8ef4a257c50/678d39205e22d847d96c59c5_v1-testimonial-image-6.webp",
+    text: "Amazing service. Great communication and informative advice with pictures of past work to support the process. He takes real pride in his work—the car looks amazing!",
+    name: "Nick Wilde",
+    role: "Tesla Model 3 Owner",
   },
   {
-    text: `"The team at Aquafix transformed our bathroom beautifully. Their expertise and dedication to perfection made the entire process smooth and stress-free."`,
-    name: "Anna B",
-    role: "Founder & CEO, GreenScape",
-    avatar:
-      "https://cdn.prod.website-files.com/6758025a9c7dc8ef4a257c50/678d392eaabf9b67d6a68184_V1-testimonial-image-4.webp",
+    text: "Great job on my Civic Type R. He went the extra mile to sand down scratches that were already on the car. His professionalism is A+ and he treats your car as if it's his own.",
+    name: "Waks",
+    role: "Local Guide",
   },
+  {
+    text: "He delivered amazing standards and kept me updated with pics. He even advised me against a service to save me money because he cares about the look of the car. Refreshing!",
+    name: "Gregg Hilton",
+    role: "Verified Customer",
+  }
 ];
 
 const TestimonialSection = () => {
   const [index, setIndex] = useState(0);
+  const [direction, setDirection] = useState(0);
 
-  const prev = () =>
-    setIndex((index - 1 + testimonials.length) % testimonials.length);
-  const next = () =>
-    setIndex((index + 1) % testimonials.length);
+  const slideVariants = {
+    enter: (direction) => ({ x: direction > 0 ? 100 : -100, opacity: 0 }),
+    center: { x: 0, opacity: 1 },
+    exit: (direction) => ({ x: direction < 0 ? 100 : -100, opacity: 0 }),
+  };
+
+  const next = () => {
+    setDirection(1);
+    setIndex((prev) => (prev + 1) % testimonials.length);
+  };
+
+  const prev = () => {
+    setDirection(-1);
+    setIndex((prev) => (prev - 1 + testimonials.length) % testimonials.length);
+  };
 
   const t = testimonials[index];
 
   return (
-    <section className="relative bg-[#404143] py-40 overflow-hidden text-white">
-      {/* Background Quote Shape */}
-      <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 opacity-[0.06]">
-        <svg width="420" viewBox="0 0 320 220" fill="none">
-          <path
-            d="M0.877441 219.699L12.0588 154.424C15.2823 135.889 22.0314 116.951 32.3062 97.6104C42.7824 78.2696 55.3741 60.037 70.0811 42.9123C84.9896 25.7877 100.503 11.4836 116.62 0L167.389 33.5441C153.085 51.2732 140.695 69.8081 130.219 89.1488C119.743 108.49 112.59 130.046 108.763 153.819L97.5812 219.699H0.877441Z"
-            fill="white"
-          />
-        </svg>
+    <section className="relative bg-[#1A1B1C] py-24 md:py-32 overflow-hidden text-white font-sans">
+      {/* Aesthetic Background Element */}
+      <div className="absolute top-0 left-0 w-full h-full opacity-[0.03] pointer-events-none flex items-center justify-center">
+        <Quote size={400} strokeWidth={1} />
       </div>
 
-      <div className="max-w-6xl mx-auto px-6 relative text-center">
-        {/* Testimonial Text */}
-        <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-snug mb-16">
-          {t.text}
-        </h2>
+      <div className="max-w-4xl mx-auto px-8 relative">
+        <div className="relative min-h-[300px] flex flex-col items-center justify-center text-center">
+          
+          <AnimatePresence mode="wait" custom={direction}>
+            <motion.div
+              key={index}
+              custom={direction}
+              variants={slideVariants}
+              initial="enter"
+              animate="center"
+              exit="exit"
+              transition={{ duration: 0.5, ease: "anticipate" }}
+              className="w-full"
+            >
+              {/* Star Rating (Optional but adds trust) */}
+              <div className="flex justify-center gap-1 mb-8 text-yellow-500">
+                {[...Array(5)].map((_, i) => (
+                  <svg key={i} className="w-5 h-5 fill-current" viewBox="0 0 20 20">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                ))}
+              </div>
 
-        {/* Author */}
-        <div className="flex items-center justify-center gap-4">
-          <img
-            src={t.avatar}
-            alt={t.name}
-            className="w-14 h-14 rounded-full object-cover"
-          />
-          <div className="text-left">
-            <div className="font-semibold">{t.name}</div>
-            <div className="text-sm opacity-80">{t.role}</div>
+              {/* Testimonial Quote */}
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-light italic leading-relaxed text-gray-100 mb-10">
+                {t.text}
+              </h2>
+
+              {/* Author Container */}
+              <div className="flex flex-col items-center gap-4">
+                <div className="w-14 h-14 rounded-full bg-white/5 border border-white/20 flex items-center justify-center text-xl font-bold text-white shadow-2xl">
+                  {t.name.charAt(0)}
+                </div>
+                <div>
+                  <div className="text-lg font-semibold tracking-tight">{t.name}</div>
+                 
+                </div>
+              </div>
+            </motion.div>
+          </AnimatePresence>
+
+          {/* Navigation Arrows */}
+          <div className="absolute inset-x-0 top-1/2 -translate-y-1/2 flex justify-between pointer-events-none">
+            <button
+              onClick={prev}
+              className="pointer-events-auto w-12 h-12 rounded-full border border-white/10 flex items-center justify-center hover:bg-white hover:text-black transition-all group"
+            >
+              <ChevronLeft size={20} className="group-hover:scale-110 transition-transform" />
+            </button>
+            <button
+              onClick={next}
+              className="pointer-events-auto w-12 h-12 rounded-full border border-white/10 flex items-center justify-center hover:bg-white hover:text-black transition-all group"
+            >
+              <ChevronRight size={20} className="group-hover:scale-110 transition-transform" />
+            </button>
           </div>
         </div>
 
-        {/* Arrows */}
-        <button
-          onClick={prev}
-          className="absolute left-6 top-1/2 -translate-y-1/2 w-14 h-14 rounded-full border border-white/40 flex items-center justify-center hover:bg-white hover:text-[#F21B23] transition"
-        >
-          <ChevronLeft size={24} />
-        </button>
-
-        <button
-          onClick={next}
-          className="absolute right-6 top-1/2 -translate-y-1/2 w-14 h-14 rounded-full border border-white/40 flex items-center justify-center hover:bg-white hover:text-[#F21B23] transition"
-        >
-          <ChevronRight size={24} />
-        </button>
+        {/* Progress Dots */}
+        <div className="flex justify-center gap-3 mt-12">
+          {testimonials.map((_, i) => (
+            <button
+              key={i}
+              onClick={() => setIndex(i)}
+              className={`h-1.5 transition-all duration-500 rounded-full ${
+                i === index ? "w-10 bg-white" : "w-3 bg-white/20"
+              }`}
+            />
+          ))}
+        </div>
       </div>
     </section>
   );
