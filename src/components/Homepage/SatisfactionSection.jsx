@@ -8,54 +8,62 @@ const stats = [
 
 const SatisfactionSection = () => {
   return (
-    <section className="relative bg-white py-16 overflow-hidden">
-      <div className="relative max-w-7xl mx-auto px-6">
-
-        {/* LEFT IMAGE */}
-        <img
-          src="https://cdn.prod.website-files.com/6758025a9c7dc8ef4a257c50/675d2e311d25b2e8c9c34146_moving-image-6.webp"
-          alt=""
-          className="hidden lg:block absolute left-0 top-1/2 -translate-y-1/2 w-[260px] rounded-2xl shadow-xl"
-        />
-
-        {/* RIGHT IMAGES */}
-        <div className="hidden lg:flex absolute right-0 top-1/2 -translate-y-1/2 flex-col gap-8">
-          <img
-            src="https://cdn.prod.website-files.com/6758025a9c7dc8ef4a257c50/675d2ac6f7d3f72d5ccc2773_moving-image.webp"
-            alt=""
-            className="w-[260px] rounded-2xl shadow-xl"
-          />
-          <img
-            src="https://cdn.prod.website-files.com/6758025a9c7dc8ef4a257c50/67626f2443ac7f2dae799f5b_customer-satisfaction.webp"
-            alt=""
-            className="w-[260px] rounded-2xl shadow-xl"
-          />
-        </div>
-
-        {/* CONTENT */}
-        <div className="relative z-10 text-center max-w-5xl mx-auto">
-          <span className="block mb-6 text-[#F21B23] font-semibold text-sm tracking-wide">
-            Welcome to Thomas Exterior
-          </span>
-
-          <h2 className="text-4xl font-bold text-black leading-tight mb-10">
-            With years of hands-on industry experience, Thomas Exterior Professional Window Tinting delivers precision-driven services, premium materials, and flawless finishes for every vehicle we work on.
-          </h2>
-          <h2 className="text-4xl font-bold text-black leading-tight mb-10">We’re committed to enhancing vehicle aesthetics, improving visibility, and ensuring long-lasting performance through expert craftsmanship and attention to detail.</h2>
-
-          {/* STATS */}
-          <div className="flex flex-col sm:flex-row justify-center gap-20">
-            {stats.map((item, index) => (
-              <div key={index} className="text-center">
-                <div className="text-5xl font-extrabold text-[#F21B23] mb-3">
-                  {item.value}
-                </div>
-                <div className="text-[#404143] text-base">
-                  {item.label}
-                </div>
-              </div>
-            ))}
+    <section className="relative bg-white py-16 lg:py-24 overflow-hidden">
+      <div className="max-w-7xl mx-auto px-6">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          
+          {/* LEFT IMAGE - Hidden on mobile, visible on LG */}
+          <div className="hidden lg:block lg:col-span-3">
+            <img
+              src="https://cdn.prod.website-files.com/6758025a9c7dc8ef4a257c50/675d2e311d25b2e8c9c34146_moving-image-6.webp"
+              alt="Window Tinting Expert"
+              className="w-full rounded-2xl shadow-2xl transform -rotate-3 hover:rotate-0 transition-transform duration-500"
+            />
           </div>
+
+          {/* CENTER CONTENT */}
+          <div className="lg:col-span-6 text-center z-10">
+            <span className="inline-block mb-6 text-[#F21B23] font-bold text-sm tracking-[0.2em] uppercase border-b-2 border-[#F21B23]/20 pb-2">
+              Welcome to Thomas Exterior
+            </span>
+
+            <h2 className="text-2xl md:text-3xl font-bold text-black leading-tight mb-8">
+              With years of hands-on industry experience, Thomas Exterior Professional Window Tinting delivers precision-driven services, premium materials, and flawless finishes.
+            </h2>
+            
+            <p className="text-gray-600 text-lg leading-relaxed mb-12">
+              We’re committed to enhancing vehicle aesthetics, improving visibility, and ensuring long-lasting performance through expert craftsmanship and attention to detail.
+            </p>
+
+            {/* STATS */}
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 pt-8 border-t border-gray-100">
+              {stats.map((item, index) => (
+                <div key={index} className="flex flex-col items-center">
+                  <span className="text-4xl md:text-5xl font-black text-[#F21B23] mb-2">
+                    {item.value}
+                  </span>
+                  <span className="text-[#404143] font-medium uppercase text-xs tracking-widest">
+                    {item.label}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* RIGHT IMAGES - Hidden on mobile, visible on LG */}
+          <div className="hidden lg:flex lg:col-span-3 flex-col gap-6">
+            <img
+              src="https://cdn.prod.website-files.com/6758025a9c7dc8ef4a257c50/675d2ac6f7d3f72d5ccc2773_moving-image.webp"
+              alt="Car Tinting"
+              className="w-full rounded-2xl shadow-xl transform rotate-3 hover:rotate-0 transition-transform duration-500"
+            />
+            <img
+              src="https://cdn.prod.website-files.com/6758025a9c7dc8ef4a257c50/67626f2443ac7f2dae799f5b_customer-satisfaction.webp"
+              alt="Satisfied Customer"
+              className="w-full rounded-2xl shadow-xl translate-x-4"
+            />
+          </div>
+
         </div>
       </div>
     </section>
