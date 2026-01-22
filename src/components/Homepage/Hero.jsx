@@ -34,7 +34,7 @@ const HeroSection = () => {
             <div className="flex items-center gap-6">
               <a
                 href="#quote"
-                className="bg-[#F21B23] hover:bg-[#404143] text-black font-semibold px-10 py-4 rounded-full transition"
+                className="bg-[#F21B23] hover:bg-[#e7e8eb] text-black font-semibold px-10 py-4 rounded-full transition"
               >
                  Chat with Us on WhatsApp
               </a>
