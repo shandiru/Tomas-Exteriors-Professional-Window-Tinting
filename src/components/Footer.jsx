@@ -78,8 +78,8 @@ const Footer = () => {
         <div>Powered by <a href="https://www.ansely.co.uk/" className="hover:underline hover:text-[#F21B23]">Ansely</a></div>
 
         <div className="flex gap-6">
-          <a href="#" className="underline hover:text-white transition">Privacy Policy</a>
-          <a href="#" className="underline hover:text-white transition">Terms of Service</a>
+          <a href="/privacy-policy" className="underline hover:text-white transition">Privacy Policy</a>
+          <a href="/terms-conditions" className="underline hover:text-white transition">Terms of Service</a>
         </div>
       </div>
     </footer>

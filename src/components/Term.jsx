@@ -78,10 +78,10 @@ const TermsConditions = () => {
                       </p>
                       <div className="text-white">
                          <p><strong>BROADWAY REMAPPING</strong></p>
-                        <p>Email: <a href="mailto:yandmjones@outlook.com" className="text-red-400 hover:underline">yandmjones@outlook.com</a></p>
-                        <p>Phone: +44 7392 791919</p>
-                        <p>Address: Que Sera, Pentre Hill,
-Flint Mountain, Flint, United Kingdom</p>
+                         <p><strong>Tomas Exteriors Professional Window Tinting</strong></p>
+                        <p>Email: <a href="mailto:thomasexteriors@gmail.com" className="text-red-400 hover:underline">thomasexteriors@gmail.com</a></p>
+                        <p>Phone: +44 7851 823807</p>
+                        <p>Address: Unit 16 Croft St, Bury BL9 7BG, United Kingdom</p>
                       </div>
                   </section>
               </div>
