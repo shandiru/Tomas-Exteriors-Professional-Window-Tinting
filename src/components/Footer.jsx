@@ -1,5 +1,5 @@
 import React from "react";
-import { Instagram, Facebook, Linkedin, Twitter } from "lucide-react";
+import { Instagram, Facebook } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -20,19 +20,19 @@ const Footer = () => {
 
             {/* SOCIALS */}
             <div className="flex gap-5 mt-auto">
-              <a href="#" className="hover:text-pink-500 transition text-2xl">
+              <a href="https://www.instagram.com/window_tint911/" className="hover:text-pink-500 transition text-2xl">
                 <Instagram />
               </a>
-              <a href="#" className="hover:text-blue-500 transition text-2xl">
+              <a href="https://web.facebook.com/windowtint911?_rdc=1&_rdr#" className="hover:text-blue-500 transition text-2xl">
                 <Facebook />
               </a>
             </div>
           </div>
 
-          {/* PAGES - CENTER SECTION */}
-          <div className="flex flex-col flex-1 items-center">
+          {/* PAGES */}
+          <div className="flex flex-col flex-1 md:items-center">
             <h4 className="text-lg font-semibold mb-6">Pages</h4>
-            <ul className="space-y-4 text-gray-300 text-center">
+            <ul className="space-y-4 text-gray-300 md:text-center">
               <li><a href="/" className="hover:text-white transition">Home</a></li>
               <li><a href="/about" className="hover:text-white transition">About Us</a></li>
               <li><a href="/service" className="hover:text-white transition">Service</a></li>
@@ -40,15 +40,26 @@ const Footer = () => {
             </ul>
           </div>
 
+          {/* OPENING HOURS - NEW SECTION */}
+          <div className="flex flex-col flex-1 md:items-center">
+            <h4 className="text-lg font-semibold mb-6">Opening Hours</h4>
+            <ul className="space-y-2 text-gray-300 md:text-center text-sm">
+              <li>Mon - Thu: 9 AM – 10 PM</li>
+              <li>Friday: 9 AM – 10 PM</li>
+              <li>Saturday: 9 AM – 6 PM</li>
+              <li>Sunday: 9 AM – 6 PM</li>
+            </ul>
+          </div>
+
           {/* COMPANY */}
-          <div className="flex flex-col flex-1 md:items-end items-center">
+          <div className="flex flex-col flex-1 md:items-end items-start">
             <h4 className="text-lg font-semibold mb-6">Company</h4>
-            <ul className="space-y-4 text-gray-300 md:text-right text-center">
+            <ul className="space-y-4 text-gray-300 md:text-right">
               <li>(62) 1829017</li>
               <li>thomasexteriors@gmail.com</li>
               <li>
-                2912 Meadowbrook Road,<br />
-                Los Angeles, CA 90017
+                Unit 16 Croft St, Bury<br />
+                BL9 7BG, United Kingdom
               </li>
             </ul>
           </div>

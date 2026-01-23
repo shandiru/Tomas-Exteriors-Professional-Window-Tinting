@@ -42,10 +42,10 @@ const Navbar = () => {
           {/* Right Side */}
           <div className="hidden lg:flex items-center space-x-4">
             <a
-              href="tel:+01578365379"
+              href="tel:+447851823807"
               className="px-6 py-3 border-2 border-white text-white rounded-full hover:bg-[#404143] transition"
             >
-              Call +(0)578-365-379
+              Call +44 7851 823807
             </a>
           </div>
 

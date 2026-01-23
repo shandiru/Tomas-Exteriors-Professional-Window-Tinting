@@ -29,7 +29,9 @@ const GlobalCTA = () => {
               </h2>
 
               <a
-                href="/contact"
+                href="https://wa.me/447851823807"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center bg-[#F21B23] text-black font-semibold px-8 py-4 rounded-full w-fit hover:bg-white transition"
               >
                 Get a Quote via WhatsApp
@@ -56,7 +58,9 @@ const GlobalCTA = () => {
 
             {/* Call Button */}
             <a
-              href="tel:+1578365379"
+              href="https://wa.me/447851823807"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center bg-[#F21B23] text-white font-semibold px-8 py-4 rounded-full hover:bg-[#141420] transition"
             >
               Start a WhatsApp Chat
