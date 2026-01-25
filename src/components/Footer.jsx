@@ -20,10 +20,10 @@ const Footer = () => {
 
             {/* SOCIALS */}
             <div className="flex gap-5 mt-auto">
-              <a href="https://www.instagram.com/window_tint911/" className="hover:text-pink-500 transition text-2xl">
+              <a href="https://www.instagram.com/window_tint911/" target="_blank" className="hover:text-pink-500 transition text-2xl">
                 <Instagram />
               </a>
-              <a href="https://web.facebook.com/windowtint911?_rdc=1&_rdr#" className="hover:text-blue-500 transition text-2xl">
+              <a href="https://web.facebook.com/windowtint911?_rdc=1&_rdr#" target="_blank" className="hover:text-blue-500 transition text-2xl">
                 <Facebook />
               </a>
             </div>
@@ -55,14 +55,35 @@ const Footer = () => {
           <div className="flex flex-col flex-1 md:items-end items-start">
             <h4 className="text-lg font-semibold mb-6">Company</h4>
             <ul className="space-y-4 text-gray-300 md:text-right">
-              <li>(62) 1829017</li>
-              <li>thomasexteriors@gmail.com</li>
+              {/* Clickable phone */}
               <li>
-                Unit 16 Croft St, Bury<br />
-                BL9 7BG, United Kingdom
+                <a href="tel: +447851823807" className="hover:text-white transition-colors">
+                   +44 7851 823807
+                </a>
+              </li>
+
+              {/* Clickable email */}
+              <li>
+                <a href="mailto:thomasexteriors@gmail.com" className="hover:text-white transition-colors">
+                  thomasexteriors@gmail.com
+                </a>
+              </li>
+
+              {/* Clickable address (Google Maps link) */}
+              <li>
+                <a
+                  href="https://maps.app.goo.gl/GPi6frsETUX1cu4VA"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white transition-colors"
+                >
+                  Unit 16 Croft St, Bury<br />
+                  BL9 7BG, United Kingdom
+                </a>
               </li>
             </ul>
           </div>
+
         </div>
       </div>
 
