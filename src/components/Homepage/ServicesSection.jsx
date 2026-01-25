@@ -6,37 +6,37 @@ const services = [
     number: "01",
     title: "Window Tinting",
     desc: "High-quality automotive window tinting using premium films to reduce heat, glare, and UV exposure while enhancing comfort and style.",
-    link: "#",
+    link: "/Window-Tinting",
   },
   {
     number: "02",
     title: "Headlight Restoration",
     desc: "Remove oxidation, yellowing, and haze from headlights to restore clarity, brightness, and improved night-time visibility.",
-    link: "#",
+    link: "/Headlight",
   },
   {
     number: "03",
     title: "Headlight Crack Repair",
     desc: "Cost-effective solutions for repairing cracked headlights, preventing moisture buildup and further damage.",
-    link: "#",
+    link: "/Headlight",
   },
   {
     number: "04",
     title: "Headlight Condensation Repair",
     desc: "Eliminate moisture and fog buildup inside headlights, restoring clear illumination and preventing electrical issues.",
-    link: "#",
+    link: "/Headlight",
   },
   {
     number: "05",
     title: "Headlight Lens Replacement",
     desc: "Complete lens replacement services for headlights that are beyond restoration, ensuring safety and compliance.",
-    link: "#",
+    link: "/Headlight",
   },
   {
     number: "06",
     title: "Exterior Enhancement Services",
     desc: "Professional exterior detailing solutions focused on improving visibility, safety, and the overall aesthetic of your vehicle.",
-    link: "#",
+    link: "/Headlight",
   },
 ];
 
