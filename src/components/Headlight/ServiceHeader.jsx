@@ -21,19 +21,24 @@ const ServiceHeader = () => {
               Keep your vehicle’s headlights bright, clear, and fully functional with professional headlight services from Thomas Exterior. We specialize in restoring, repairing, and replacing headlights to improve safety, visibility, and overall vehicle appearance.
             </p>
           </div>
-          
+
           <div className="flex-shrink-0">
-            <button className="bg-[#F21B23] hover:bg-[#404143] cursor-pointer text-white px-8 py-3 rounded-full font-semibold transition-all duration-200">
+            <a
+              href="https://wa.me/447851823807"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-[#F21B23] hover:bg-[#404143] text-white px-8 py-3 rounded-full font-semibold transition-all duration-200"
+            >
               Get a Quote via WhatsApp
-            </button>
+            </a>
           </div>
         </div>
 
         {/* Hero Image Section */}
         <div className="relative w-full rounded-[2rem] overflow-hidden shadow-xl">
-          <img 
-            src="/s4.jpg" 
-            alt="Plumber fixing a faucet" 
+          <img
+            src="/s4.jpg"
+            alt="Plumber fixing a faucet"
             className="w-full h-[300px] md:h-[600px] object-cover"
           />
           {/* Optional Overlay to match lighting if needed */}

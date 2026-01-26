@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 // import MarqueeSection from "../Homepage/MarqueeSection"; // Uncomment if file exists
 
 const HeroSection = () => {
@@ -13,14 +14,10 @@ const HeroSection = () => {
           muted
           playsInline
           poster="/fall.png"
-          // Removed the style.display="none" to prevent it from hiding during minor lag
         >
           <source src="/video.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-
-        {/* Overlay: Changed from solid color to semi-transparent gradient/overlay */}
-        {/* bg-black/50 allows the video to show through while keeping text readable */}
         <div className="absolute inset-0 bg-black/50 z-10"></div>
       </div>
 
@@ -53,21 +50,15 @@ const HeroSection = () => {
                 Chat with Us on WhatsApp
               </a>
               
-              <a
-                href="#services"
+              <Link
+                to="/service"
                 className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-black font-bold px-10 py-4 rounded-full transition-all duration-300 inline-block uppercase tracking-wider text-sm"
               >
                 Our Services
-              </a>
+              </Link>
             </div>
           </div>
         </div>
-
-        {/* MARQUEE SECTION (Positioned at bottom) */}
-        {/* <div className="absolute bottom-10 w-full">
-          <MarqueeSection />
-        </div> 
-        */}
       </div>
     </section>
   );

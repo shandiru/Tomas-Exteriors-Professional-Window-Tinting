@@ -14,7 +14,6 @@ const TimelineSection = () => {
                 const rect = sectionRef.current.getBoundingClientRect();
                 const windowHeight = window.innerHeight;
 
-                // The scroll starts "filling" when the top of the section is 200px above the viewport center
                 // This prevents the first circle from being active the moment the page loads
                 const startOffset = windowHeight / 2;
                 const start = rect.top - startOffset;
@@ -36,25 +35,25 @@ const TimelineSection = () => {
             year: "2015",
             title: "Company Establishment",
             desc: "Thomas Exterior Professional Window Tinting started as a focused automotive service brand driven by a passion for quality vehicle enhancement. What began as hands-on tinting work quickly grew into a trusted name for precision window tinting and advanced headlight services.",
-            img: "a1.webp",
+            img: "a4.jpg",
         },
         {
             year: "2018",
             title: "Our Journey",
             desc: "Founded with a clear goal of delivering reliable, high-quality automotive exterior solutions, Thomas Exterior has continuously evolved by adopting modern techniques, premium materials, and customer-first service standards.",
-            img: "a1.webp",
+            img: "pexels-max-kladitin-456997122-18382225.jpg",
         },
         {
             year: "2021",
             title: "Our Story",
             desc: "From humble beginnings, Thomas Exterior has grown into a respected automotive service provider. With years of experience, we specialize in enhancing vehicle safety, visibility, and aesthetics through expert tinting and headlight solutions.",
-            img: "a1.webp",
+            img: "pexels-vadutskevich-13575248.jpg",
         },
         {
             year: "2024",
             title: "Thomas Exterior Overview",
             desc: "Thomas Exterior began as a local automotive service and has steadily built a reputation for professionalism, precision, and customer satisfaction. Our focus on quality workmanship and long-lasting results has made us a trusted choice among vehicle owners.",
-            img: "a1.webp",
+            img: "a2.jpg",
         },
     ];
 
@@ -77,9 +76,6 @@ const TimelineSection = () => {
 
                     <div className="space-y-24 lg:space-y-32">
                         {timelineData.map((item, index) => {
-                            // IMPROVED LOGIC: 
-                            // We set manual thresholds so the first circle (index 0) 
-                            // only activates once the line has actually moved down (e.g., 5% filled)
                             const thresholds = [5, 35, 65, 95];
                             const isActive = lineHeight >= thresholds[index];
 
