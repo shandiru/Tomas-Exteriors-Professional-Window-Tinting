@@ -10,7 +10,7 @@ const GlobalCTA = () => {
           <div className="relative lg:col-span-2 rounded-3xl overflow-hidden">
             {/* Background Image */}
             <img
-              src="https://cdn.prod.website-files.com/6758025a9c7dc8ef4a257c50/67d3e1b8879919b30bb48138_CTA%20card%20image.avif"
+              src="pexels-vadutskevich-13575248.jpg"
               alt="Plumbing Service"
               className="absolute inset-0 w-full h-full object-cover"
             />

@@ -15,7 +15,7 @@ const SatisfactionSection = () => {
           {/* LEFT IMAGE - Hidden on mobile, visible on LG */}
           <div className="hidden lg:block lg:col-span-3">
             <img
-              src="https://cdn.prod.website-files.com/6758025a9c7dc8ef4a257c50/675d2e311d25b2e8c9c34146_moving-image-6.webp"
+              src="pexels-daeyeoung-ahn-1552650783-27243718.jpg"
               alt="Window Tinting Expert"
               className="w-full rounded-2xl shadow-2xl transform -rotate-3 hover:rotate-0 transition-transform duration-500"
             />
@@ -53,12 +53,12 @@ const SatisfactionSection = () => {
           {/* RIGHT IMAGES - Hidden on mobile, visible on LG */}
           <div className="hidden lg:flex lg:col-span-3 flex-col gap-6">
             <img
-              src="https://cdn.prod.website-files.com/6758025a9c7dc8ef4a257c50/675d2ac6f7d3f72d5ccc2773_moving-image.webp"
+              src="pexels-max-kladitin-456997122-18382225.jpg"
               alt="Car Tinting"
               className="w-full rounded-2xl shadow-xl transform rotate-3 hover:rotate-0 transition-transform duration-500"
             />
             <img
-              src="https://cdn.prod.website-files.com/6758025a9c7dc8ef4a257c50/67626f2443ac7f2dae799f5b_customer-satisfaction.webp"
+              src="pexels-vadutskevich-13575248.jpg"
               alt="Satisfied Customer"
               className="w-full rounded-2xl shadow-xl translate-x-4"
             />
