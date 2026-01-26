@@ -19,7 +19,8 @@ const MissionVision = () => {
         {/* MISSION */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
           <img
-            src="/a1.webp"
+            src="/pexels-vadutskevich-13575248.jpg"
+            loading="lazy"
             alt="Our Mission"
             className="rounded-2xl w-full object-cover h-[280px] sm:h-[350px]"
           />
@@ -58,8 +59,9 @@ const MissionVision = () => {
           </div>
 
           <img
-            src="/a1.webp"
+            src="/pexels-max-kladitin-456997122-18382225.jpg"
             alt="Our Vision"
+            loading="lazy"
             className="rounded-2xl w-full object-cover h-[280px] sm:h-[350px]"
           />
         </div>
