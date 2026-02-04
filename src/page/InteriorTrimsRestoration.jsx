@@ -6,14 +6,14 @@ import { serviceWorkflowData } from "../Data/serviceWorkflowData"
 import Gallery from '../Data/Gallery'
 import GalleryCarousel from '../Common/GalleryCarousel'
 
-const HeadlightServices = () => {
+const InteriorTrimsRestoration = () => {
   return (
     <div>
-      <ServiceHeader data={serviceHeaderData.HeadlightServices}/>
-      <ServiceSection data={serviceWorkflowData.HeadlightServices}/>
-      <GalleryCarousel data={Gallery.HeadlightServices} />
+      <ServiceHeader data={serviceHeaderData.InteriorTrimsRestoration}/>
+      <ServiceSection data={serviceWorkflowData.InteriorTrimsRestoration}/>
+      <GalleryCarousel data={Gallery.InteriorTrimsRestoration} />
     </div>
   )
 }
 
-export default HeadlightServices;
+export default InteriorTrimsRestoration;

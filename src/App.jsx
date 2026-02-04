@@ -16,6 +16,9 @@ import ServiceOverview  from "../src/page/ServiceOverview"
 import Contact from "./page/Contact";
 import Headlight from "./page/Headlight";
 import WindowTint from "./page/WindowTint";
+import BuildingWindowTinting from "./page/BuildingWindowTinting";
+import IntelligentAmbientLightInstallation from "./page/IntelligentAmbientLight";
+import InteriorTrimsRestoration from "./page/InteriorTrimsRestoration";
 
 function App() {
   useEffect(() => {
@@ -37,6 +40,9 @@ function App() {
         <Route path="/service" element={<ServiceOverview />} />
         <Route path="/Window-Tinting" element={<WindowTint/>} />
         <Route path="/Headlight" element={<Headlight />} />
+        <Route path="/Building-Window-Tinting" element={<BuildingWindowTinting />} />
+        <Route path="/Intelligent-Ambient-Light-Installation" element={<IntelligentAmbientLightInstallation />} />
+        <Route path="/Interior-Trims-Restoration" element={<InteriorTrimsRestoration />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/terms-conditions" element={<TermsConditions />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />

@@ -1,5 +1,6 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const services = [
   {
@@ -42,19 +43,19 @@ const services = [
     number: "07",
     title: "Building Window Tinting",
     desc: "Professional tinting for home and office windows, terraces, and bespoke privacy solutions.",
-    link: "/Window-Tinting",
+    link: "/Building-Window-Tinting",
   },
   {
     number: "08",
     title: "Intelligent Ambient Light Installation",
     desc: "Premium ambient lighting installation for a modern look with custom options.",
-    link: "/Ambient-Lighting",
+    link: "/Intelligent-Ambient-Light-Installation",
   },
   {
     number: "09",
     title: "Interior Trims Restoration / Wrapping",
     desc: "Restore or wrap interior trims for a refreshed, clean, high-end finish.",
-    link: "/Interior-Wrapping",
+    link: "/Interior-Trims-Restoration",
   },
 ];
 
@@ -76,9 +77,9 @@ const ServicesSection = () => {
         {/* Services Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mb-20">
           {services.map((service, index) => (
-            <a
+            <Link
               key={index}
-              href={service.link}
+              to={service.link}
               className="group relative bg-white rounded-2xl p-8 text-left flex flex-col transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
             >
               {/* Number */}
@@ -102,7 +103,7 @@ const ServicesSection = () => {
                   <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
                 </span>
               </div>
-            </a>
+            </Link>
           ))}
         </div>
       </div>
