@@ -6,7 +6,7 @@ export const serviceWorkflowData = {
         // About Service Section
         aboutService: {
             title: "About this Service",
-            intro: "At Thomas Exterior, we provide premium automotive window tinting tailored to your vehicle and personal preferences. Using top-quality films and expert installation techniques, we ensure:",
+            intro: "At Tomas Exterior, we provide premium automotive window tinting tailored to your vehicle and personal preferences. Using top-quality films and expert installation techniques, we ensure:",
             features: [
                 "Heat reduction and glare control",
                 "UV ray protection for interior surfaces",
@@ -61,7 +61,7 @@ export const serviceWorkflowData = {
         benefits: {
             badge: "Benefits",
             title: "Service Benefits",
-            intro: "Choosing Thomas Exterior for window tinting gives you:",
+            intro: "Choosing Tomas Exterior for window tinting gives you:",
             items: [
                 "Improved driving comfort with reduced heat and glare",
                 "Protection against UV damage to your interior and skin",
@@ -265,7 +265,7 @@ export const serviceWorkflowData = {
         benefits: {
             badge: "Benefits",
             title: "Service Benefits",
-            intro: "Choosing Thomas Exterior for headlight services provides:",
+            intro: "Choosing Tomas Exterior for headlight services provides:",
             items: [
                 "Clear, bright headlights for safer driving at night",
                 "Cost-effective crack repair and restoration alternatives to full replacement",
@@ -318,7 +318,7 @@ export const serviceWorkflowData = {
         badge: "Service Details",
         aboutService: {
             title: "About this Service",
-            intro: "Interior trims can fade, scratch, or wear over time—making your vehicle look older than it is. At Thomas Exterior, we restore and wrap interior trims to bring back a clean, premium finish without the cost of replacement.",
+            intro: "Interior trims can fade, scratch, or wear over time—making your vehicle look older than it is. At Tomas Exterior, we restore and wrap interior trims to bring back a clean, premium finish without the cost of replacement.",
             features: [
                 "Scratched or faded interior trims",
                 "Upgrading interior style and colour",
@@ -369,7 +369,7 @@ export const serviceWorkflowData = {
         benefits: {
             badge: "Benefits",
             title: "Service Benefits",
-            intro: "Choosing Thomas Exterior for interior trims restoration and wrapping provides:",
+            intro: "Choosing Tomas Exterior for interior trims restoration and wrapping provides:",
             items: [
                 "Fresh interior look without replacing parts",
                 "Premium modern finish",
@@ -472,7 +472,7 @@ export const serviceWorkflowData = {
         benefits: {
             badge: "Benefits",
             title: "Service Benefits",
-            intro: "Choosing Thomas Exterior for ambient light installation provides:",
+            intro: "Choosing Tomas Exterior for ambient light installation provides:",
             items: [
                 "Premium modern appearance",
                 "Safe and professional wiring",
@@ -522,7 +522,7 @@ export const serviceWorkflowData = {
         badge: "Service Details",
         aboutService: {
             title: "About this Service",
-            intro: "At Thomas Exterior, we provide high-quality building window tinting solutions designed to improve privacy and comfort while maintaining a bright, modern look. Whether you need tinting for your home, office, terrace, or a custom project, we deliver results that look great and perform even better.",
+            intro: "At Tomas Exterior, we provide high-quality building window tinting solutions designed to improve privacy and comfort while maintaining a bright, modern look. Whether you need tinting for your home, office, terrace, or a custom project, we deliver results that look great and perform even better.",
             features: [
                 "Increased privacy without blocking natural light",
                 "Reduced glare for screens and living spaces",
@@ -574,7 +574,7 @@ export const serviceWorkflowData = {
         benefits: {
             badge: "Benefits",
             title: "Service Benefits",
-            intro: "Choosing Thomas Exterior for building window tinting provides:",
+            intro: "Choosing Tomas Exterior for building window tinting provides:",
             items: [
                 "Improved privacy and comfort",
                 "Reduced glare and heat",

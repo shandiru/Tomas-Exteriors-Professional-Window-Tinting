@@ -28,7 +28,7 @@ const SatisfactionSection = () => {
             </span>
 
             <h2 className="text-2xl md:text-3xl font-bold text-black leading-tight mb-8">
-              With a reputation built on quality and precision, Thomas Exterior delivers professional window tinting and headlight services with a flawless finish.
+              With a reputation built on quality and precision, Tomas Exterior delivers professional window tinting and headlight services with a flawless finish.
             </h2>
 
             <p className="text-gray-600 text-lg leading-relaxed mb-12">
