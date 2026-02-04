@@ -170,7 +170,7 @@ const HeadlightServiceSection = () => {
                 <h2 className="text-4xl md:text-5xl font-black">Service Benefits</h2>
               </div>
               <p className="text-[#404143] text-lg leading-relaxed">
-                Choosing Thomas Exterior for headlight services provides:
+                Choosing Tomas Exterior for headlight services provides:
               </p>
               <ul className="space-y-4">
                 {[

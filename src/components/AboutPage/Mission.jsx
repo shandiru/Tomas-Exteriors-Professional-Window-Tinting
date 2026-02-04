@@ -30,7 +30,7 @@ const MissionVision = () => {
               Our Mission
             </h3>
             <p className="text-[#404143] mb-6">
-             At Thomas Exterior, our mission is to deliver premium window tinting and professional headlight solutions that enhance vehicle safety, comfort, and aesthetics. We are committed to exceptional service, reliable workmanship, and long-lasting results.
+             At Tomas Exterior, our mission is to deliver premium window tinting and professional headlight solutions that enhance vehicle safety, comfort, and aesthetics. We are committed to exceptional service, reliable workmanship, and long-lasting results.
             </p>
 
             <ul className="space-y-3">

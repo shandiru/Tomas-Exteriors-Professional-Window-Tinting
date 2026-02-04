@@ -34,25 +34,25 @@ const TimelineSection = () => {
         {
             year: "2015",
             title: "Company Establishment",
-            desc: "Thomas Exterior Professional Window Tinting started as a focused automotive service brand driven by a passion for quality vehicle enhancement. What began as hands-on tinting work quickly grew into a trusted name for precision window tinting and advanced headlight services.",
+            desc: "Tomas Exterior Professional Window Tinting started as a focused automotive service brand driven by a passion for quality vehicle enhancement. What began as hands-on tinting work quickly grew into a trusted name for precision window tinting and advanced headlight services.",
             img: "a4.jpg",
         },
         {
             year: "2018",
             title: "Our Journey",
-            desc: "Founded with a clear goal of delivering reliable, high-quality automotive exterior solutions, Thomas Exterior has continuously evolved by adopting modern techniques, premium materials, and customer-first service standards.",
+            desc: "Founded with a clear goal of delivering reliable, high-quality automotive exterior solutions, Tomas Exterior has continuously evolved by adopting modern techniques, premium materials, and customer-first service standards.",
             img: "pexels-max-kladitin-456997122-18382225.jpg",
         },
         {
             year: "2021",
             title: "Our Story",
-            desc: "From humble beginnings, Thomas Exterior has grown into a respected automotive service provider. With years of experience, we specialize in enhancing vehicle safety, visibility, and aesthetics through expert tinting and headlight solutions.",
+            desc: "From humble beginnings, Tomas Exterior has grown into a respected automotive service provider. With years of experience, we specialize in enhancing vehicle safety, visibility, and aesthetics through expert tinting and headlight solutions.",
             img: "pexels-vadutskevich-13575248.jpg",
         },
         {
             year: "2024",
-            title: "Thomas Exterior Overview",
-            desc: "Thomas Exterior began as a local automotive service and has steadily built a reputation for professionalism, precision, and customer satisfaction. Our focus on quality workmanship and long-lasting results has made us a trusted choice among vehicle owners.",
+            title: "Tomas Exterior Overview",
+            desc: "Tomas Exterior began as a local automotive service and has steadily built a reputation for professionalism, precision, and customer satisfaction. Our focus on quality workmanship and long-lasting results has made us a trusted choice among vehicle owners.",
             img: "a2.jpg",
         },
     ];

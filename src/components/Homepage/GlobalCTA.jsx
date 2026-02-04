@@ -51,7 +51,7 @@ const GlobalCTA = () => {
 
               {/* Text */}
               <h3 className="text-white text-lg font-semibold leading-relaxed mb-8">
-                This is Thomas, Founder of Thomas Exterior. <br />
+                This is Tomas, Founder of Tomas Exterior. <br />
                 I’m here to personally answer your questions and help you choose the best window tinting or headlight solution for your vehicle.
               </h3>
             </div>

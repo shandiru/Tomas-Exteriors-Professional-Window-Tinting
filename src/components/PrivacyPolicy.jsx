@@ -111,7 +111,7 @@ const PrivacyPolicy = () => {
                     </p>
                     <div className="text-white">
                         <p><strong>Tomas Exteriors Professional Window Tinting</strong></p>
-                        <p>Email: <a href="mailto:thomasexteriors@gmail.com" className="text-red-400 hover:underline">thomasexteriors@gmail.com</a></p>
+                        <p>Email: <a href="mailto:Tomasexteriors@gmail.com" className="text-red-400 hover:underline">Tomasexteriors@gmail.com</a></p>
                         <p>Phone: +44 7851 823807</p>
                         <p>Address: Unit 16 Croft St, Bury BL9 7BG, United Kingdom</p>
                     </div>

@@ -38,6 +38,24 @@ const services = [
     desc: "Professional exterior detailing solutions focused on improving visibility, safety, and the overall aesthetic of your vehicle.",
     link: "/Headlight",
   },
+  {
+    number: "07",
+    title: "Building Window Tinting",
+    desc: "Professional tinting for home and office windows, terraces, and bespoke privacy solutions.",
+    link: "/Window-Tinting",
+  },
+  {
+    number: "08",
+    title: "Intelligent Ambient Light Installation",
+    desc: "Premium ambient lighting installation for a modern look with custom options.",
+    link: "/Ambient-Lighting",
+  },
+  {
+    number: "09",
+    title: "Interior Trims Restoration / Wrapping",
+    desc: "Restore or wrap interior trims for a refreshed, clean, high-end finish.",
+    link: "/Interior-Wrapping",
+  },
 ];
 
 

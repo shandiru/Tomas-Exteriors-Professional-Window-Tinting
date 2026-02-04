@@ -11,7 +11,7 @@ const SatisfactionSection = () => {
     <section className="relative bg-white py-16 lg:py-24 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-          
+
           {/* LEFT IMAGE - Hidden on mobile, visible on LG */}
           <div className="hidden lg:block lg:col-span-3">
             <img
@@ -24,15 +24,15 @@ const SatisfactionSection = () => {
           {/* CENTER CONTENT */}
           <div className="lg:col-span-6 text-center z-10">
             <span className="inline-block mb-6 text-[#F21B23] font-bold text-sm tracking-[0.2em] uppercase border-b-2 border-[#F21B23]/20 pb-2">
-              Welcome to Thomas Exterior
+              Welcome to Tomas Exterior
             </span>
 
             <h2 className="text-2xl md:text-3xl font-bold text-black leading-tight mb-8">
-              With years of hands-on industry experience, Thomas Exterior Professional Window Tinting delivers precision-driven services, premium materials, and flawless finishes.
+              With a reputation built on quality and precision, Thomas Exterior delivers professional window tinting and headlight services with a flawless finish.
             </h2>
-            
+
             <p className="text-gray-600 text-lg leading-relaxed mb-12">
-              We’re committed to enhancing vehicle aesthetics, improving visibility, and ensuring long-lasting performance through expert craftsmanship and attention to detail.
+              We take pride in our OCD-driven workmanship, ensuring every tint line, edge, and final detail is completed top-top with no shortcuts.
             </p>
 
             {/* STATS */}

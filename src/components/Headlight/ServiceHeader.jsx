@@ -18,7 +18,7 @@ const ServiceHeader = () => {
               Headlight Services
             </h1>
             <p className="text-gray-600 text-lg leading-relaxed max-w-xl">
-              Keep your vehicle’s headlights bright, clear, and fully functional with professional headlight services from Thomas Exterior. We specialize in restoring, repairing, and replacing headlights to improve safety, visibility, and overall vehicle appearance.
+              Keep your vehicle’s headlights bright, clear, and fully functional with professional headlight services from Tomas Exterior. We specialize in restoring, repairing, and replacing headlights to improve safety, visibility, and overall vehicle appearance.
             </p>
           </div>
 

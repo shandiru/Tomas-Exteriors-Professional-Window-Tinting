@@ -7,8 +7,8 @@ const ContactSection = () => {
       icon: <CheckSquare className="w-8 h-8 text-[#F21B23]" />,
       title: "Chat To Sale",
       description: "Email us for scheduling",
-      linkText: "thomasexteriors@gmail.com",
-      linkHref: "mailto:thomasexteriors@gmail.com",
+      linkText: "Tomasexteriors@gmail.com",
+      linkHref: "mailto:Tomasexteriors@gmail.com",
     },
     {
       icon: <MapPin className="w-8 h-8 text-[#F21B23]" />,

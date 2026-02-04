@@ -79,7 +79,7 @@ Note: ${formData.note || "N/A"}`
             Get in Touch
           </h1>
           <p className="max-w-2xl mx-auto text-[#404143] leading-relaxed">
-            Have questions about our window tinting or headlight services? Need a quote or advice for your vehicle? Reach out to Thomas Exterior, and we’ll provide fast, professional support.
+            Have questions about our window tinting or headlight services? Need a quote or advice for your vehicle? Reach out to Tomas Exterior, and we’ll provide fast, professional support.
           </p>
           <p className="max-w-2xl mx-auto mt-3 text-[#404143] leading-relaxed">
             Whether it’s a simple inquiry, a service request, or scheduling an appointment, we’re here to help with care and precision.

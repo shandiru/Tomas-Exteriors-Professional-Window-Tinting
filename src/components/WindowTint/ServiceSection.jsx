@@ -64,7 +64,7 @@ const ServiceWorkflowSection = () => {
                             <h2 className="text-4xl md:text-5xl font-black">About this Service</h2>
                             <div className="text-[#404143] space-y-4 text-lg leading-relaxed">
                                 <p>
-                                    At Thomas Exterior, we provide premium automotive window tinting tailored to your vehicle and personal preferences. Using top-quality films and expert installation techniques, we ensure:
+                                    At Tomas Exterior, we provide premium automotive window tinting tailored to your vehicle and personal preferences. Using top-quality films and expert installation techniques, we ensure:
                                 </p>
 
                                 <ul className="list-disc list-inside space-y-2">
@@ -136,7 +136,7 @@ const ServiceWorkflowSection = () => {
                                 <h2 className="text-4xl md:text-5xl font-black">Service Benefits</h2>
                             </div>
                             <p className="text-[#404143] text-lg leading-relaxed">
-                                Choosing Thomas Exterior for window tinting gives you:
+                                Choosing Tomas Exterior for window tinting gives you:
                             </p>
                             <ul className="space-y-4">
                                 {[

@@ -28,16 +28,15 @@ const HeroSection = () => {
         <div className="max-w-7xl mx-auto px-6 lg:px-12 py-32 w-full">
           <div className="max-w-4xl">
             <h1 className="text-[48px] md:text-[72px] leading-[1.1] font-extrabold text-white mb-4">
-              Premium Window Tinting & <br className="hidden md:block" />
+              Aft & Bespoke <br className="hidden md:block" />
               <span className="text-[#F21B23]">Headlight Solutions</span>
             </h1>
-
             <h2 className="text-[24px] md:text-[32px] font-bold text-white mb-6">
-              Precision Work. Professional Finish.
+              Driven by Passion, Defined by Quality
             </h2>
 
             <p className="text-gray-200 text-lg md:text-xl leading-relaxed max-w-2xl mb-10">
-              At Thomas Exterior, we specialize in high-quality window tinting and professional headlight services that enhance both the look and safety of your vehicle. From expert tint installations to advanced headlight repairs and restorations, we deliver reliable results you can trust.
+              At Tomas Exterior, we specialize in high-quality window tinting and professional headlight services that enhance both the look and safety of your vehicle. From expert tint installations to advanced headlight repairs and restorations, we deliver reliable results you can trust.
             </p>
 
             <div className="flex flex-wrap items-center gap-6">

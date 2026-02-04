@@ -52,6 +52,24 @@ const services = [
       "a3.jpg",
     link: "/Headlight"
   },
+  {
+    title: "Building Window Tinting",
+    desc: "Home, Office & Bespoke Privacy Tinting. Upgrade comfort, privacy, and heat protection with professional building window tinting for homes, offices, terraces, and custom spaces. Reduce glare, block UV rays, and create a clean modern finish without losing natural light.",
+    image: "building-tint.jpg", // Replace with your image filename
+    link: "/Building-Tinting"
+  },
+  {
+    title: "Intelligent Ambient Light Installation",
+    desc: "Modern Lighting for Comfort & Style. Transform your vehicle or space with intelligent ambient lighting. We install clean, safe, and professionally wired lighting solutions that improve visibility, enhance mood, and add a premium look with custom colours and settings.",
+    image: "ambient-lighting.jpg", // Replace with your image filename
+    link: "/Ambient-Lighting"
+  },
+  {
+    title: "Interior Trims Restoration / Wrapping",
+    desc: "Refresh, Repair & Upgrade Interior Finishes. Bring your interior back to life with trim restoration and wrapping. We repair worn or faded trims and apply high-quality wraps for a fresh, modern look—perfect for upgrading panels, trim pieces, and interior detailing.",
+    image: "interior-restoration.jpg", // Replace with your image filename
+    link: "/Interior-Restoration"
+  }
 ];
 
 
@@ -70,7 +88,7 @@ const ServiceGrid = () => {
           </div>
 
           <p className="text-[#404143] leading-relaxed max-w-lg">
-            At Thomas Exterior, we offer professional automotive services designed to enhance your vehicle’s aesthetics, safety, and performance. Our experienced technicians provide precise solutions for window tinting and headlight maintenance, ensuring long-lasting results and customer satisfaction.
+            At Tomas Exterior, we offer professional automotive services designed to enhance your vehicle’s aesthetics, safety, and performance. Our experienced technicians provide precise solutions for window tinting and headlight maintenance, ensuring long-lasting results and customer satisfaction.
           </p>
         </div>
 
@@ -123,7 +141,7 @@ const ServiceGrid = () => {
                   {item.desc}
                 </p>
                 <Link
-                 to={item.link}
+                  to={item.link}
                   className="
                     mt-4
                     inline-flex

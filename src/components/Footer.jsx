@@ -64,8 +64,8 @@ const Footer = () => {
 
               {/* Clickable email */}
               <li>
-                <a href="mailto:thomasexteriors@gmail.com" className="hover:text-white transition-colors">
-                  thomasexteriors@gmail.com
+                <a href="mailto:Tomasexteriors@gmail.com" className="hover:text-white transition-colors">
+                  Tomasexteriors@gmail.com
                 </a>
               </li>
 
