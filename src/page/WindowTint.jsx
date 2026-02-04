@@ -1,12 +1,13 @@
 import React from 'react'
-import ServiceHeader from '../components/WindowTint/ServiceHeader'
-import ServiceSection from '../components/WindowTint/ServiceSection'
-
+import ServiceHeader from '../Common/ServiceHeader'
+import ServiceSection from '../Common/ServiceWorkflowSection'
+import serviceHeaderData from '../Data/serviceData'
+import { serviceWorkflowData } from "../Data/serviceWorkflowData"
 const WindowTint = () => {
   return (
     <div>
-      <ServiceHeader />
-      <ServiceSection />
+      <ServiceHeader data={serviceHeaderData.windowTinting}/>
+      <ServiceSection data={serviceWorkflowData.windowTinting}/>
     </div>
   )
 }
