@@ -2,7 +2,7 @@ import React from "react";
 
 const ServiceHeader = ({ data }) => {
   return (
-    <div className="min-h-screen bg-white font-sans text-black">
+    <div className="min-h-screen bg-white text-black">
       {/* Breadcrumbs */}
       <header className="px-6 py-4 max-w-7xl mt-30 mx-auto">
         <nav className="text-xs md:text-sm text-[#404143]">

@@ -21,7 +21,7 @@ const ServiceWorkflowSection = ({ data }) => {
     }, []);
 
     return (
-        <div className="bg-white font-['Poppins'] text-black">
+        <div className="bg-white text-black">
             <div className="max-w-7xl mx-auto px-6 md:px-12 py-20">
                 <div className="grid grid-cols-1 lg:grid-cols-[1.2fr_0.8fr] gap-16 items-start">
 
