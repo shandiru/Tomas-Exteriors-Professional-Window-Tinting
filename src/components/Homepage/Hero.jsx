@@ -28,9 +28,9 @@ const HeroSection = () => {
         <div className="max-w-7xl mx-auto px-6 lg:px-12 py-32 w-full">
           <div className="max-w-4xl">
             <h1 className="text-[48px] md:text-[72px] leading-[1.1] font-extrabold text-white mb-4">
-              Aft & Bespoke <br className="hidden md:block" />
-              <span className="text-[#F21B23]">Headlight Solutions</span>
-            </h1>
+              Premium Window Tinting &<br className="hidden md:block" />
+              <span className="text-[#F21B23]">Bespoke Headlight Solutions</span>
+            </h1> 
             <h2 className="text-[24px] md:text-[32px] font-bold text-white mb-6">
               Driven by Passion, Defined by Quality
             </h2>

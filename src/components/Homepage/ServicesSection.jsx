@@ -6,7 +6,7 @@ const services = [
   {
     number: "01",
     title: "Window Tinting",
-    desc: "High-quality automotive window tinting using premium films to reduce heat, glare, and UV exposure while enhancing comfort and style.",
+    desc: " using premium nano technology ceramic films - film has explosion resistence of 200kg per square meter and sound reducing properties upto 35%+",
     link: "/Window-Tinting",
   },
   {

@@ -1,9 +1,9 @@
 import React from "react";
 
 const stats = [
-  { value: "18+", label: "Year Experience" },
-  { value: "4.3k", label: "Happy Clients" },
-  { value: "25+", label: "Qualified Experts" },
+  { value: "20", label: "Year Experience" },
+  { value: "10k", label: "Happy Clients" },
+  { value: "1", label: "Man Band" },
 ];
 
 const SatisfactionSection = () => {
