@@ -19,6 +19,10 @@ import WindowTint from "./page/WindowTint";
 import BuildingWindowTinting from "./page/BuildingWindowTinting";
 import IntelligentAmbientLightInstallation from "./page/IntelligentAmbientLight";
 import InteriorTrimsRestoration from "./page/InteriorTrimsRestoration";
+import Restoration from "./page/Restoration";
+import CrackRepair from "./page/CrackRepair";
+import CondensationRepair from "./page/CondensationRepair";
+import LensReplacement from "./page/LensReplacement";
 
 function App() {
   useEffect(() => {
@@ -39,6 +43,10 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/service" element={<ServiceOverview />} />
         <Route path="/Window-Tinting" element={<WindowTint/>} />
+        <Route path="/Headlight-Restoration" element={<Restoration />} />
+        <Route path="/Crack-Repair" element={<CrackRepair />} />
+        <Route path="/Condensation-Repair" element={<CondensationRepair />} />
+        <Route path="/Lens-Replacement" element={<LensReplacement />} />
         <Route path="/Headlight" element={<Headlight />} />
         <Route path="/Building-Window-Tinting" element={<BuildingWindowTinting />} />
         <Route path="/Intelligent-Ambient-Light-Installation" element={<IntelligentAmbientLightInstallation />} />

@@ -1,3 +1,6 @@
+import CrackRepair from "../page/CrackRepair";
+import Restoration from "../page/Restoration";
+
 const serviceHeaderData = {
   windowTinting: {
     breadcrumbTitle: "Window Tinting",
@@ -39,6 +42,39 @@ const serviceHeaderData = {
     image: "a1.jpg",
     whatsappLink: "https://wa.me/447851823807",
   },
+  Restoration: {
+    breadcrumbTitle: "Headlight Restoration",
+    title: "Headlight Restoration",
+    description:
+      "Restore clarity and improve night-time visibility with professional headlight restoration services. Our precision polishing removes oxidation and haze, protecting your headlights and giving your vehicle a clean, like-new finish.",
+    image: "a1.jpg",
+    whatsappLink: "https://wa.me/447851823807",
+  },
+  CrackRepair: {
+    breadcrumbTitle: "Headlight Crack Repair",
+    title: "Headlight Crack Repair",
+    description:
+      "Repair cracks and minor damage in your headlights to maintain safety and appearance. Our expert crack repair prevents moisture ingress, restores structural integrity, and keeps your lighting system performing reliably.",
+    image: "a1.jpg",
+    whatsappLink: "https://wa.me/447851823807",
+  },
+  CondensationRepair: {
+    breadcrumbTitle: "Headlight Condensation Repair",
+    title: "Headlight Condensation Repair",
+    description:
+      "Eliminate fogging and moisture buildup with professional headlight condensation repair. We identify and fix seal issues to keep your headlights clear, dry, and fully functional in all weather conditions.",
+    image: "a1.jpg",
+    whatsappLink: "https://wa.me/447851823807",
+  },
+  LensReplacement: {
+    breadcrumbTitle: "Headlight Lens Replacement",
+    title: "Headlight Lens Replacement",
+    description:
+      "Replace damaged or worn headlight lenses with precision-fitted, high-quality replacements. Our professional lens replacement restores visibility, safety, and your vehicle’s factory-fresh appearance.",
+    image: "a1.jpg",
+    whatsappLink: "https://wa.me/447851823807",
+  },
+
 };
 
 export default serviceHeaderData;

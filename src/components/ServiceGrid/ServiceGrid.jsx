@@ -1,6 +1,5 @@
 
 import { ArrowRight } from "lucide-react";
-import React from "react";
 import { Link } from "react-router-dom";
 
 const services = [
@@ -18,7 +17,7 @@ const services = [
       "Bring clarity back to your headlights with our advanced restoration services. We remove oxidation, yellowing, and scratches to improve nighttime visibility and restore headlights to near-new condition.",
     image:
       "a2.jpg",
-    link: "/Headlight"
+    link: "/Headlight-Restoration"
   },
   {
     title: "Headlight Crack Repair",
@@ -26,7 +25,7 @@ const services = [
       "Avoid unnecessary replacements with our expert headlight crack repair services. We fix cracks to prevent moisture ingress, stop further damage, and extend headlight lifespan.",
     image:
       "s4.jpg",
-    link: "/Headlight"
+    link: "/Crack-Repair"
   },
   {
     title: "Headlight Condensation Repair",
@@ -34,7 +33,7 @@ const services = [
       "Moisture inside headlights can reduce visibility and damage electrical components. Our condensation repair services restore clarity and prevent future fogging for safer driving.",
     image:
       "a4.jpg",
-    link: "/Headlight"
+    link: "/Condensation-Repair"
   },
   {
     title: "Headlight Lens Replacement",
@@ -42,7 +41,7 @@ const services = [
       "When restoration isn’t enough, we provide professional headlight lens replacement services. Our high-quality replacements ensure optimal light output, improved safety, and a refreshed vehicle appearance.",
     image:
       "s3.jpg",
-    link: "/Headlight"
+    link: "/Lens-Replacement"
   },
   {
     title: "Exterior Enhancement Services",

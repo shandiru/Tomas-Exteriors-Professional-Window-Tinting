@@ -210,6 +210,418 @@ export const serviceWorkflowData = {
         }
     },
 
+    HeadlightRestoration: {
+        badge: "Service Details",
+
+        aboutService: {
+            title: "About this Service",
+            intro: "At Tomas Exterior, we provide professional headlight restoration to improve clarity, visibility, and the overall appearance of your vehicle. Using advanced restoration techniques and premium polishing compounds, we remove oxidation, yellowing, and surface damage to restore your headlights to like-new condition, ensuring safer night driving and a refreshed look.",
+            features: [
+                "Removal of oxidation, yellowing, and haze buildup",
+                "Correction of surface scratches and dullness",
+                "Advanced multi-stage sanding and polishing process",
+                "Restoration of brightness and optical clarity"
+            ],
+            outro: "Our team carefully cleans, sands, and polishes the lenses, finishing with a protective coating to maintain clarity and durability for years to come.",
+
+            includedTitle: "What is included?",
+            includedIntro: "Our headlight restoration service includes:",
+            includedItems: [
+                "Thorough inspection and assessment of headlight condition",
+                "Deep cleaning and oxidation removal",
+                "Multi-stage sanding and polishing process",
+                "Application of UV-protective sealant or coating",
+                "Post-service care advice and maintenance tips"
+            ],
+            includedOutro: "We focus on precision, quality, and customer satisfaction in every restoration project."
+        },
+
+        howWeWork: {
+            badge: "Working Process",
+            title: "How We Work",
+            description: "We follow a simple, structured workflow to ensure every headlight restoration service is precise, efficient, and delivers long-lasting results.",
+            steps: [
+                {
+                    id: "01",
+                    title: "Booking & Inspection",
+                    description: "Schedule your appointment and allow our technicians to inspect your headlights and determine the restoration needs."
+                },
+                {
+                    id: "02",
+                    title: "Surface Preparation",
+                    description: "We clean the lenses thoroughly and prepare the surface by removing oxidation and damaged layers."
+                },
+                {
+                    id: "03",
+                    title: "Restoration & Polishing",
+                    description: "Multi-stage sanding and polishing restores clarity, smoothness, and brightness."
+                },
+                {
+                    id: "04",
+                    title: "Protection & Final Check",
+                    description: "We apply a UV-protective coating and perform quality checks to ensure long-lasting results."
+                }
+            ]
+        },
+
+        benefits: {
+            badge: "Benefits",
+            title: "Service Benefits",
+            intro: "Choosing Tomas Exterior for headlight restoration gives you:",
+            items: [
+                "Improved night-time visibility and driving safety",
+                "Removal of yellowing, haze, and surface scratches",
+                "Enhanced vehicle appearance and resale value",
+                "Protection against future UV damage and oxidation",
+                "Cost-effective alternative to headlight replacement"
+            ],
+            outro: "We prioritize precision, reliability, and long-lasting results for every customer.",
+            image: "s3.jpg",
+            imageAlt: "Headlight restoration service process"
+        },
+
+        contactForm: {
+            title: "Get In Touch",
+            fields: {
+                fullName: {
+                    label: "Full Name",
+                    placeholder: "John Doe",
+                    type: "text"
+                },
+                phone: {
+                    label: "Phone",
+                    placeholder: "+1 (555) 000-0000",
+                    type: "tel"
+                },
+                service: {
+                    label: "Select A Service",
+                    options: [
+                        "Headlight Restoration"
+                    ]
+                },
+                note: {
+                    label: "Short Note",
+                    placeholder: "How can we help?",
+                    rows: 4
+                }
+            },
+            submitButton: "Book Your Headlight Restoration Today"
+        },
+
+        colors: {
+            primary: "#F21B23",
+            secondary: "#404143"
+        }
+    },
+    HeadlightCrackRepair: {
+        badge: "Service Details",
+
+        aboutService: {
+            title: "About this Service",
+            intro: "At Tomas Exterior, we offer expert headlight crack repair to restore structural integrity and prevent further damage. Using professional-grade repair materials and precision techniques, we repair cracks and minor splits to maintain safety, performance, and the appearance of your headlights.",
+            features: [
+                "Repair of cracks and minor splits in headlight lenses",
+                "Sealing and reinforcement to prevent moisture and dirt entry",
+                "Restoration of structural integrity and strength",
+                "Polishing and blending for a smooth, visually appealing finish"
+            ],
+            outro: "Our technicians carefully seal and reinforce damaged areas to ensure a durable, weather-resistant finish that protects your lighting system.",
+
+            includedTitle: "What is included?",
+            includedIntro: "Our headlight crack repair service includes:",
+            includedItems: [
+                "Detailed inspection of cracks and damage severity",
+                "Cleaning and preparation of the damaged area",
+                "Professional crack sealing and structural repair",
+                "Polishing and blending for a smooth finish",
+                "Final inspection and care recommendations"
+            ],
+            includedOutro: "We ensure each repair meets high-quality standards and safety requirements."
+        },
+
+        howWeWork: {
+            badge: "Working Process",
+            title: "How We Work",
+            description: "We follow a structured process to repair headlight cracks efficiently, ensuring durability, safety, and aesthetic quality.",
+            steps: [
+                {
+                    id: "01",
+                    title: "Booking & Inspection",
+                    description: "Schedule an appointment and allow our technicians to inspect cracks and assess damage severity."
+                },
+                {
+                    id: "02",
+                    title: "Preparation",
+                    description: "Clean and prepare the damaged area to ensure a proper bond and finish."
+                },
+                {
+                    id: "03",
+                    title: "Crack Repair & Sealing",
+                    description: "Apply professional-grade repair materials and techniques to seal and reinforce the cracks."
+                },
+                {
+                    id: "04",
+                    title: "Polishing & Final Check",
+                    description: "Blend the repaired area for a smooth finish and conduct a final inspection to guarantee quality and safety."
+                }
+            ]
+        },
+
+        benefits: {
+            badge: "Benefits",
+            title: "Service Benefits",
+            intro: "Choosing Tomas Exterior for headlight crack repair gives you:",
+            items: [
+                "Prevention of moisture and dirt entering the headlight unit",
+                "Improved structural strength and durability",
+                "Maintained lighting performance and road safety",
+                "Enhanced visual appearance of the headlights",
+                "Cost-effective solution compared to full replacement"
+            ],
+            outro: "We deliver reliable repairs designed to last.",
+            image: "s3.jpg",
+            imageAlt: "Headlight crack repair process"
+        },
+
+        contactForm: {
+            title: "Get In Touch",
+            fields: {
+                fullName: {
+                    label: "Full Name",
+                    placeholder: "John Doe",
+                    type: "text"
+                },
+                phone: {
+                    label: "Phone",
+                    placeholder: "+1 (555) 000-0000",
+                    type: "tel"
+                },
+                service: {
+                    label: "Select A Service",
+                    options: [
+                        "Headlight Crack Repair"
+                    ]
+                },
+                note: {
+                    label: "Short Note",
+                    placeholder: "How can we help?",
+                    rows: 4
+                }
+            },
+            submitButton: "Book Your Headlight Crack Repair Today"
+        },
+
+        colors: {
+            primary: "#F21B23",
+            secondary: "#404143"
+        }
+    },
+    HeadlightCondensationRepair: {
+        badge: "Service Details",
+
+        aboutService: {
+            title: "About this Service",
+            intro: "At Tomas Exterior, we provide professional headlight condensation repair to eliminate internal moisture and restore clear lighting performance. Using specialized drying, sealing, and ventilation techniques, we prevent fogging and water buildup that can reduce visibility and damage electrical components.",
+            features: [
+                "Elimination of internal moisture and fogging",
+                "Repair or replacement of faulty seals and vents",
+                "Drying and ventilation for long-lasting clarity",
+                "Protection of bulbs, wiring, and electronic components"
+            ],
+            outro: "Our process ensures your headlights remain clear, dry, and fully functional in all weather conditions.",
+
+            includedTitle: "What is included?",
+            includedIntro: "Our headlight condensation repair service includes:",
+            includedItems: [
+                "Inspection to identify moisture source and seal issues",
+                "Drying and moisture removal from the headlight unit",
+                "Repair or replacement of faulty seals and vents",
+                "Reassembly and leak testing for long-term protection",
+                "Maintenance guidance to prevent future condensation"
+            ],
+            includedOutro: "We focus on thorough repairs and long-lasting solutions."
+        },
+
+        howWeWork: {
+            badge: "Working Process",
+            title: "How We Work",
+            description: "We follow a structured process to remove condensation efficiently and ensure long-lasting clear headlights.",
+            steps: [
+                {
+                    id: "01",
+                    title: "Booking & Inspection",
+                    description: "Schedule your appointment and allow our technicians to inspect moisture sources and check seals."
+                },
+                {
+                    id: "02",
+                    title: "Drying & Moisture Removal",
+                    description: "Use specialized equipment and techniques to remove all internal moisture from the headlight unit."
+                },
+                {
+                    id: "03",
+                    title: "Seal Repair or Replacement",
+                    description: "Repair or replace faulty seals and vents to prevent future condensation."
+                },
+                {
+                    id: "04",
+                    title: "Reassembly & Testing",
+                    description: "Reassemble the headlight, perform leak testing, and ensure proper functionality and clarity."
+                }
+            ]
+        },
+
+        benefits: {
+            badge: "Benefits",
+            title: "Service Benefits",
+            intro: "Choosing Tomas Exterior for headlight condensation repair gives you:",
+            items: [
+                "Clear headlights with no fogging or moisture buildup",
+                "Protection of bulbs, wiring, and electronic components",
+                "Improved visibility and driving safety",
+                "Extended lifespan of the headlight assembly",
+                "Reliable performance in all weather conditions"
+            ],
+            outro: "We prioritize durability, safety, and customer satisfaction.",
+            image: "s3.jpg",
+            imageAlt: "Headlight condensation repair process"
+        },
+
+        contactForm: {
+            title: "Get In Touch",
+            fields: {
+                fullName: {
+                    label: "Full Name",
+                    placeholder: "John Doe",
+                    type: "text"
+                },
+                phone: {
+                    label: "Phone",
+                    placeholder: "+1 (555) 000-0000",
+                    type: "tel"
+                },
+                service: {
+                    label: "Select A Service",
+                    options: [
+                        "Headlight Condensation Repair"
+                    ]
+                },
+                note: {
+                    label: "Short Note",
+                    placeholder: "How can we help?",
+                    rows: 4
+                }
+            },
+            submitButton: "Book Your Headlight Condensation Repair Today"
+        },
+
+        colors: {
+            primary: "#F21B23",
+            secondary: "#404143"
+        }
+    },
+    HeadlightLensReplacement: {
+        badge: "Service Details",
+
+        aboutService: {
+            title: "About this Service",
+            intro: "At Tomas Exterior, we offer professional headlight lens replacement to restore clarity, safety, and appearance when lenses are severely damaged or beyond repair. Using high-quality replacement lenses and precision fitting techniques, we ensure a perfect fit and factory-standard finish.",
+            features: [
+                "Replacement of severely damaged or worn headlight lenses",
+                "Precision fitting for optimal lighting performance",
+                "Restoration of clarity and vehicle aesthetics",
+                "Use of high-quality, durable lens materials"
+            ],
+            outro: "Our technicians handle the entire process with care to ensure optimal lighting performance and durability.",
+
+            includedTitle: "What is included?",
+            includedIntro: "Our headlight lens replacement service includes:",
+            includedItems: [
+                "Assessment of lens damage and replacement requirements",
+                "Removal of damaged or worn headlight lenses",
+                "Installation of high-quality replacement lenses",
+                "Sealing and alignment for optimal performance",
+                "Final testing and aftercare support"
+            ],
+            includedOutro: "We ensure every replacement meets safety and quality standards."
+        },
+
+        howWeWork: {
+            badge: "Working Process",
+            title: "How We Work",
+            description: "We follow a structured process to replace headlight lenses efficiently, ensuring perfect fit, clarity, and long-lasting performance.",
+            steps: [
+                {
+                    id: "01",
+                    title: "Booking & Inspection",
+                    description: "Schedule your appointment and allow our technicians to assess the damage and replacement needs."
+                },
+                {
+                    id: "02",
+                    title: "Lens Removal",
+                    description: "Carefully remove the damaged or worn headlight lenses without affecting other components."
+                },
+                {
+                    id: "03",
+                    title: "Replacement Installation",
+                    description: "Install high-quality replacement lenses with precision alignment and secure sealing."
+                },
+                {
+                    id: "04",
+                    title: "Testing & Final Check",
+                    description: "Perform functional tests and final inspections to ensure clarity, safety, and perfect fit."
+                }
+            ]
+        },
+
+        benefits: {
+            badge: "Benefits",
+            title: "Service Benefits",
+            intro: "Choosing Tomas Exterior for headlight lens replacement gives you:",
+            items: [
+                "Crystal-clear headlights for maximum visibility",
+                "Restored factory look and premium appearance",
+                "Improved safety for night and low-light driving",
+                "Durable, long-lasting lens materials",
+                "Professional installation with guaranteed fit and finish"
+            ],
+            outro: "We deliver precision workmanship and reliable results every time.",
+            image: "s3.jpg",
+            imageAlt: "Headlight lens replacement process"
+        },
+
+        contactForm: {
+            title: "Get In Touch",
+            fields: {
+                fullName: {
+                    label: "Full Name",
+                    placeholder: "John Doe",
+                    type: "text"
+                },
+                phone: {
+                    label: "Phone",
+                    placeholder: "+1 (555) 000-0000",
+                    type: "tel"
+                },
+                service: {
+                    label: "Select A Service",
+                    options: [
+                        "Headlight Lens Replacement"
+                    ]
+                },
+                note: {
+                    label: "Short Note",
+                    placeholder: "How can we help?",
+                    rows: 4
+                }
+            },
+            submitButton: "Book Your Headlight Lens Replacement Today"
+        },
+
+        colors: {
+            primary: "#F21B23",
+            secondary: "#404143"
+        }
+    },
     HeadlightServices: {
         badge: "Service Details",
         aboutService: {
@@ -518,7 +930,7 @@ export const serviceWorkflowData = {
             secondary: "#404143"
         }
     },
-   BuildingWindowTinting: {
+    BuildingWindowTinting: {
         badge: "Service Details",
         aboutService: {
             title: "About this Service",

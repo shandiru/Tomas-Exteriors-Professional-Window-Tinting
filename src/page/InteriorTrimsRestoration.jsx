@@ -4,14 +4,14 @@ import ServiceSection from '../Common/ServiceWorkflowSection'
 import serviceHeaderData from '../Data/serviceData'
 import { serviceWorkflowData } from "../Data/serviceWorkflowData"
 import Gallery from '../Data/Gallery'
-import GalleryCarousel from '../Common/GalleryCarousel'
+import MultiGallery from '../Common/MultiGallery'
 
 const InteriorTrimsRestoration = () => {
   return (
     <div>
       <ServiceHeader data={serviceHeaderData.InteriorTrimsRestoration}/>
       <ServiceSection data={serviceWorkflowData.InteriorTrimsRestoration}/>
-      <GalleryCarousel data={Gallery.InteriorTrimsRestoration} />
+      <MultiGallery data={Gallery.InteriorTrimsRestoration[0]} />
     </div>
   )
 }
