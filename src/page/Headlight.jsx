@@ -10,7 +10,7 @@ const HeadlightServices = () => {
   return (
     <div>
       <ServiceHeader data={serviceHeaderData.HeadlightServices}/>
-      <ServiceSection data={serviceWorkflowData.HeadlightServices}/>
+      <ServiceSection data={serviceWorkflowData.ExteriorEnhancementServices}/>
       <GalleryCarousel data={Gallery.HeadlightServices} />
     </div>
   )

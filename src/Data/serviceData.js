@@ -7,15 +7,15 @@ const serviceHeaderData = {
     title: "Window Tinting",
     description:
       "Enhance your vehicle’s comfort, privacy, and style with professional window tinting services. Our precision installations reduce heat, block harmful UV rays, and protect your interior while giving your vehicle a sleek, modern look.",
-    image: "a1.jpg",
+    image: "tint-a.jpeg",
     whatsappLink: "https://wa.me/447851823807",
   },
   HeadlightServices: {
-    breadcrumbTitle: "Headlight Services",
-    title: "Headlight Services",
+    breadcrumbTitle: "Exterior Enhancement Services",
+    title: "Exterior Enhancement Services",
     description:
-      "Keep your vehicle’s headlights bright, clear, and fully functional with professional headlight services from Tomas Exterior. We specialize in restoring, repairing, and replacing headlights to improve safety, visibility, and overall vehicle appearance.",
-    image: "a1.jpg",
+      "Enhance your vehicle’s appearance and protection with professional exterior enhancement services. Our expert detailing, polishing, and protective treatments restore shine, improve durability, and give your vehicle a flawless, showroom-quality finish.",
+    image: "Exterior-a.jpeg",
     whatsappLink: "https://wa.me/447851823807",
   },
   BuildingWindowTinting: {
@@ -23,7 +23,7 @@ const serviceHeaderData = {
     title: "Building Window Tinting",
     description:
       "Enhance privacy, reduce heat, and improve comfort with professional building window tinting. Perfect for homes, offices, terraces, and bespoke privacy requirements—installed with precision for a clean, long-lasting finish.",
-    image: "a1.jpg",
+    image: "building-a.jpeg",
     whatsappLink: "https://wa.me/447851823807",
   },
   IntelligentAmbientLightInstallation: {
@@ -31,7 +31,7 @@ const serviceHeaderData = {
     title: "Intelligent Ambient Light Installation",
     description:
       "Add a premium modern feel with intelligent ambient lighting. We provide clean, professional installation with safe wiring, smooth finishing, and custom lighting options that enhance style and comfort.",
-    image: "a1.jpg",
+    image: "ambient1.jpeg",
     whatsappLink: "https://wa.me/447851823807",
   },
   InteriorTrimsRestoration: {
@@ -39,7 +39,7 @@ const serviceHeaderData = {
     title: "Interior Trims Restoration / Wrapping",
     description:
       "Refresh your interior with professional trim restoration and wrapping. We repair worn trims and apply premium wrap finishes to upgrade your vehicle’s interior look with a clean, modern style.",
-    image: "a1.jpg",
+    image: "interior.jpeg",
     whatsappLink: "https://wa.me/447851823807",
   },
   Restoration: {
@@ -47,7 +47,7 @@ const serviceHeaderData = {
     title: "Headlight Restoration",
     description:
       "Restore clarity and improve night-time visibility with professional headlight restoration services. Our precision polishing removes oxidation and haze, protecting your headlights and giving your vehicle a clean, like-new finish.",
-    image: "a1.jpg",
+    image: "Headlight Restoration-a.jpeg",
     whatsappLink: "https://wa.me/447851823807",
   },
   CrackRepair: {
@@ -55,7 +55,7 @@ const serviceHeaderData = {
     title: "Headlight Crack Repair",
     description:
       "Repair cracks and minor damage in your headlights to maintain safety and appearance. Our expert crack repair prevents moisture ingress, restores structural integrity, and keeps your lighting system performing reliably.",
-    image: "a1.jpg",
+    image: "Crack-a .jpeg",
     whatsappLink: "https://wa.me/447851823807",
   },
   CondensationRepair: {
@@ -63,7 +63,7 @@ const serviceHeaderData = {
     title: "Headlight Condensation Repair",
     description:
       "Eliminate fogging and moisture buildup with professional headlight condensation repair. We identify and fix seal issues to keep your headlights clear, dry, and fully functional in all weather conditions.",
-    image: "a1.jpg",
+    image: "Condensation-a.jpeg",
     whatsappLink: "https://wa.me/447851823807",
   },
   LensReplacement: {
@@ -71,7 +71,7 @@ const serviceHeaderData = {
     title: "Headlight Lens Replacement",
     description:
       "Replace damaged or worn headlight lenses with precision-fitted, high-quality replacements. Our professional lens replacement restores visibility, safety, and your vehicle’s factory-fresh appearance.",
-    image: "a1.jpg",
+    image: "Crack1-a .jpeg",
     whatsappLink: "https://wa.me/447851823807",
   },
 

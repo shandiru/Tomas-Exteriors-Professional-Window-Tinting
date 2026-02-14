@@ -8,7 +8,7 @@ const services = [
     desc:
       "Enhance your vehicle’s style, comfort, and privacy with our professional window tinting services. We use premium films to reduce heat, block UV rays, and prevent interior fading while giving your car a sleek, modern look.",
     image:
-      "a1.jpg",
+      "tint-b.jpeg",
     link: "/Window-Tinting"
   },
   {
@@ -16,7 +16,7 @@ const services = [
     desc:
       "Bring clarity back to your headlights with our advanced restoration services. We remove oxidation, yellowing, and scratches to improve nighttime visibility and restore headlights to near-new condition.",
     image:
-      "a2.jpg",
+      "Headlight Restoration-a.jpeg",
     link: "/Headlight-Restoration"
   },
   {
@@ -24,7 +24,7 @@ const services = [
     desc:
       "Avoid unnecessary replacements with our expert headlight crack repair services. We fix cracks to prevent moisture ingress, stop further damage, and extend headlight lifespan.",
     image:
-      "s4.jpg",
+      "Crack-a .jpeg",
     link: "/Crack-Repair"
   },
   {
@@ -32,7 +32,7 @@ const services = [
     desc:
       "Moisture inside headlights can reduce visibility and damage electrical components. Our condensation repair services restore clarity and prevent future fogging for safer driving.",
     image:
-      "a4.jpg",
+      "Condensation-a.jpeg",
     link: "/Condensation-Repair"
   },
   {
@@ -40,7 +40,7 @@ const services = [
     desc:
       "When restoration isn’t enough, we provide professional headlight lens replacement services. Our high-quality replacements ensure optimal light output, improved safety, and a refreshed vehicle appearance.",
     image:
-      "s3.jpg",
+      "Crack1-a .jpeg",
     link: "/Lens-Replacement"
   },
   {
@@ -48,25 +48,25 @@ const services = [
     desc:
       "From window tinting to headlight maintenance, our exterior vehicle services enhance aesthetics, safety, and functionality. Every project is completed with precision, care, and premium materials.",
     image:
-      "a3.jpg",
+      "Exterior-a.jpeg",
     link: "/Headlight"
   },
   {
     title: "Building Window Tinting",
     desc: "Home, Office & Bespoke Privacy Tinting. Upgrade comfort, privacy, and heat protection with professional building window tinting for homes, offices, terraces, and custom spaces. Reduce glare, block UV rays, and create a clean modern finish without losing natural light.",
-    image: "a1.jpg", // Replace with your image filename
+    image: "building-a.jpeg", // Replace with your image filename
     link: "/Building-Window-Tinting"
   },
   {
     title: "Intelligent Ambient Light Installation",
     desc: "Modern Lighting for Comfort & Style. Transform your vehicle or space with intelligent ambient lighting. We install clean, safe, and professionally wired lighting solutions that improve visibility, enhance mood, and add a premium look with custom colours and settings.",
-    image: "a4.jpg", // Replace with your image filename
+    image: "ambient1.jpeg", // Replace with your image filename
     link: "/Intelligent-Ambient-Light-Installation"
   },
   {
     title: "Interior Trims Restoration / Wrapping",
     desc: "Refresh, Repair & Upgrade Interior Finishes. Bring your interior back to life with trim restoration and wrapping. We repair worn or faded trims and apply high-quality wraps for a fresh, modern look—perfect for upgrading panels, trim pieces, and interior detailing.",
-    image: "s4.jpg", // Replace with your image filename
+    image: "interior.jpeg", // Replace with your image filename
     link: "/Interior-Trims-Restoration"
   }
 ];

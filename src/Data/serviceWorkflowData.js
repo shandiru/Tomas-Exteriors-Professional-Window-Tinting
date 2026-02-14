@@ -70,7 +70,7 @@ export const serviceWorkflowData = {
                 "Long-lasting results from high-quality materials and professional installation"
             ],
             outro: "We prioritize precision, reliability, and customer satisfaction, delivering a tint that looks great and performs even better.",
-            image: "a3.jpg",
+            image: "tint-a.jpeg",
             imageAlt: "Window tinting work"
         },
 
@@ -85,7 +85,7 @@ export const serviceWorkflowData = {
                 },
                 phone: {
                     label: "Phone",
-                    placeholder: "+1 (555) 000-0000",
+                    placeholder: "Enter your phone number",
                     type: "tel"
                 },
                 service: {
@@ -111,104 +111,104 @@ export const serviceWorkflowData = {
         }
     },
 
-    // You can add more services here
-    plumbing: {
-        badge: "Service Details",
-        aboutService: {
-            title: "Plumbing Service",
-            intro: "Professional plumbing services...",
-            features: [
-                "Emergency repairs",
-                "Installation services",
-                "Maintenance and inspection"
-            ],
-            outro: "Quality plumbing solutions for your needs.",
-            includedTitle: "What is included?",
-            includedIntro: "Our plumbing service includes:",
-            includedItems: [
-                "Initial consultation",
-                "Professional diagnosis",
-                "Quality repairs",
-                "Follow-up support"
-            ],
-            includedOutro: "We ensure lasting solutions."
-        },
-        howWeWork: {
-            badge: "Working Process",
-            title: "How We Work",
-            description: "Our efficient plumbing process.",
-            steps: [
-                {
-                    id: "01",
-                    title: "Inspection",
-                    description: "Thorough inspection of the issue."
-                },
-                {
-                    id: "02",
-                    title: "Quote",
-                    description: "Transparent pricing and estimates."
-                },
-                {
-                    id: "03",
-                    title: "Repair",
-                    description: "Professional repair work."
-                },
-                {
-                    id: "04",
-                    title: "Quality Check",
-                    description: "Final inspection and testing."
-                }
-            ]
-        },
-        benefits: {
-            badge: "Benefits",
-            title: "Service Benefits",
-            intro: "Why choose our plumbing services:",
-            items: [
-                "Licensed professionals",
-                "24/7 emergency service",
-                "Quality parts and materials",
-                "Competitive pricing",
-                "Satisfaction guaranteed"
-            ],
-            outro: "Your trusted plumbing partner.",
-            image: "plumbing.jpg",
-            imageAlt: "Plumbing service work"
-        },
-        contactForm: {
-            title: "Get In Touch",
-            fields: {
-                fullName: {
-                    label: "Full Name",
-                    placeholder: "John Doe",
-                    type: "text"
-                },
-                phone: {
-                    label: "Phone",
-                    placeholder: "+1 (555) 000-0000",
-                    type: "tel"
-                },
-                service: {
-                    label: "Select A Service",
-                    options: [
-                        "Emergency Repair",
-                        "Installation",
-                        "Maintenance"
-                    ]
-                },
-                note: {
-                    label: "Short Note",
-                    placeholder: "Describe your issue",
-                    rows: 4
-                }
-            },
-            submitButton: "Request Service"
-        },
-        colors: {
-            primary: "#F21B23",
-            secondary: "#404143"
-        }
-    },
+    // // You can add more services here
+    // plumbing: {
+    //     badge: "Service Details",
+    //     aboutService: {
+    //         title: "Plumbing Service",
+    //         intro: "Professional plumbing services...",
+    //         features: [
+    //             "Emergency repairs",
+    //             "Installation services",
+    //             "Maintenance and inspection"
+    //         ],
+    //         outro: "Quality plumbing solutions for your needs.",
+    //         includedTitle: "What is included?",
+    //         includedIntro: "Our plumbing service includes:",
+    //         includedItems: [
+    //             "Initial consultation",
+    //             "Professional diagnosis",
+    //             "Quality repairs",
+    //             "Follow-up support"
+    //         ],
+    //         includedOutro: "We ensure lasting solutions."
+    //     },
+    //     howWeWork: {
+    //         badge: "Working Process",
+    //         title: "How We Work",
+    //         description: "Our efficient plumbing process.",
+    //         steps: [
+    //             {
+    //                 id: "01",
+    //                 title: "Inspection",
+    //                 description: "Thorough inspection of the issue."
+    //             },
+    //             {
+    //                 id: "02",
+    //                 title: "Quote",
+    //                 description: "Transparent pricing and estimates."
+    //             },
+    //             {
+    //                 id: "03",
+    //                 title: "Repair",
+    //                 description: "Professional repair work."
+    //             },
+    //             {
+    //                 id: "04",
+    //                 title: "Quality Check",
+    //                 description: "Final inspection and testing."
+    //             }
+    //         ]
+    //     },
+    //     benefits: {
+    //         badge: "Benefits",
+    //         title: "Service Benefits",
+    //         intro: "Why choose our plumbing services:",
+    //         items: [
+    //             "Licensed professionals",
+    //             "24/7 emergency service",
+    //             "Quality parts and materials",
+    //             "Competitive pricing",
+    //             "Satisfaction guaranteed"
+    //         ],
+    //         outro: "Your trusted plumbing partner.",
+    //         image: "plumbing.jpg",
+    //         imageAlt: "Plumbing service work"
+    //     },
+    //     contactForm: {
+    //         title: "Get In Touch",
+    //         fields: {
+    //             fullName: {
+    //                 label: "Full Name",
+    //                 placeholder: "John Doe",
+    //                 type: "text"
+    //             },
+    //             phone: {
+    //                 label: "Phone",
+    //                 placeholder: "Enter your phone number",
+    //                 type: "tel"
+    //             },
+    //             service: {
+    //                 label: "Select A Service",
+    //                 options: [
+    //                     "Emergency Repair",
+    //                     "Installation",
+    //                     "Maintenance"
+    //                 ]
+    //             },
+    //             note: {
+    //                 label: "Short Note",
+    //                 placeholder: "Describe your issue",
+    //                 rows: 4
+    //             }
+    //         },
+    //         submitButton: "Request Service"
+    //     },
+    //     colors: {
+    //         primary: "#F21B23",
+    //         secondary: "#404143"
+    //     }
+    // },
 
     HeadlightRestoration: {
         badge: "Service Details",
@@ -276,7 +276,7 @@ export const serviceWorkflowData = {
                 "Cost-effective alternative to headlight replacement"
             ],
             outro: "We prioritize precision, reliability, and long-lasting results for every customer.",
-            image: "s3.jpg",
+            image: "Headlight Restoration-a.jpeg",
             imageAlt: "Headlight restoration service process"
         },
 
@@ -290,7 +290,7 @@ export const serviceWorkflowData = {
                 },
                 phone: {
                     label: "Phone",
-                    placeholder: "+1 (555) 000-0000",
+                    placeholder: "Enter your phone number",
                     type: "tel"
                 },
                 service: {
@@ -379,7 +379,7 @@ export const serviceWorkflowData = {
                 "Cost-effective solution compared to full replacement"
             ],
             outro: "We deliver reliable repairs designed to last.",
-            image: "s3.jpg",
+            image: "Crack-a .jpeg",
             imageAlt: "Headlight crack repair process"
         },
 
@@ -393,7 +393,7 @@ export const serviceWorkflowData = {
                 },
                 phone: {
                     label: "Phone",
-                    placeholder: "+1 (555) 000-0000",
+                    placeholder: "Enter your phone number",
                     type: "tel"
                 },
                 service: {
@@ -482,7 +482,7 @@ export const serviceWorkflowData = {
                 "Reliable performance in all weather conditions"
             ],
             outro: "We prioritize durability, safety, and customer satisfaction.",
-            image: "s3.jpg",
+            image: "Condensation-a.jpeg",
             imageAlt: "Headlight condensation repair process"
         },
 
@@ -496,7 +496,7 @@ export const serviceWorkflowData = {
                 },
                 phone: {
                     label: "Phone",
-                    placeholder: "+1 (555) 000-0000",
+                    placeholder: "Enter your phone number",
                     type: "tel"
                 },
                 service: {
@@ -511,7 +511,7 @@ export const serviceWorkflowData = {
                     rows: 4
                 }
             },
-            submitButton: "Book Your Headlight Condensation Repair Today"
+            submitButton: "Book Your Repair Today"
         },
 
         colors: {
@@ -585,7 +585,7 @@ export const serviceWorkflowData = {
                 "Professional installation with guaranteed fit and finish"
             ],
             outro: "We deliver precision workmanship and reliable results every time.",
-            image: "s3.jpg",
+            image: "Crack1-a .jpeg",
             imageAlt: "Headlight lens replacement process"
         },
 
@@ -599,7 +599,7 @@ export const serviceWorkflowData = {
                 },
                 phone: {
                     label: "Phone",
-                    placeholder: "+1 (555) 000-0000",
+                    placeholder: "Enter your phone number",
                     type: "tel"
                 },
                 service: {
@@ -614,7 +614,7 @@ export const serviceWorkflowData = {
                     rows: 4
                 }
             },
-            submitButton: "Book Your Headlight Lens Replacement Today"
+            submitButton: "Book Your Replacement Today"
         },
 
         colors: {
@@ -622,54 +622,56 @@ export const serviceWorkflowData = {
             secondary: "#404143"
         }
     },
-    HeadlightServices: {
+    ExteriorEnhancementServices: {
         badge: "Service Details",
+
         aboutService: {
             title: "About this Service",
-            intro: "Our headlight services are designed to solve all common headlight issues, ensuring your vehicle remains safe and stylish. Using advanced techniques and premium materials, we handle:",
+            intro: "At Tomas Exterior, we provide comprehensive exterior enhancement services to improve the appearance, protection, and value of your vehicle. Using professional detailing techniques, premium coatings, and precision finishing methods, we transform your vehicle’s exterior to look sleek, glossy, and well-maintained.",
             features: [
-                "Headlight Restoration: Remove haze, yellowing, and oxidation to restore brightness and clarity.",
-                "Headlight Crack Repair: Fix cracks to prevent moisture and damage without full replacement.",
-                "Headlight Condensation Repair: Eliminate fogging inside the lens for clear, safe illumination.",
-                "Headlight Lens Replacement: Replace severely damaged or worn lenses to restore optimal performance."
+                "Paint correction to remove swirl marks and imperfections",
+                "Professional polishing for deep gloss and shine",
+                "Protective wax, sealant, or ceramic coating application",
+                "Trim, plastic, and chrome restoration for refreshed appearance"
             ],
-            outro: "Each service is delivered with precision, professionalism, and attention to detail.",
+            outro: "From paint correction and polishing to protective coatings and trim restoration, our team focuses on delivering a flawless finish that enhances both aesthetics and durability.",
+
             includedTitle: "What is included?",
-            includedIntro: "When you choose our headlight services, you get:",
+            includedIntro: "Our exterior enhancement services include:",
             includedItems: [
-                "Full inspection and assessment of your headlights",
-                "Professional cleaning, restoration, or repair",
-                "Replacement using high-quality OEM or aftermarket lenses when required",
-                "Detailed post-service care instructions to prolong headlight life",
-                "Assurance of improved night-time visibility and vehicle safety"
+                "Professional exterior inspection and condition assessment",
+                "Paint correction and polishing to remove swirl marks and imperfections",
+                "Protective wax, sealant, or ceramic coating application",
+                "Trim, plastic, and chrome restoration for a refreshed finish",
+                "Final detailing and aftercare advice for long-lasting results"
             ],
-            includedOutro: "We ensure your headlights are fully functional and visually appealing."
+            includedOutro: "We ensure every detail is handled with precision and premium-quality products."
         },
 
         howWeWork: {
             badge: "Working Process",
             title: "How We Work",
-            description: "We follow a simple, structured workflow to ensure every headlight service is efficient, precise, and reliable.",
+            description: "We follow a structured detailing and enhancement process to ensure your vehicle receives maximum shine, protection, and long-term durability.",
             steps: [
                 {
                     id: "01",
-                    title: "Booking & Inspection",
-                    description: "Schedule a convenient appointment. Our technicians inspect your headlights and discuss the best solution for your vehicle."
+                    title: "Inspection & Assessment",
+                    description: "We examine the exterior condition to identify imperfections, damage, and enhancement needs."
                 },
                 {
                     id: "02",
-                    title: "Work Planning",
-                    description: "We plan the service process, select materials, and prepare equipment for a smooth workflow."
+                    title: "Surface Preparation",
+                    description: "Thorough washing, decontamination, and preparation to ensure perfect treatment results."
                 },
                 {
                     id: "03",
-                    title: "Fix and Repair / Installation",
-                    description: "Our experts restore, repair, or replace headlights with exacting precision, ensuring clarity, functionality, and safety."
+                    title: "Correction & Protection",
+                    description: "Paint correction, polishing, and application of protective coatings for durability and shine."
                 },
                 {
                     id: "04",
-                    title: "Works Completed",
-                    description: "We conduct final checks and quality assurance, ensuring your headlights are fully functional and visually appealing."
+                    title: "Final Detailing",
+                    description: "Trim restoration, finishing touches, and quality checks for a showroom-quality result."
                 }
             ]
         },
@@ -677,17 +679,17 @@ export const serviceWorkflowData = {
         benefits: {
             badge: "Benefits",
             title: "Service Benefits",
-            intro: "Choosing Tomas Exterior for headlight services provides:",
+            intro: "Choosing Tomas Exterior for exterior enhancement services gives you:",
             items: [
-                "Clear, bright headlights for safer driving at night",
-                "Cost-effective crack repair and restoration alternatives to full replacement",
-                "Long-lasting results using premium materials and professional techniques",
-                "Elimination of condensation or fogging that can impair visibility",
-                "Improved vehicle aesthetics and resale value"
+                "Enhanced vehicle appearance with deep gloss and showroom finish",
+                "Protection against UV rays, oxidation, and environmental damage",
+                "Increased resale value and long-term paint preservation",
+                "Restored trim and exterior surfaces for a like-new look",
+                "Long-lasting results using professional-grade products"
             ],
-            outro: "We prioritize quality, precision, and customer satisfaction, delivering headlights that perform and look their best.",
-            image: "s3.jpg",
-            imageAlt: "Headlight service work"
+            outro: "We prioritize quality, durability, and customer satisfaction in every enhancement project.",
+            image: "Exterior-a.jpeg",
+            imageAlt: "Exterior enhancement detailing service"
         },
 
         contactForm: {
@@ -700,16 +702,13 @@ export const serviceWorkflowData = {
                 },
                 phone: {
                     label: "Phone",
-                    placeholder: "+1 (555) 000-0000",
+                    placeholder: "Enter your phone number",
                     type: "tel"
                 },
                 service: {
                     label: "Select A Service",
                     options: [
-                        "Headlight Restoration",
-                        "Headlight Crack Repair",
-                        "Headlight Condensation Repair",
-                        "Headlight Lens Replacement"
+                        "Exterior Enhancement Services"
                     ]
                 },
                 note: {
@@ -718,7 +717,7 @@ export const serviceWorkflowData = {
                     rows: 4
                 }
             },
-            submitButton: "Book Your Headlight Service Today"
+            submitButton: "Book Your Exterior Enhancement Today"
         },
 
         colors: {
@@ -790,7 +789,7 @@ export const serviceWorkflowData = {
                 "Professional workmanship"
             ],
             outro: "We prioritize quality, precision, and attention to detail to enhance your vehicle’s interior aesthetics.",
-            image: "s4.jpg",
+            image: "interior.jpeg",
             imageAlt: "Interior trims restoration and wrapping work"
         },
 
@@ -804,7 +803,7 @@ export const serviceWorkflowData = {
                 },
                 phone: {
                     label: "Phone",
-                    placeholder: "+1 (555) 000-0000",
+                    placeholder: "Enter your phone number",
                     type: "tel"
                 },
                 service: {
@@ -893,7 +892,7 @@ export const serviceWorkflowData = {
                 "Clean finishing with attention to detail"
             ],
             outro: "We prioritize safety, precision, and aesthetics to create a lighting experience that elevates your vehicle’s interior.",
-            image: "s1.jpg",
+            image: "ambient1.jpeg",
             imageAlt: "Intelligent ambient light installation"
         },
 
@@ -907,7 +906,7 @@ export const serviceWorkflowData = {
                 },
                 phone: {
                     label: "Phone",
-                    placeholder: "+1 (555) 000-0000",
+                    placeholder: "Enter your phone number",
                     type: "tel"
                 },
                 service: {
@@ -995,7 +994,7 @@ export const serviceWorkflowData = {
                 "Long-lasting results with quality materials"
             ],
             outro: "We prioritize precision, aesthetics, and customer satisfaction for every project.",
-            image: "s2.jpg",
+            image: "building-a.jpeg",
             imageAlt: "Building window tinting service"
         },
 
@@ -1009,7 +1008,7 @@ export const serviceWorkflowData = {
                 },
                 phone: {
                     label: "Phone",
-                    placeholder: "+1 (555) 000-0000",
+                    placeholder: "Enter your phone number",
                     type: "tel"
                 },
                 service: {
