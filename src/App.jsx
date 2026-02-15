@@ -23,6 +23,7 @@ import Restoration from "./page/Restoration";
 import CrackRepair from "./page/CrackRepair";
 import CondensationRepair from "./page/CondensationRepair";
 import LensReplacement from "./page/LensReplacement";
+import ReviewPage from "./components/Review";
 
 function App() {
   useEffect(() => {
@@ -40,6 +41,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/review" element={<ReviewPage />} />
         <Route path="/about" element={<About />} />
         <Route path="/service" element={<ServiceOverview />} />
         <Route path="/Window-Tinting" element={<WindowTint/>} />

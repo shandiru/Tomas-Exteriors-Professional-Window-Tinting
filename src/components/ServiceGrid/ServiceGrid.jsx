@@ -1,5 +1,5 @@
-
-import { ArrowRight } from "lucide-react";
+import { useRef, useState, useCallback } from "react";
+import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const services = [
@@ -7,72 +7,115 @@ const services = [
     title: "Window Tinting",
     desc:
       "Enhance your vehicle’s style, comfort, and privacy with our professional window tinting services. We use premium films to reduce heat, block UV rays, and prevent interior fading while giving your car a sleek, modern look.",
-    image:
-      "tint-b.jpeg",
+    before: "tint-b.jpeg",
+    after: "tint-a.jpeg",
     link: "/Window-Tinting"
   },
   {
     title: "Headlight Restoration",
-    desc:
-      "Bring clarity back to your headlights with our advanced restoration services. We remove oxidation, yellowing, and scratches to improve nighttime visibility and restore headlights to near-new condition.",
-    image:
-      "Headlight Restoration-a.jpeg",
+    desc: "Bring clarity back to your headlights with our advanced restoration services. We remove oxidation, yellowing, and scratches to improve nighttime visibility and restore headlights to near-new condition.",
+    before: "Headlight Restoration-b.jpeg",
+    after: "Headlight Restoration-a.jpeg",
     link: "/Headlight-Restoration"
   },
   {
     title: "Headlight Crack Repair",
     desc:
       "Avoid unnecessary replacements with our expert headlight crack repair services. We fix cracks to prevent moisture ingress, stop further damage, and extend headlight lifespan.",
-    image:
-      "Crack-a .jpeg",
+    before: "Crack-b.jpeg",
+    after: "Crack-a .jpeg",
     link: "/Crack-Repair"
   },
   {
     title: "Headlight Condensation Repair",
     desc:
       "Moisture inside headlights can reduce visibility and damage electrical components. Our condensation repair services restore clarity and prevent future fogging for safer driving.",
-    image:
-      "Condensation-a.jpeg",
+    before: "Condensation-b.jpeg",
+    after: "Condensation-a.jpeg",
     link: "/Condensation-Repair"
   },
   {
     title: "Headlight Lens Replacement",
     desc:
       "When restoration isn’t enough, we provide professional headlight lens replacement services. Our high-quality replacements ensure optimal light output, improved safety, and a refreshed vehicle appearance.",
-    image:
-      "Crack1-a .jpeg",
+    before: "Crack1-b.jpeg",
+    after: "Crack1-a .jpeg",
     link: "/Lens-Replacement"
   },
   {
     title: "Exterior Enhancement Services",
     desc:
       "From window tinting to headlight maintenance, our exterior vehicle services enhance aesthetics, safety, and functionality. Every project is completed with precision, care, and premium materials.",
-    image:
-      "Exterior-a.jpeg",
+    before: "Exterior-b.jpeg",
+    after: "Exterior-a.jpeg",
     link: "/Headlight"
   },
   {
     title: "Building Window Tinting",
-    desc: "Home, Office & Bespoke Privacy Tinting. Upgrade comfort, privacy, and heat protection with professional building window tinting for homes, offices, terraces, and custom spaces. Reduce glare, block UV rays, and create a clean modern finish without losing natural light.",
-    image: "building-a.jpeg", // Replace with your image filename
+    desc:
+      "Home, Office & Bespoke Privacy Tinting. Upgrade comfort, privacy, and heat protection with professional building window tinting for homes, offices, terraces, and custom spaces. Reduce glare, block UV rays, and create a clean modern finish without losing natural light.",
+    before: "building-b.jpeg",
+    after: "building-a.jpeg",
     link: "/Building-Window-Tinting"
   },
   {
     title: "Intelligent Ambient Light Installation",
-    desc: "Modern Lighting for Comfort & Style. Transform your vehicle or space with intelligent ambient lighting. We install clean, safe, and professionally wired lighting solutions that improve visibility, enhance mood, and add a premium look with custom colours and settings.",
-    image: "ambient1.jpeg", // Replace with your image filename
+    desc:
+      "Modern Lighting for Comfort & Style. Transform your vehicle or space with intelligent ambient lighting. We install clean, safe, and professionally wired lighting solutions that improve visibility, enhance mood, and add a premium look with custom colours and settings.",
+    before: "ambient1.jpeg",
+    after: "ambient2.jpeg",
     link: "/Intelligent-Ambient-Light-Installation"
   },
   {
     title: "Interior Trims Restoration / Wrapping",
-    desc: "Refresh, Repair & Upgrade Interior Finishes. Bring your interior back to life with trim restoration and wrapping. We repair worn or faded trims and apply high-quality wraps for a fresh, modern look—perfect for upgrading panels, trim pieces, and interior detailing.",
-    image: "interior.jpeg", // Replace with your image filename
+    desc:
+      "Refresh, Repair & Upgrade Interior Finishes. Bring your interior back to life with trim restoration and wrapping. We repair worn or faded trims and apply high-quality wraps for a fresh, modern look—perfect for upgrading panels, trim pieces, and interior detailing.",
+    before: "interior.jpeg",
+    after: "interior1.jpeg",
     link: "/Interior-Trims-Restoration"
   }
 ];
 
+export default function ServiceGrid() {
 
-const ServiceGrid = () => {
+  /* slider position per card */
+  const [posMap, setPosMap] = useState(() =>
+    Object.fromEntries(services.map((_, i) => [i, 50]))
+  );
+
+  const containersRef = useRef({});
+
+  const setContainerRef = (i) => (el) => {
+    containersRef.current[i] = el;
+  };
+
+  const updateFromClientX = useCallback((i, clientX) => {
+    const el = containersRef.current[i];
+    if (!el) return;
+    const rect = el.getBoundingClientRect();
+    const x = Math.min(Math.max(clientX - rect.left, 0), rect.width);
+    const pct = Math.round((x / rect.width) * 100);
+    setPosMap((m) => ({ ...m, [i]: pct }));
+  }, []);
+
+  const onMouseDown = (i, e) => {
+    e.preventDefault();
+    updateFromClientX(i, e.clientX);
+
+    const move = (ev) => updateFromClientX(i, ev.clientX);
+    const up = () => {
+      window.removeEventListener("mousemove", move);
+      window.removeEventListener("mouseup", up);
+    };
+
+    window.addEventListener("mousemove", move);
+    window.addEventListener("mouseup", up);
+  };
+
+  const onTouchMove = (i, e) => {
+    if (e.touches?.[0]) updateFromClientX(i, e.touches[0].clientX);
+  };
+
   return (
     <section className="bg-white mt-20 py-14">
       <div className="max-w-7xl mx-auto px-6">
@@ -81,93 +124,92 @@ const ServiceGrid = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-14">
           <div>
             <p className="text-sm text-[#404143] mb-2">Home / Service</p>
-            <h2 className="text-4xl font-bold text-black">
-              Our Service Overview
-            </h2>
+            <h2 className="text-4xl font-bold">Our Service Overview</h2>
           </div>
 
-          <p className="text-[#404143] leading-relaxed max-w-lg">
-            At Tomas Exterior, we offer professional automotive services designed to enhance your vehicle’s aesthetics, safety, and performance. Our experienced technicians provide precise solutions for window tinting and headlight maintenance, ensuring long-lasting results and customer satisfaction.
+          <p className="text-[#404143] max-w-lg">
+            Professional exterior upgrades designed to improve appearance, safety, and comfort.
           </p>
         </div>
 
-        {/* SERVICE CARDS */}
+        {/* SERVICE GRID */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {services.map((item, index) => (
-            <a
-              key={index}
-              href={item.link}
-              className="group block bg-[#F6F7FB] rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-xl"
+
+          {services.map((item, i) => (
+            <div
+              key={i}
+              className="group bg-[#F6F7FB] rounded-2xl overflow-hidden hover:shadow-xl transition"
             >
-              {/* IMAGE WRAPPER */}
-              <div className="relative overflow-hidden rounded-xl m-5">
-
-                {/* IMAGE */}
+              {/* BEFORE / AFTER SLIDER */}
+              <div
+                ref={setContainerRef(i)}
+                onMouseDown={(e) => onMouseDown(i, e)}
+                onTouchMove={(e) => onTouchMove(i, e)}
+                className="relative h-[230px] overflow-hidden m-5 rounded-xl cursor-ew-resize select-none"
+              >
+                {/* after */}
                 <img
-                  src={item.image}
-                  alt={item.title}
-                  className="
-                    w-full
-                    h-[230px]
-                    object-cover
-                    transition-transform
-                    duration-700
-                    ease-out
-                    group-hover:scale-110
-                  "
+                  src={item.after}
+                  className="w-full h-full object-top hover:scale-105 transition-transform duration-300 group-hover:scale-105 active:scale-100"
+                  draggable="false"
                 />
 
-                {/* BLUE OVERLAY */}
+
+                {/* before */}
                 <div
-                  className="
-                    absolute inset-0
-                    bg-[#0A3B8E]/0
-                    group-hover:bg-[#404143]/70
-                    transition-all
-                    duration-500
-                  "
-                />
+                  className="absolute inset-0 overflow-hidden"
+                  style={{ width: `${posMap[i]}%` }}
+                >
+                  <img
+                    src={item.before}
+                    className="absolute inset-0 w-full h-full object-top hover:scale-105 transition-transform duration-300 group-hover:scale-105 active:scale-100"
+                    draggable="false"
+                  />
+                </div>
 
+                {/* DIVIDER + LUCIDE ARROWS */}
+                <div
+                  className="absolute top-0 h-full w-[2px] bg-[#F21B23]"
+                  style={{ left: `${posMap[i]}%` }}
+                >
+                  <div
+                    className="
+      absolute left-1/2 top-1/2 
+      -translate-x-1/2 -translate-y-1/2
+      flex items-center justify-center gap-1
+      h-10 w-10 rounded-full 
+      bg-[#F21B23] text-white 
+      shadow-lg
+      cursor-ew-resize
+    "
+                  >
+                    <ChevronLeft size={16} />
+                    <ChevronRight size={16} />
+                  </div>
+                </div>
               </div>
 
               {/* CONTENT */}
               <div className="px-6 pb-6">
-                <h3 className="text-lg font-semibold text-black mb-2">
-                  {item.title}
-                </h3>
+                <h3 className="text-lg font-semibold mb-2">{item.title}</h3>
 
-                <p className="text-sm text-[#404143] leading-relaxed">
+                <p className="text-sm text-[#404143]">
                   {item.desc}
                 </p>
+
                 <Link
                   to={item.link}
-                  className="
-                    mt-4
-                    inline-flex
-                    items-center
-                    font-semibold
-                    text-[#F21B23]
-                    hover:text-white
-                    bg-white
-                    hover:bg-[#404143]
-                    px-4
-                    py-2
-                    rounded-full
-                    transition
-                    duration-300
-                    w-fit
-                  "
+                  className="mt-4 inline-flex items-center font-semibold text-[#F21B23] bg-white hover:bg-[#404143] hover:text-white px-4 py-2 rounded-full transition"
                 >
                   Learn More
-                  <ArrowRight className="w-4 h-4 ml-2 transition-transform group-hover:translate-x-1" />
+                  <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition" />
                 </Link>
               </div>
-            </a>
+            </div>
           ))}
+
         </div>
       </div>
     </section>
   );
-};
-
-export default ServiceGrid;
+}
