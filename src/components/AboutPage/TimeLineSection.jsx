@@ -35,7 +35,7 @@ const TimelineSection = () => {
             year: "2015",
             title: "Company Establishment",
             desc: "Tomas Exterior Professional Window Tinting started as a focused automotive service brand driven by a passion for quality vehicle enhancement. What began as hands-on tinting work quickly grew into a trusted name for precision window tinting and advanced headlight services.",
-            img: "a4.jpg",
+            img: "ambient1.jpeg",
         },
         {
             year: "2018",
@@ -47,13 +47,13 @@ const TimelineSection = () => {
             year: "2021",
             title: "Our Story",
             desc: "From humble beginnings, Tomas Exterior has grown into a respected automotive service provider. With years of experience, we specialize in enhancing vehicle safety, visibility, and aesthetics through expert tinting and headlight solutions.",
-            img: "pexels-vadutskevich-13575248.jpg",
+            img: "tint-a.jpeg",
         },
         {
             year: "2024",
             title: "Tomas Exterior Overview",
             desc: "Tomas Exterior began as a local automotive service and has steadily built a reputation for professionalism, precision, and customer satisfaction. Our focus on quality workmanship and long-lasting results has made us a trusted choice among vehicle owners.",
-            img: "a2.jpg",
+            img: "Headlight Restoration-a.jpeg",
         },
     ];
 
@@ -85,7 +85,7 @@ const TimelineSection = () => {
                                     {/* Image Half */}
                                     <div className="w-full lg:w-1/2 px-4 lg:px-16">
                                         <div className="rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white/10" data-aos={index % 2 === 0 ? "fade-right" : "fade-left"}>
-                                            <img src={item.img} alt={item.title} className="w-full h-72 md:h-96 object-cover" />
+                                            <img src={item.img} alt={item.title} className="w-full h-72 md:h-96 object-top" />
                                         </div>
                                     </div>
 

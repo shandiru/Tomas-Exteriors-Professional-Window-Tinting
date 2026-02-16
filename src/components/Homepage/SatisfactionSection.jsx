@@ -15,7 +15,7 @@ const SatisfactionSection = () => {
           {/* LEFT IMAGE - Hidden on mobile, visible on LG */}
           <div className="hidden lg:block lg:col-span-3">
             <img
-              src="pexels-daeyeoung-ahn-1552650783-27243718.jpg"
+              src="ambient1.jpeg"
               alt="Window Tinting Expert"
               className="w-full rounded-2xl shadow-2xl transform -rotate-3 hover:rotate-0 transition-transform duration-500"
             />
@@ -58,7 +58,7 @@ const SatisfactionSection = () => {
               className="w-full rounded-2xl shadow-xl transform rotate-3 hover:rotate-0 transition-transform duration-500"
             />
             <img
-              src="pexels-vadutskevich-13575248.jpg"
+              src="tint-a.jpeg"
               alt="Satisfied Customer"
               className="w-full rounded-2xl shadow-xl translate-x-4"
             />

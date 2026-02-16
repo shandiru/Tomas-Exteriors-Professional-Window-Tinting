@@ -10,7 +10,7 @@ const GlobalCTA = () => {
           <div className="relative lg:col-span-2 rounded-3xl overflow-hidden">
             {/* Background Image */}
             <img
-              src="pexels-vadutskevich-13575248.jpg"
+              src="/Exterior-a.jpeg"
               alt="Plumbing Service"
               className="absolute inset-0 w-full h-full object-cover"
             />

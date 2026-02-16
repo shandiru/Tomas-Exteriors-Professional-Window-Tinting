@@ -63,14 +63,6 @@ const AboutSection = () => {
                 </div>
               ))}
             </div>
-
-            {/* Call Button */}
-            {/* <a
-              href="tel:+1578365379"
-              className="inline-flex items-center justify-center bg-[#F21B23] text-white px-10 py-4 rounded-full font-semibold hover:bg-[#F21B23] transition"
-            >
-              Call +(1)578-365-379
-            </a> */}
           </div>
 
         </div>

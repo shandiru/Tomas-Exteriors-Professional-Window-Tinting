@@ -19,7 +19,7 @@ const MissionVision = () => {
         {/* MISSION */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
           <img
-            src="/pexels-vadutskevich-13575248.jpg"
+            src="/Exterior-a.jpeg"
             loading="lazy"
             alt="Our Mission"
             className="rounded-2xl w-full object-cover h-[280px] sm:h-[350px]"
