@@ -53,7 +53,7 @@ const SatisfactionSection = () => {
           {/* RIGHT IMAGES - Hidden on mobile, visible on LG */}
           <div className="hidden lg:flex lg:col-span-3 flex-col gap-6">
             <img
-              src="pexels-max-kladitin-456997122-18382225.jpg"
+              src="about.jpeg"
               alt="Car Tinting"
               className="w-full rounded-2xl shadow-xl transform rotate-3 hover:rotate-0 transition-transform duration-500"
             />

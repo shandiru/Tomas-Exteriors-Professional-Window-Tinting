@@ -29,7 +29,7 @@ const AboutSection = () => {
           {/* LEFT IMAGE */}
           <div>
             <img
-              src="pexels-max-kladitin-456997122-18382225.jpg"
+              src="about.jpeg"
               alt="About us"
               className="w-full max-w-[580px] rounded-3xl object-cover"
             />

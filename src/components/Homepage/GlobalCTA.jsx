@@ -44,7 +44,7 @@ const GlobalCTA = () => {
             <div>
               {/* Agent Image */}
               <img
-                src="https://cdn.prod.website-files.com/6758025a9c7dc8ef4a257c50/67739ca4c06148b3e7c2005f_agent-image.webp"
+                src="tag.jpeg"
                 alt="Wade Warren"
                 className="w-16 h-16 rounded-full bg-[#F21B23] mb-6"
               />
