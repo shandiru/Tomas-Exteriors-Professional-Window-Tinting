@@ -41,7 +41,7 @@ const TimelineSection = () => {
             year: "2018",
             title: "Our Journey",
             desc: "Founded with a clear goal of delivering reliable, high-quality automotive exterior solutions, Tomas Exterior has continuously evolved by adopting modern techniques, premium materials, and customer-first service standards.",
-            img: "pexels-max-kladitin-456997122-18382225.jpg",
+            img: "about.jpeg",
         },
         {
             year: "2021",

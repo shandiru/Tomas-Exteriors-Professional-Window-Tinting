@@ -59,7 +59,7 @@ const MissionVision = () => {
           </div>
 
           <img
-            src="/pexels-max-kladitin-456997122-18382225.jpg"
+            src="/about.jpeg"
             alt="Our Vision"
             loading="lazy"
             className="rounded-2xl w-full object-cover h-[280px] sm:h-[350px]"
