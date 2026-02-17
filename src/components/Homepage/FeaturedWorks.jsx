@@ -12,7 +12,7 @@ const works = [
     title: "Headlight Restoration",
     image: "/s2.jpg",
     description:
-      "Restoring faded and oxidized headlights to like-new clarity, improving nighttime visibility and vehicle safety.",
+      "Restoring faded and oxidized headlights to like-new clarity, improving night-time visibility and vehicle safety.",
     link: "/Headlight",
   },
   {

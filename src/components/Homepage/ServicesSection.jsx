@@ -12,7 +12,7 @@ const services = [
   },
   {
     title: "Headlight Restoration",
-    desc: "Bring clarity back to your headlights with our advanced restoration services. We remove oxidation, yellowing, and scratches to improve nighttime visibility and restore headlights to near-new condition.",
+    desc: "Bring clarity back to your headlights with our advanced restoration services. We remove oxidation, yellowing, and scratches to improve night-time visibility and restore headlights to near-new condition.",
     before: "Headlight Restoration-b.jpeg",
     after: "Headlight Restoration-a.jpeg",
     link: "/Headlight-Restoration",
@@ -197,7 +197,7 @@ export default function ServiceGrid() {
         {/* HEADER */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-14">
           <div>
-            <h2 className="text-4xl font-bold">Our Service </h2>
+            <h2 className="text-4xl font-bold">Our Services</h2>
           </div>
 
           <div className="flex flex-col justify-between gap-4">

@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import MarqueeSection from "../Homepage/MarqueeSection"; // Uncomment if file exists
 
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen overflow-hidden">
+
       {/* Background Container */}
       <div className="absolute inset-0 z-0">
         <video
@@ -18,44 +18,60 @@ const HeroSection = () => {
           <source src="/video.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <div className="absolute inset-0 bg-black/50 z-10"></div>
+        <div className="absolute inset-0 bg-black/50 z-10" />
       </div>
 
       {/* CONTENT + MARQUEE STACK */}
       <div className="relative z-20 min-h-screen flex flex-col justify-center">
-        
+
         {/* HERO CONTENT */}
-        <div className="max-w-7xl mx-auto px-6 lg:px-12 py-32 w-full">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-24 sm:py-28 md:py-32 w-full">
           <div className="max-w-4xl">
-            <h1 className="text-[48px] md:text-[72px] leading-[1.1] font-extrabold text-white mb-4">
-              Premium Window Tinting &<br className="hidden md:block" />
-              <span className="text-[#F21B23]">Bespoke Headlight Solutions</span>
-            </h1> 
-            <h2 className="text-[24px] md:text-[32px] font-bold text-white mb-6">
+
+            {/*
+              H1 strategy (tested at every breakpoint):
+              - <br> forces "Premium Window Tinting" on its own line at sm+
+              - &nbsp; between & and Bespoke prevents & from orphaning alone
+              - font steps: 30 → 36 → 44 → 56 → 68px
+              - At 320–414px: natural 3-line wrap, & always stays with Bespoke
+              - At 540px+: clean 2-line split every time
+            */}
+            <h1 className="text-[30px] sm:text-[36px] md:text-[44px] lg:text-[56px] xl:text-[68px] leading-[1.1] font-extrabold text-white mb-4">
+              Premium Window Tinting
+              <br />
+              <span className="text-[#F21B23]">&amp;&nbsp;Bespoke Headlight Solutions</span>
+            </h1>
+
+            <h2 className="text-[18px] sm:text-[22px] md:text-[28px] lg:text-[32px] font-bold text-white mb-5 sm:mb-6">
               Driven by Passion, Defined by Quality
             </h2>
 
-            <p className="text-gray-200 text-lg md:text-xl leading-relaxed max-w-2xl mb-10">
-              At Tomas Exterior, we specialize in high-quality window tinting and professional headlight services that enhance both the look and safety of your vehicle. From expert tint installations to advanced headlight repairs and restorations, we deliver reliable results you can trust.
+            <p className="text-gray-200 text-base sm:text-lg md:text-xl leading-relaxed max-w-2xl mb-8 sm:mb-10">
+              At Tomas Exterior, we specialise in high-quality window tinting
+              and professional headlight services that enhance both the look and
+              safety of your vehicle. From expert tint installations to advanced
+              headlight repairs and restorations, we deliver reliable results
+              you can trust.
             </p>
 
-            <div className="flex flex-wrap items-center gap-6">
+            <div className="flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center gap-3 sm:gap-4 md:gap-6">
               <a
                 href="https://wa.me/447851823807"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-[#F21B23] hover:bg-white hover:text-black text-white font-bold px-10 py-4 rounded-full transition-all duration-300 inline-block uppercase tracking-wider text-sm"
+                className="bg-[#F21B23] hover:bg-white hover:text-black text-white font-bold px-8 sm:px-10 py-3.5 sm:py-4 rounded-full transition-all duration-300 inline-block uppercase tracking-wider text-xs sm:text-sm text-center"
               >
                 Chat with Us on WhatsApp
               </a>
-              
+
               <Link
                 to="/service"
-                className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-black font-bold px-10 py-4 rounded-full transition-all duration-300 inline-block uppercase tracking-wider text-sm"
+                className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-black font-bold px-8 sm:px-10 py-3.5 sm:py-4 rounded-full transition-all duration-300 inline-block uppercase tracking-wider text-xs sm:text-sm text-center"
               >
                 Our Services
               </Link>
             </div>
+
           </div>
         </div>
       </div>

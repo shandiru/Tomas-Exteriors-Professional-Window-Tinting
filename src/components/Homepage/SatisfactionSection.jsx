@@ -1,7 +1,7 @@
 import React from "react";
 
 const stats = [
-  { value: "20", label: "Year Experience" },
+  { value: "20", label: "Years' Experience" },
   { value: "10k", label: "Happy Clients" },
   { value: "1", label: "Man Band" },
 ];
@@ -21,18 +21,26 @@ const SatisfactionSection = () => {
             />
           </div>
 
-          {/* CENTER CONTENT */}
-          <div className="lg:col-span-6 text-center z-10">
-            <span className="inline-block mb-6 text-[#F21B23] font-bold text-sm tracking-[0.2em] uppercase border-b-2 border-[#F21B23]/20 pb-2">
+          {/* CENTER CONTENT
+              FIX: added 'relative' so z-10 actually takes effect.
+              transform:rotate() on the side images creates stacking contexts
+              that paint over siblings — z-index only works on positioned elements. */}
+          <div className="lg:col-span-6 text-center relative z-10">
+
+            <span className="inline-block mb-6 text-[#F21B23] font-bold text-sm tracking-[0.2em] uppercase border-b-2 border-[#F21B23]/20 pb-2 whitespace-nowrap">
               Welcome to Tomas Exterior
             </span>
 
-            <h2 className="text-2xl md:text-3xl font-bold text-black leading-tight mb-8">
-              With a reputation built on quality and precision, Tomas Exterior delivers professional window tinting and headlight services with a flawless finish.
+            <h2 className="text-2xl md:text-3xl lg:text-xl xl:text-3xl font-bold text-black leading-tight mb-8">
+              With a reputation built on quality and precision, Tomas Exterior
+              delivers professional window tinting and headlight services with a
+              flawless finish.
             </h2>
 
             <p className="text-gray-600 text-lg leading-relaxed mb-12">
-              We take pride in our OCD-driven workmanship, ensuring every tint line, edge, and final detail is completed top-top with no shortcuts.
+              We take pride in our OCD-driven workmanship, ensuring every tint
+              line, edge, and final detail is completed top-top with no
+              shortcuts.
             </p>
 
             {/* STATS */}

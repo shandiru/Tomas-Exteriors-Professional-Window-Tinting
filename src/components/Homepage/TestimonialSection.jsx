@@ -96,7 +96,7 @@ const TestimonialSection = () => {
           </AnimatePresence>
 
           {/* Navigation Arrows */}
-          <div className="absolute inset-x-0 top-1/2 -translate-y-1/2 flex justify-between pointer-events-none">
+          <div className="absolute inset-x-0 bottom-4 md:bottom-1/4 -translate-y-1/2 flex justify-between pointer-events-none">
             <button
               onClick={prev}
               className="pointer-events-auto w-12 h-12 rounded-full border border-white/10 flex items-center justify-center hover:bg-white hover:text-black transition-all group"

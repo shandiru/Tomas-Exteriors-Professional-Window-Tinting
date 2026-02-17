@@ -100,7 +100,7 @@ Note: ${formData.note || "N/A"}`
           </div>
 
           <div className="w-full lg:w-1/2">
-            <h2 className="text-2xl font-bold text-black mb-6">Get In Touch</h2>
+            <h2 className="text-2xl font-bold text-black mb-6">Get in Touch</h2>
 
             <form className="space-y-4" onSubmit={handleSubmit}>
               {/* Full Name */}

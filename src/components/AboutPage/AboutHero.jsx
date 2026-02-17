@@ -41,19 +41,19 @@ const HeroSection = () => {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 divide-x-0 md:divide-x divide-gray-100">
               <div className="text-center">
                 <h3 className="text-3xl md:text-5xl font-bold text-black">18<span className="text-[#F21B23]">+</span></h3>
-                <p className="text-[#404143] text-xs md:text-sm font-medium mt-2">Year Experience</p>
+                <p className="text-[#404143] text-xs md:text-sm font-medium mt-2">Years’ Experience</p>
               </div>
               <div className="text-center">
                 <h3 className="text-3xl md:text-5xl font-bold text-black">4.3<span className="text-[#F21B23]">k</span></h3>
-                <p className="text-[#404143] text-xs md:text-sm font-medium mt-2">Happy clients</p>
+                <p className="text-[#404143] text-xs md:text-sm font-medium mt-2">Happy Clients</p>
               </div>
               <div className="text-center">
                 <h3 className="text-3xl md:text-5xl font-bold text-black">25<span className="text-[#F21B23]">+</span></h3>
-                <p className="text-[#404143] text-xs md:text-sm font-medium mt-2">Qualified experts</p>
+                <p className="text-[#404143] text-xs md:text-sm font-medium mt-2">Quality Experts</p>
               </div>
               <div className="text-center">
                 <h3 className="text-3xl md:text-5xl font-bold text-black">08<span className="text-[#F21B23]">+</span></h3>
-                <p className="text-[#404143] text-xs md:text-sm font-medium mt-2">Award Achieved</p>
+                <p className="text-[#404143] text-xs md:text-sm font-medium mt-2">Awards Achieved</p>
               </div>
             </div>
           </div>
