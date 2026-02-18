@@ -13,12 +13,12 @@ const SingleTransformation = ({ data }) => {
   };
 
   return (
-    <div className="min-h-screen bg-white py-12 px-4 md:py-24 transition-colors duration-300">
+    <div className="bg-white py-12 px-4 md:py-24 transition-colors duration-300">
       <div className="max-w-6xl mx-auto">
 
         {/* Header - Centered */}
         <div className="text-center mb-12 space-y-3">
-          <h2 className="text-5xl md:text-7xl font-black tracking-tighter text-gray-900 leading-none">
+          <h2 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-gray-900">
             THE <span className="text-[#F21B23]">TRANSFORMATION</span>
           </h2>
         </div>
@@ -33,7 +33,7 @@ const SingleTransformation = ({ data }) => {
               <img
                 src={activeItem.before}
                 alt="Before Tinting"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-top"
               />
 
               {/* After Image Layer */}
@@ -45,7 +45,7 @@ const SingleTransformation = ({ data }) => {
                 <img
                   src={activeItem.after}
                   alt="After Tinting"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-top"
                 />
               </div>
 

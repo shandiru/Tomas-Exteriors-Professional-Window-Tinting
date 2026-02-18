@@ -305,7 +305,7 @@ export const serviceWorkflowData = {
                     rows: 4
                 }
             },
-            submitButton: "Book Your Headlight Restoration Today"
+            submitButton: "Book Today"
         },
 
         colors: {
@@ -408,7 +408,7 @@ export const serviceWorkflowData = {
                     rows: 4
                 }
             },
-            submitButton: "Book Your Headlight Crack Repair Today"
+            submitButton: "Book Today"
         },
 
         colors: {
@@ -717,7 +717,7 @@ export const serviceWorkflowData = {
                     rows: 4
                 }
             },
-            submitButton: "Book Your Exterior Enhancement Today"
+            submitButton: "Book Today"
         },
 
         colors: {
