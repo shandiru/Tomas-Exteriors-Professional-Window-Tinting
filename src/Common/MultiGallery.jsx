@@ -1,5 +1,5 @@
 import React from "react";
-import { ShieldCheck, Sparkles } from "lucide-react";
+import { Sparkles } from "lucide-react";
 
 const MultiGallery = ({ data }) => {
   // 1. Safety check: If data is missing or still an array, handle it
