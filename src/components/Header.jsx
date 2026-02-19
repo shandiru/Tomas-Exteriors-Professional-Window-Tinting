@@ -3,8 +3,8 @@ import { Menu, X } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
 
 const AnimatedLink = ({ text, href, onClick }) => (
-  <a
-    href={href}
+  <Link
+    to={href}
     onClick={onClick}
     className="group relative overflow-hidden h-6 block"
   >
@@ -14,7 +14,7 @@ const AnimatedLink = ({ text, href, onClick }) => (
     <span className="block text-[#F21B23] absolute left-0 top-full transition-transform duration-300 group-hover:-translate-y-full">
       {text}
     </span>
-  </a>
+  </Link>
 );
 
 const Navbar = () => {
