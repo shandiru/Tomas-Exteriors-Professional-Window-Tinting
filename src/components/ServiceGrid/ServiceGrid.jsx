@@ -30,8 +30,8 @@ const services = [
     title: "Headlight Condensation Repair",
     desc:
       "Moisture inside headlights can reduce visibility and damage electrical components. Our condensation repair services restore clarity and prevent future fogging for safer driving.",
-    before: "Condensation-b.jpeg",
-    after: "Condensation-a.jpeg",
+    before: "Condensation1-b.jpg",
+    after: "Condensation1-a.jpg",
     link: "/Condensation-Repair"
   },
   {
