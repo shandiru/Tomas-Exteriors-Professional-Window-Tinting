@@ -46,9 +46,9 @@ const services = [
     title: "Exterior Enhancement Services",
     desc:
       "From window tinting to headlight maintenance, our exterior vehicle services enhance aesthetics, safety, and functionality. Every project is completed with precision, care, and premium materials.",
-    before: "Exterior-b.jpeg",
-    after: "Exterior-a.jpeg",
-    link: "/Headlight"
+    before: "extirior-b.jpg",
+    after: "extirior-a.jpg",
+    link: "/Exterior-Enhancement-Services"
   },
   {
     title: "Building Window Tinting",

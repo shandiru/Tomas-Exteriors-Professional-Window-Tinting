@@ -49,7 +49,7 @@ function App() {
         <Route path="/Crack-Repair" element={<CrackRepair />} />
         <Route path="/Condensation-Repair" element={<CondensationRepair />} />
         <Route path="/Lens-Replacement" element={<LensReplacement />} />
-        <Route path="/Headlight" element={<Headlight />} />
+        <Route path="/Exterior-Enhancement-Services" element={<Headlight />} />
         <Route path="/Building-Window-Tinting" element={<BuildingWindowTinting />} />
         <Route path="/Intelligent-Ambient-Light-Installation" element={<IntelligentAmbientLightInstallation />} />
         <Route path="/Interior-Trims-Restoration" element={<InteriorTrimsRestoration />} />

@@ -4,14 +4,15 @@ import ServiceSection from '../Common/ServiceWorkflowSection'
 import serviceHeaderData from '../Data/serviceData'
 import { serviceWorkflowData } from "../Data/serviceWorkflowData"
 import Gallery from '../Data/Gallery'
-import GalleryCarousel from '../Common/GalleryCarousel'
+import MultiGallery from '../Common/MultiGallery'
+import DualTransformation from '../Common/MultiSetGallery'
 
 const CondensationRepair = () => {
   return (
     <div>
       <ServiceHeader data={serviceHeaderData.CondensationRepair}/>
       <ServiceSection data={serviceWorkflowData.HeadlightCondensationRepair}/>
-      <GalleryCarousel data={Gallery.CondensationRepair} />
+      <DualTransformation data={Gallery.lense} />
     </div>
   )
 }

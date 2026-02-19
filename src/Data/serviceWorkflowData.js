@@ -688,7 +688,7 @@ export const serviceWorkflowData = {
                 "Long-lasting results using professional-grade products"
             ],
             outro: "We prioritize quality, durability, and customer satisfaction in every enhancement project.",
-            image: "Exterior-a.jpeg",
+            image: "extirior-a.jpg",
             imageAlt: "Exterior enhancement detailing service"
         },
 

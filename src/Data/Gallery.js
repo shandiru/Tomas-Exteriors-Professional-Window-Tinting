@@ -19,8 +19,8 @@ const Gallery = {
   HeadlightServices: [
     {
       id: 1,
-      before: "/Exterior-b.jpeg",
-      after: "/Exterior-a.jpeg",
+      before: "/extirior-b.jpg",
+      after: "/extirior-a.jpg",
       description: "Enhance your vehicle's exterior look and safety with professional detailing. We restore paint, headlights, and trims to like-new condition."
     }
   ],
@@ -32,7 +32,29 @@ const Gallery = {
       before: "/Condensation-b.jpeg",
       after: "/Condensation-a.jpeg",
       description: "Clear internal moisture from your headlights, preventing fogging and protecting bulbs and wiring for improved visibility."
+    },
+    {
+      id: 2,
+      before: "/Condensation1-b.jpeg",
+      after: "/Condensation1-a.jpeg",
+      description: "Clear internal moisture from your headlights, preventing fogging and protecting bulbs and wiring for improved visibility."
     }
+
+  ],
+
+  lense: [
+    {
+      id: 1,
+      type: "video",
+      beforeVideo: "/lense-b.mp4",
+      afterVideo: "/lense-a.mp4",
+    },
+    {
+      id: 2,
+      type: "image",
+      before: "/Condensation1-b.jpg",
+      after: "/Condensation1-a.jpg",
+    },
   ],
 
   // Headlight Restoration

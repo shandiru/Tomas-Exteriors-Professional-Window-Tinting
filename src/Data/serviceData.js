@@ -15,7 +15,7 @@ const serviceHeaderData = {
     title: "Exterior Enhancement Services",
     description:
       "Enhance your vehicle’s appearance and protection with professional exterior enhancement services. Our expert detailing, polishing, and protective treatments restore shine, improve durability, and give your vehicle a flawless, showroom-quality finish.",
-    image: "Exterior-a.jpeg",
+    image: "extirior-a.jpg",
     whatsappLink: "https://wa.me/447851823807",
   },
   BuildingWindowTinting: {
