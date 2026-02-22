@@ -5,7 +5,7 @@ const ContactSection = () => {
   const contactData = [
     {
       icon: <CheckSquare className="w-8 h-8 text-[#F21B23]" />,
-      title: "Chat to Sale",
+      title: "Chat to Sales",
       description: "Email us for scheduling",
       linkText: "Tomasexteriors@gmail.com",
       linkHref: "mailto:Tomasexteriors@gmail.com",

@@ -27,8 +27,8 @@ const services = [
   {
     title: "Headlight Condensation Repair",
     desc: "Moisture inside headlights can reduce visibility and damage electrical components. Our condensation repair services restore clarity and prevent future fogging for safer driving.",
-    before: "Condensation-b.jpeg",
-    after: "Condensation-a.jpeg",
+    before: "Condensation1-b.jpg",
+    after: "Condensation1-a.jpg",
     link: "/Condensation-Repair",
   },
   {
@@ -40,9 +40,9 @@ const services = [
   },
   {
     title: "Exterior Enhancement",
-    desc: "From window tinting to headlight maintenance, our exterior vehicle services enhance aesthetics, safety, and functionality. Every project is completed with precision, care, and premium materials.",
-    before: "Exterior-b.jpeg",
-    after: "Exterior-a.jpeg",
+    desc: "Transform your vehicle’s appearance with professional body kit styling and exterior enhancements. We refine bumpers, splitters, side skirts, and trims to create a bold, factory-level finish tailored to your vehicle.",
+    before: "extirior-b.jpg",
+    after: "extirior-a.jpg",
     link: "/Headlight",
   },
   {

@@ -482,7 +482,7 @@ export const serviceWorkflowData = {
                 "Reliable performance in all weather conditions"
             ],
             outro: "We prioritize durability, safety, and customer satisfaction.",
-            image: "Condensation-a.jpeg",
+            image: "Condensation-a.png",
             imageAlt: "Headlight condensation repair process"
         },
 

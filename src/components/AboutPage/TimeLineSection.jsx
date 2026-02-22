@@ -53,7 +53,7 @@ const TimelineSection = () => {
             year: "2024",
             title: "Tomas Exterior Overview",
             desc: "Tomas Exterior began as a local automotive service and has steadily built a reputation for professionalism, precision, and customer satisfaction. Our focus on quality workmanship and long-lasting results has made us a trusted choice among vehicle owners.",
-            img: "Headlight Restoration-a.jpeg",
+            img: "Condensation-a.png",
         },
     ];
 

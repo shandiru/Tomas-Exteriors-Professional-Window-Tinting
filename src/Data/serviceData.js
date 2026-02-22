@@ -63,7 +63,7 @@ const serviceHeaderData = {
     title: "Headlight Condensation Repair",
     description:
       "Eliminate fogging and moisture buildup with professional headlight condensation repair. We identify and fix seal issues to keep your headlights clear, dry, and fully functional in all weather conditions.",
-    image: "Condensation-a.jpeg",
+    image: "Condensation-a.png",
     whatsappLink: "https://wa.me/447851823807",
   },
   LensReplacement: {
