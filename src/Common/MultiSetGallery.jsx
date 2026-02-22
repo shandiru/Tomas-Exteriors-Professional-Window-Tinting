@@ -136,7 +136,7 @@ export default function DualTransformation({ data = [] }) {
 
         {/* HEADER */}
         <div className="text-center mb-16 space-y-3">
-          <h2 className="text-4xl md:text-6xl font-black text-gray-900">
+          <h2 className="text-2xl md:text-6xl font-black text-gray-900">
             THE{" "}
             <span className="text-[#F21B23]">
               TRANSFORMATION

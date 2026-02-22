@@ -14,7 +14,7 @@ const serviceHeaderData = {
     breadcrumbTitle: "Exterior Enhancement Services",
     title: "Exterior Enhancement Services",
     description:
-      "Enhance your vehicle’s appearance and protection with professional exterior enhancement services. Our expert detailing, polishing, and protective treatments restore shine, improve durability, and give your vehicle a flawless, showroom-quality finish.",
+      "Transform your vehicle’s appearance with professional exterior styling upgrades. Our body kits, spoilers, and lip kit installations enhance aerodynamics, improve road presence, and give your car a bold, performance-inspired look tailored to your style.",
     image: "extirior-a.jpg",
     whatsappLink: "https://wa.me/447851823807",
   },

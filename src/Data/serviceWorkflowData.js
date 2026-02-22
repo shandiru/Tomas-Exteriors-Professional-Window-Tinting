@@ -627,51 +627,52 @@ export const serviceWorkflowData = {
 
         aboutService: {
             title: "About this Service",
-            intro: "At Tomas Exterior, we provide comprehensive exterior enhancement services to improve the appearance, protection, and value of your vehicle. Using professional detailing techniques, premium coatings, and precision finishing methods, we transform your vehicle’s exterior to look sleek, glossy, and well-maintained.",
+            intro: "At Tomas Exterior, we specialise in exterior styling enhancements designed to upgrade your vehicle’s visual impact and individuality. From aggressive body kits and aerodynamic spoilers to precision-fitted lip kits and styling components, we help turn standard vehicles into standout builds. Using premium parts and expert installation techniques, every upgrade is fitted with accuracy and attention to detail - ensuring perfect alignment, durability, and a factory-quality finish.",
             features: [
-                "Paint correction to remove swirl marks and imperfections",
-                "Professional polishing for deep gloss and shine",
-                "Protective wax, sealant, or ceramic coating application",
-                "Trim, plastic, and chrome restoration for refreshed appearance"
+                "Body kit installation for enhanced styling and presence",
+                "Front splitter and lip kit fitting for sportier aesthetics",
+                "Rear spoilers and aerodynamic upgrades",
+                "Side skirt and exterior styling enhancements",
+                "Professional fitting with precision alignment and finishing"
             ],
-            outro: "From paint correction and polishing to protective coatings and trim restoration, our team focuses on delivering a flawless finish that enhances both aesthetics and durability.",
+            outro: "Whether you want a subtle enhancement or a full styling transformation, our team delivers exterior upgrades that elevate both appearance and road presence.",
 
             includedTitle: "What is included?",
             includedIntro: "Our exterior enhancement services include:",
             includedItems: [
-                "Professional exterior inspection and condition assessment",
-                "Paint correction and polishing to remove swirl marks and imperfections",
-                "Protective wax, sealant, or ceramic coating application",
-                "Trim, plastic, and chrome restoration for a refreshed finish",
-                "Final detailing and aftercare advice for long-lasting results"
+                "Vehicle inspection and styling consultation to understand your vision",
+                "Professional installation of body kits, spoilers, and lip kits",
+                "Precision alignment and secure fitting of all exterior components",
+                "Finishing adjustments to ensure seamless integration with the vehicle design",
+                "Final inspection and aftercare guidance for long-lasting results"
             ],
-            includedOutro: "We ensure every detail is handled with precision and premium-quality products."
+            includedOutro: "We ensure every modification complements your vehicle while maintaining quality and durability."
         },
 
         howWeWork: {
             badge: "Working Process",
             title: "How We Work",
-            description: "We follow a structured detailing and enhancement process to ensure your vehicle receives maximum shine, protection, and long-term durability.",
+            description: "We follow a structured installation process to ensure every exterior upgrade achieves a premium, factory-quality finish.",
             steps: [
                 {
                     id: "01",
-                    title: "Inspection & Assessment",
-                    description: "We examine the exterior condition to identify imperfections, damage, and enhancement needs."
+                    title: " Consultation & Assessment",
+                    description: "We assess your vehicle and discuss styling goals, parts selection, and desired finish."
                 },
                 {
                     id: "02",
-                    title: "Surface Preparation",
-                    description: "Thorough washing, decontamination, and preparation to ensure perfect treatment results."
+                    title: "Preparation",
+                    description: "Vehicle surfaces are prepared and measured to ensure accurate installation."
                 },
                 {
                     id: "03",
-                    title: "Correction & Protection",
-                    description: "Paint correction, polishing, and application of protective coatings for durability and shine."
+                    title: " Installation & Styling",
+                    description: "Body kits, spoilers, and lip kits are professionally fitted with precision workmanship."
                 },
                 {
                     id: "04",
-                    title: "Final Detailing",
-                    description: "Trim restoration, finishing touches, and quality checks for a showroom-quality result."
+                    title: "Final Finishing",
+                    description: "Alignment checks, detailing, and quality control ensure a flawless final result."
                 }
             ]
         },
@@ -681,13 +682,13 @@ export const serviceWorkflowData = {
             title: "Service Benefits",
             intro: "Choosing Tomas Exterior for exterior enhancement services gives you:",
             items: [
-                "Enhanced vehicle appearance with deep gloss and showroom finish",
-                "Protection against UV rays, oxidation, and environmental damage",
-                "Increased resale value and long-term paint preservation",
-                "Restored trim and exterior surfaces for a like-new look",
-                "Long-lasting results using professional-grade products"
+                "Aggressive, customised styling that stands out on the road",
+                "Improved aerodynamics and sport-inspired appearance",
+                "Enhanced vehicle individuality and visual presence",
+                "Professional installation ensuring secure, long-lasting fitment",
+                "Premium-quality finish designed to complement your vehicle perfectly"
             ],
-            outro: "We prioritize quality, durability, and customer satisfaction in every enhancement project.",
+            outro: "We focus on precision, craftsmanship, and high-quality styling upgrades in every project.",
             image: "extirior-a.jpg",
             imageAlt: "Exterior enhancement detailing service"
         },
