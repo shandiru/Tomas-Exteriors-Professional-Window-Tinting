@@ -19,7 +19,7 @@ const Gallery = {
   HeadlightServices: [
     {
       id: 1,
-      before: "/extirior-b.jpg",
+      before: "/extirior-b.png",
       after: "/extirior-a.jpg",
       description: "Enhance your vehicle's exterior look and safety with professional detailing. We restore paint, headlights, and trims to like-new condition."
     }

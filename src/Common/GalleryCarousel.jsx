@@ -28,7 +28,7 @@ const SingleTransformation = ({ data }) => {
           <div className="flex flex-col lg:flex-row">
 
             {/* Image Section */}
-            <div className="relative w-full lg:w-3/5 h-[350px] overflow-hidden">
+            <div className="relative w-full lg:w-3/5 h-[390px] overflow-hidden">
               {/* Before Image */}
               <img
                 src={activeItem.before}
