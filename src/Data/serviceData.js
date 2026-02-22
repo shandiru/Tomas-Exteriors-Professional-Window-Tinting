@@ -47,7 +47,7 @@ const serviceHeaderData = {
     title: "Headlight Restoration",
     description:
       "Restore clarity and improve night-time visibility with professional headlight restoration services. Our precision polishing removes oxidation and haze, protecting your headlights and giving your vehicle a clean, like-new finish.",
-    image: "Headlight Restoration-a.jpeg",
+    image: "Headlight Restoration-a.png",
     whatsappLink: "https://wa.me/447851823807",
   },
   CrackRepair: {

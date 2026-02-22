@@ -62,7 +62,7 @@ const Gallery = {
     {
       id: 1,
       before: "/Headlight Restoration-b.jpeg",
-      after: "/Headlight Restoration-a.jpeg",
+      after: "/Headlight Restoration-a.png",
       description: "Restore clarity and brightness to your headlights by removing haze, yellowing, and oxidation for safer night driving."
     }
   ],

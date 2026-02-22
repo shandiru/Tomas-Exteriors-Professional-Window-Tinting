@@ -14,7 +14,7 @@ const services = [
     title: "Headlight Restoration",
     desc: "Bring clarity back to your headlights with our advanced restoration services. We remove oxidation, yellowing, and scratches to improve night-time visibility and restore headlights to near-new condition.",
     before: "Headlight Restoration-b.jpeg",
-    after: "Headlight Restoration-a.jpeg",
+    after: "Headlight Restoration-a.png",
     link: "/Headlight-Restoration",
   },
   {

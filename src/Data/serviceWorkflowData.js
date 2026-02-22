@@ -276,7 +276,7 @@ export const serviceWorkflowData = {
                 "Cost-effective alternative to headlight replacement"
             ],
             outro: "We prioritize precision, reliability, and long-lasting results for every customer.",
-            image: "Headlight Restoration-a.jpeg",
+            image: "Headlight Restoration-a.png",
             imageAlt: "Headlight restoration service process"
         },
 
