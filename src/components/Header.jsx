@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
-import { Link, useLocation } from "react-router-dom";
+import { href, Link, useLocation } from "react-router-dom";
 
 const AnimatedLink = ({ text, href, onClick }) => (
   <Link
@@ -40,6 +40,7 @@ const Navbar = () => {
   const navLinks = [
     { text: "Home", href: "/" },
     { text: "About", href: "/about" },
+    { text: "Gallery", href: "/gallery"},
     { text: "Reviews", href: "/review" },
     { text: "Service", href: "/service" },
     { text: "Contact", href: "/contact" },

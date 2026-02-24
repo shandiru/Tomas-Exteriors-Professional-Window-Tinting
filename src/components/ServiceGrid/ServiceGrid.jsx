@@ -46,8 +46,8 @@ const services = [
     title: "Exterior Enhancement Services",
     desc:
       "Transform your vehicle’s appearance with professional body kit styling and exterior enhancements. We refine bumpers, splitters, side skirts, and trims to create a bold, factory-level finish tailored to your vehicle.",
-    before: "extirior-b.png",
-    after: "extirior-a.jpg",
+    before: "Exterior-b.jpeg",
+    after: "Exterior-a.jpeg",
     link: "/Exterior-Enhancement-Services"
   },
   {
