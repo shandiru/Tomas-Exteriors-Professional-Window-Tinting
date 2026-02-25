@@ -77,7 +77,6 @@ const TermsConditions = () => {
                           If you have any questions about these Terms of Use, please contact us:
                       </p>
                       <div className="text-white">
-                         <p><strong>BROADWAY REMAPPING</strong></p>
                          <p><strong>Tomas Exteriors Professional Window Tinting</strong></p>
                         <p>Email: <a href="mailto:Tomasexteriors@gmail.com" className="text-red-400 hover:underline">Tomasexteriors@gmail.com</a></p>
                         <p>Phone: +44 7851 823807</p>
