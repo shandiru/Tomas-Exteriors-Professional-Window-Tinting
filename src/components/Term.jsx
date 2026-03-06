@@ -28,7 +28,7 @@ const TermsConditions = () => {
                   <section>
                       <h2 className="text-2xl font-medium">3. Intellectual Property</h2>
                       <p className="text-white">
-                          All content on this website (including text, images, graphics, and logos) is owned by or licensed to AF-MOK Performance.
+                          All content on this website (including text, images, graphics, and logos) is owned by or licensed to Tomas Exteriors Professional Window Tinting.
                           You may view, download, and print content for personal use only.
                           You must not copy, reproduce, or distribute our website content without prior written consent.
                       </p>
