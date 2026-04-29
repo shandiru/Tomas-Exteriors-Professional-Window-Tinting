@@ -23,7 +23,6 @@ import Restoration from "./page/Restoration";
 import CrackRepair from "./page/CrackRepair";
 import CondensationRepair from "./page/CondensationRepair";
 import LensReplacement from "./page/LensReplacement";
-import ReviewPage from "./components/Review";
 import Gallery from "./page/Gallery";
 
 function App() {
@@ -42,7 +41,6 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/review" element={<ReviewPage />} />
         <Route path="/about" element={<About />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/service" element={<ServiceOverview />} />
