@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Link } from "react-router-dom";
 
 const HeroSection = () => {
@@ -27,15 +27,6 @@ const HeroSection = () => {
         {/* HERO CONTENT */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-24 sm:py-28 md:py-32 w-full">
           <div className="max-w-4xl">
-
-            {/*
-              H1 strategy (tested at every breakpoint):
-              - <br> forces "Premium Window Tinting" on its own line at sm+
-              - &nbsp; between & and Bespoke prevents & from orphaning alone
-              - font steps: 30 → 36 → 44 → 56 → 68px
-              - At 320–414px: natural 3-line wrap, & always stays with Bespoke
-              - At 540px+: clean 2-line split every time
-            */}
             <h1 className="text-[30px] sm:text-[36px] md:text-[44px] lg:text-[56px] xl:text-[68px] leading-[1.1] font-extrabold text-white mb-4">
               Premium Window Tinting
               <br />

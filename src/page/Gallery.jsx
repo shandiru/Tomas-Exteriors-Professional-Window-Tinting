@@ -150,11 +150,9 @@ export default function Gallery() {
   return (
     <>
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;500;600&display=swap');
 
         .gallery-section {
           background: #050505;
-          font-family: 'Barlow', sans-serif;
           position: relative;
           overflow: hidden;
         }
@@ -172,7 +170,6 @@ export default function Gallery() {
         }
 
         .gallery-title {
-          font-family: 'Bebas Neue', sans-serif;
           letter-spacing: 0.08em;
           line-height: 1;
         }
@@ -201,7 +198,6 @@ export default function Gallery() {
         .cat-scroll::-webkit-scrollbar { display: none; }
 
         .cat-btn {
-          font-family: 'Barlow', sans-serif;
           font-weight: 500;
           font-size: 0.75rem;
           letter-spacing: 0.05em;
@@ -294,7 +290,6 @@ export default function Gallery() {
         }
 
         .label-badge {
-          font-family: 'Bebas Neue', sans-serif;
           letter-spacing: 0.1em;
           font-size: 0.7rem;
           padding: 3px 8px;

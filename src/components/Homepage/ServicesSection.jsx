@@ -223,7 +223,7 @@ export default function ServiceGrid() {
               >
                 <ChevronRight size={18} />
               </button>
-              <span className="text-sm text-[#404143] font-mono">
+              <span className="text-sm text-[#404143]">
                 <span className="font-bold text-black">{String(current + 1).padStart(2, "0")}</span>
                 &nbsp;/&nbsp;{String(services.length).padStart(2, "0")}
               </span>

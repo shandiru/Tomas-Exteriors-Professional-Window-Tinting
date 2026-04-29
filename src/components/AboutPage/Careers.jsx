@@ -1,4 +1,4 @@
-import React from "react";
+
 import { ArrowUpRight, Clock, MapPin } from "lucide-react";
 
 const jobs = [

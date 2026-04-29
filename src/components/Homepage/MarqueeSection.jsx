@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Droplet } from "lucide-react";
 
 const MarqueeSection = () => {

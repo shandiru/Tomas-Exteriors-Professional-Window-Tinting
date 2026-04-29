@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Award, Drill, Settings, UserCheck } from "lucide-react";
 
 const features = [

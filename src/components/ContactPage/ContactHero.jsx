@@ -69,7 +69,7 @@ Note: ${formData.note || "N/A"}`
   };
 
   return (
-    <section className="bg-white py-16 px-4 sm:px-6 lg:px-8 font-sans overflow-x-hidden">
+    <section className="bg-white py-16 px-4 sm:px-6 lg:px-8 overflow-x-hidden">
       <div className="max-w-6xl mx-auto w-full">
         <div className="text-center mb-12">
           <p className="text-sm text-black mb-2 mt-20">Home / Contact</p>

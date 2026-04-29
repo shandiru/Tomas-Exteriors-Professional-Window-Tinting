@@ -48,7 +48,7 @@ const TestimonialSection = () => {
   const t = testimonials[index];
 
   return (
-    <section className="relative bg-[#1A1B1C] py-24 md:py-32 overflow-hidden text-white font-sans">
+    <section className="relative bg-[#1A1B1C] py-24 md:py-32 overflow-hidden text-white">
       {/* Aesthetic Background Element */}
       <div className="absolute top-0 left-0 w-full h-full opacity-[0.03] pointer-events-none flex items-center justify-center">
         <Quote size={400} strokeWidth={1} />

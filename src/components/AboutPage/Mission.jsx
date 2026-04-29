@@ -1,5 +1,5 @@
 import { CircleCheckBig } from "lucide-react";
-import React from "react";
+
 
 const MissionVision = () => {
   return (
