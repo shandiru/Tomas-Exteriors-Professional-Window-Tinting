@@ -30,9 +30,8 @@ const HeroSection = () => {
             <h1 className="text-[30px] sm:text-[36px] md:text-[44px] lg:text-[56px] xl:text-[68px] leading-[1.1] font-extrabold text-white mb-4">
               Premium Window Tinting
               <br />
-              <span className="text-[#F21B23]">&amp;&nbsp;Bespoke Headlight Solutions</span>
+              <span className="text-[#F21B23]">&amp;&nbsp;Bespoke Headlight Repair Solutions</span>
             </h1>
-
             <h2 className="text-[18px] sm:text-[22px] md:text-[28px] lg:text-[32px] font-bold text-white mb-5 sm:mb-6">
               Driven by Passion, Defined by Quality
             </h2>
